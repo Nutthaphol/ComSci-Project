@@ -2,12 +2,11 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
 import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-from nltk.stem import LancasterStemmer
 from nltk.tokenize import  word_tokenize
+import math
 
 pd.set_option('display.max_rows', 5000)         # set option pandas for show data formal not ...
 pd.set_option('display.max_columns', 5000)
@@ -30,7 +29,7 @@ for i in data:
     clean_data.append(' '.join(i for i in stems))   # add word to sentence
 
 cluster = 22    # set value of cluster center
-
+#
 print(df.intent.value_counts().sort_index())    # show number of data in each intent
 
 vt = TfidfVectorizer(stop_words="english")  # call object Tf-idf for transform data
@@ -38,15 +37,36 @@ vt = TfidfVectorizer(stop_words="english")  # call object Tf-idf for transform d
 normal = vt.fit_transform(clean_data).todense()     # transform data to tf-idf
 
 print(f'\nshape before to dense {normal.shape}\n')
+#
+# print(f'\nFeature name is \n {vt.get_feature_names()}')
 
-print(f'\nFeature name is \n {vt.get_feature_names()}')
+pca = PCA(n_components=464).fit(normal)   # in line 43 - 65 is algorithm for find the best componnt value from algorithm for find the mean
 
-pca = PCA(n_components=464).fit(normal)   # call object pac for down dimensional to 2d
+eigen_vector = pca.components_
+print(f'eigen vector = \n{eigen_vector.shape}\n-------------------\n')
+sum = 0
+for i in range(len(eigen_vector)-1):                    # in line
+    for j in range(len(eigen_vector[0]-1)):
+        sum += eigen_vector[i][j]
+sum /= 464
 
-print(f'eigen vector = \n{pca.components_}\n-------------------\n')
+print(f'\nsum = {sum}')
 
+tmp = 0
+for i in range(len(eigen_vector)-1):
+    for j in range(len(eigen_vector[0]-1)):
+        if eigen_vector[i][j] > sum:
+            tmp += 1
+
+tmp = math.sqrt(tmp)
+# print(f'\ntmp = {tmp}')
+best_components = int(tmp+1)
+# print(f'\nsum = {sum}')
+print(f'\nbest components = {best_components}\n')
+
+
+pca = PCA(n_components=best_components).fit(normal)   # call object pac for down dimensional to 2d
 normal_matrix = pca.transform(normal)    # transform matrix to 2 dimension
-
 print(f'{normal_matrix[:, 0]}\n---------------------\n')    # show data
 print(f'{normal_matrix[:, 1]}\n---------------------\n')
 print(f'shape {normal_matrix.shape}')
@@ -57,7 +77,7 @@ print(f'vector\n{normal_matrix}')
 
 print(f'\neigen value \n{pca.explained_variance_}')
 
-model = KMeans(n_clusters=cluster)  # create KMean model
+model = KMeans(n_clusters=2)  # create KMean model
 
 # data_model = model.fit(normal)  # train model
 data_model = model.fit(normal_matrix)  # train model
