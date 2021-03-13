@@ -1,27 +1,52 @@
-import pandas as pd
 import re
-import nltk
-from nltk import word_tokenize, sent_tokenize
-from nltk.stem import  WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+from nltk.stem import SnowballStemmer
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+import string
 
-pd.set_option('display.max_rows', 5000)
-pd.set_option('display.max_columns', 5000)
-pd.set_option('display.width', 5000)
 
-df = pd.read_csv('dataset/atis_intents.csv')
 
-intent = list(df['intent'])
-# data = list(df['data'])
+stop_word = stopwords.words('english')
+stemmer = SnowballStemmer(language='english')
 
-data = ["What is your name.", "Hello, my name is 1234"]
+def cleanData (data):
+    clean_data = []
+    for sen in data:
+        sen = ' '.join([word.lower()
+                        for word in sen.split(' ') if word not in stop_word])
+        sen = re.sub(r'\'w+', ' ', sen)
+        sen = re.sub('[%s]' % re.escape(string.punctuation), ' ', sen)
+        sen = re.sub(r'\w*\d+\w*', ' ', sen)
+        sen = re.sub(r'\s{2,}', ' ', sen)
+        words = word_tokenize(sen)
+        st_words = [i for i in words if i not in stop_word]
+        clean_data.append(' '.join([stemmer.stem(i) for i in st_words]))
 
-clean = []
+    return clean_data
 
-for s in data:
-    sw = re.sub(r'[^a-z A-Z 0-9]', " ", s)
-    sw = re.findall('\D',sw)
-    # sw = sw.lower()
-    # sw = sw.split()
-    # sw = sw
-    print(f'data = {sw}, tpye = {type(sw)}')
+# def termdict (data):
+#     dicts = {}
+#     term = []
+#     for word in data:
+#         word = word_tokenize(word)
+#         for tokens in word:
+#             if tokens not in dicts.keys():
+#                 dicts[tokens] = 1
+#             else:
+#                 dicts[tokens] += 1
+# 
+    # for i in dicts:
+    #     term.append(i)
+    # term.sort()
+    # return term
 
+def termdict (data):
+    totol = {}
+    for text in data:
+        text = text.split(" ")
+        text = set(text).union()
+
+# def TFcount(data, dicts):
+
+    
