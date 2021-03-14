@@ -1,13 +1,18 @@
 import re
+import string
+import gensim
+import pandas as pd
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
-from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-import string
+from gensim import models
+from gensim import corpora
+from gensim import similarities
 
 
 
 stop_word = stopwords.words('english')
+# stemmer = PorterStemmer()
 stemmer = SnowballStemmer(language='english')
 
 def cleanData (data):
@@ -25,28 +30,19 @@ def cleanData (data):
 
     return clean_data
 
-# def termdict (data):
-#     dicts = {}
-#     term = []
-#     for word in data:
-#         word = word_tokenize(word)
-#         for tokens in word:
-#             if tokens not in dicts.keys():
-#                 dicts[tokens] = 1
-#             else:
-#                 dicts[tokens] += 1
-# 
-    # for i in dicts:
-    #     term.append(i)
-    # term.sort()
-    # return term
 
-def termdict (data):
-    totol = {}
+def termDict (data):
+    dicts = {}
     for text in data:
         text = text.split(" ")
-        text = set(text).union()
+        dicts = set(dicts).union(text)
+    return dicts
 
-# def TFcount(data, dicts):
 
-    
+# for i in total:
+#         dicts.append(i)
+#     dat = pd.Series((total))
+#     return dat
+
+def TFCount (dict, data):
+    dict = list(dict)

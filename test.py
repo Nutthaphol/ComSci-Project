@@ -1,23 +1,27 @@
 import pandas as pd
 from tf_idf import cleanData
-# from tf_idf import preparingTermSet
-from tf_idf import termdict
-from nltk.corpus import stopwords
+from tf_idf import termDict
+from tf_idf_tmp import TFCount
 
 df = pd.read_csv('dataset/case_routing_intent.csv')
 
 data = df['data']
 
+for i in range(0,10):
+    print(i, ": ", data[i])
 
 clean_data = cleanData(data)
 
-for sen in range(len(clean_data)):
-    print(sen, ": ", clean_data[sen])
+print("\n")
 
-# dict_data = termdict(clean_data)
+for i in range(0, 10):
+    print(i, ": ", clean_data[i])
 
-# for i in dict_data:
-#     print(i)
+dict_data = termDict(clean_data)
 
-# print(dict_data)
-# print(len(dict_data))
+print("\n", dict_data)
+
+# tf = TFcount(clean_data, dict_data)
+
+# for i in tf:
+#     print(i, ": ", tf[i])

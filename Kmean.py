@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 import re
@@ -26,8 +27,7 @@ data = list(df['data'])
 
 ss = SnowballStemmer(language='english')
 stop_word = stopwords.words('english')        
-clean_data = []
-dicts = []                                     
+clean_data = []                                    
 
 for sen in data:
     sen = ' '.join([word.lower() for word in sen.split(' ') if word not in stop_word])
@@ -38,14 +38,17 @@ for sen in data:
     words = word_tokenize(sen)
     st_words = [i for i in words if i not in stop_word]
     clean_data.append(' '.join([ss.stem(i) for i in st_words]))
-    dicts.append(st_words)
 
 # print(df.intent.value_counts().sort_index())                      
 
-vt = TfidfVectorizer()
+vt = TfidfVectorizer(stop_words='english')
 
 feature_vector = vt.fit_transform(data).todense()
-
+tf = vt.get_params()
+dicts = vt.get_feature_names()
+print(feature_vector, "\n")
+print(tf, "\n")
+print(dicts, "\n")
 # print(feature_vector.shape[1])
 # # print(f'\nfeature_vector shape before PCA {feature_vector.shape}\n')
 
