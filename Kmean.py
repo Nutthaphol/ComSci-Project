@@ -1,113 +1,46 @@
 import pandas as pd
 import numpy as np
+import time
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-import re
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.stem import SnowballStemmer
-from nltk.tokenize import word_tokenize
-import matplotlib.pyplot as plt
-from sklearn.metrics import silhouette_score
-import math
-import string           
 
-# คำสั่ง explained_variance_ คือการเรียกดู Eigenvalue
-# คำสั่ง explained_variance_ratio_ คือ ดูว่าแทนได้กี่เปอร์เซ็น
 
-# df = pd.read_csv('dataset/atis_intents.csv')        
+from function.cleanText import CleanText
+from function.findNumberPCA import featurePCA
+from function.bestKmeans import best_k
+from function.purityCluster import purity
+
+# import data
 df = pd.read_csv('dataset/case_routing_intent.csv')
-# df = pd.read_csv('dataset/english.csv')
-
-intent = list(df['intent'])                         
 data = list(df['data'])
 
-print(df.intent.value_counts())
-print("data size = ", len(data))
+# cleaning data
+clean_data = CleanText(data)
 
-stemmer = SnowballStemmer(language='english')
-stop_word = stopwords.words('english')        
-clean_data = []                                    
+# create tf-idf
+tf_idf = TfidfVectorizer()
+feature_extraction = tf_idf.fit_transform(clean_data).todense()
 
-for sen in data:
-    sen = ' '.join([word.lower() for word in sen.split(' ') if word not in stop_word])
-    sen = re.sub(r'\'w+', ' ', sen)
-    sen = re.sub('[%s]' % re.escape(string.punctuation), ' ', sen)
-    sen = re.sub(r'\w*\d+\w*', ' ', sen)
-    sen = re.sub(r'\s{2,}', ' ', sen)
-    words = word_tokenize(sen)
-    st_words = [i for i in words if i not in stop_word]
-    clean_data.append(' '.join([stemmer.stem(i) for i in st_words]))
+n_component = min(len(feature_extraction), len(tf_idf.get_feature_names()))
 
-# print(df.intent.value_counts().sort_index())                      
-vt = TfidfVectorizer()
+feature_pca = featurePCA(feature=feature_extraction, n_component=n_component)
 
-feature_vector = vt.fit_transform(clean_data).todense()
-dicts = vt.get_feature_names()
-print("vcap\n", list(vt.vocabulary_.items()))
-print(feature_vector, "\n")
-print(dicts, "\n")
-print("size of features = ", len(dicts), "\n")
+k_value = best_k(feature=feature_pca, max_=int(0.1*len(data)))
 
-info_data = min(len(vt.get_feature_names()), len(clean_data))
+# start timing for clustering
+start_time = time.time()
 
-print("info_data = ", info_data)
+# start clustering
+cluster = KMeans(n_clusters=k_value, max_iter=1000).fit(feature_pca)
+distence_point = cluster.transform(feature_pca)
 
-pca = PCA(n_components=info_data)
-pca.fit_transform(feature_vector)
+# end timing for clustering
+timer_ = time.time() - start_time
 
-sum_variance_ratio = np.sum(pca.explained_variance_ratio_)
+df["centroids_id"] = cluster.labels_
 
-number_component = 0
-
-### Find number of component that >= 80%
-for i in pca.explained_variance_ratio_:
-    number_component += 1
-    if np.sum(pca.explained_variance_ratio_[0:number_component]) >= 0.8:
-        break
-
-print("best of component = ", number_component)
-plt.plot(range(len(pca.explained_variance_ratio_)), pca.explained_variance_ratio_, color='g', linewidth='3')
-plt.show()  # clear the plot
-
-# print("the best component = ", components)
-# print("Component = ", components)
-# pca = PCA(n_components = components).fit(feature_vector)  
-# features_matrix = pca.transform(feature_vector)    
-
-
-# print("feature matrix is \n", features_matrix)
-
-#########  Find K value ###########
-# num_sil = []
-# # max_k = all_dim
-# max_k = 20
-# # max_k = int(0.1 * df.data.count())
-# print ("number of data = ", max_k)
-
-# for k in range(2, max_k+1):
-#     kmean = KMeans(n_clusters=k).fit(features_matrix)
-#     kmean.predict(features_matrix)
-#     label = kmean.labels_
-#     num_sil.append(silhouette_score(features_matrix, label, metric='euclidean'))
-
-# best_k = 0
-# count = 2
-# for sil in num_sil:
-#     if sil > best_k:
-#         best_k = sil
-#         pointer = count
-#     count +=1 
-
-# print("The best K value = ", best_k)
-# print("point of the best K value = ", pointer)
-
-# # plot the cost against K values
-# plt.plot(range(2, max_k+1), num_sil, color='g', linewidth='3')
-# plt.show()  # clear the plot
-
-# ########    END FIND BEST K VALUE ############
-
+comp = pd.crosstab(df['intent'], df['centroids_id'])
+purity_ = purity(crosstab_=comp, size_data=len(data))
+print("best k value = ", k_value)
+print("purity = ", purity_)
+print("timer = ", timer_)

@@ -1,0 +1,5 @@
+https://towardsdatascience.com/multi-label-intent-classification-1cdd4859b93
+
+https://proxet.com/blog/why-build-a-hospital-chatbot-using-sklearn-exploring-python-scikit-for-refining-your-medical-services/
+
+https://towardsdatascience.com/machine-learning-clustering-dbscan-determine-the-optimal-value-for-epsilon-eps-python-example-3100091cfbc  (หา eps ที่เหมาะสม)
