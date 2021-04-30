@@ -5,10 +5,12 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 
 
+
 def CleanText (data):
     stemmer = SnowballStemmer(language='english')
     stopword = stopwords.words('english')
     clean_text = []
+
 
     for sen in data:
         sen = ' '.join([word.lower() for word in sen.split(' ')])

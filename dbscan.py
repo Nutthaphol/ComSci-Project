@@ -10,7 +10,8 @@ from function.purityCluster import purity
 from function.findEPS import best_eps
 
 # import data
-df = pd.read_csv('dataset/corona.csv')
+# df = pd.read_csv('dataset/atis_intents.csv')
+df = pd.read_csv('dataset/case_routing_intent.csv')
 data = list(df['data'])
 
 # cleaning data
@@ -38,8 +39,11 @@ timer_ = time.time() - start_time
 labels_ = cluster.labels_
 df["labels"] = labels_
 
+df = df[df.labels != -1]
+
 comp = pd.crosstab(df['intent'], df['labels'])
-purity_ = purity(crosstab_=comp, size_data=len(data))
+print("comp\n", comp)
+purity_ = purity(crosstab_=comp, size_data=len(df))
 print("best eps = ", eps_value)
 print("purity = ", purity_)
 print("timer = ", timer_)
