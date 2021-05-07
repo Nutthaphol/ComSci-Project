@@ -1,27 +1,48 @@
 import pandas as pd
-from tf_idf import cleanData
-from tf_idf import termDict
-from tf_idf_tmp import TFCount
+import numpy as np
+import time
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.cluster import DBSCAN
+from nltk.tokenize import word_tokenize
 
-df = pd.read_csv('dataset/case_routing_intent.csv')
+from function.cleanText import CleanText
+from function.findNumberPCA import featurePCA
+from function.purityCluster import purity
+from function.findEPS import best_eps
+from gensim.models import Word2Vec  # new feature extraction
 
-data = df['data']
 
-for i in range(0,10):
-    print(i, ": ", data[i])
+df = pd.read_csv("dataset/corona.csv")
+data = list(df['data'])
 
-clean_data = cleanData(data)
+data = np.array(data)
+# print(data)
+tmp = []
+for i in range(len(data)):
+    text = word_tokenize(data[i])
+    print(text)
+    tmp.append(text)
 
-print("\n")
+# print(data)
+# model = Word2Vec(tmp, min_count=1)
+# # model = Word2Vec(sentences=data, min_count=1)
 
-for i in range(0, 10):
-    print(i, ": ", clean_data[i])
+# result = model[model.wv.vocab]
 
-dict_data = termDict(clean_data)
+# print(result)
 
-print("\n", dict_data)
+# cluster = DBSCAN(eps=0.9, min_samples=5).fit(result)
 
-# tf = TFcount(clean_data, dict_data)
+# labels_ = cluster.labels_
 
-# for i in tf:
-#     print(i, ": ", tf[i])
+# print(labels_)
+# df["labels"] = labels_
+
+# df = df[df.labels != -1]
+
+# comp = pd.crosstab(df['intent'], df['labels'])
+# print("comp\n", comp)
+# purity_ = purity(crosstab_=comp, size_data=len(df))
+# print("best eps = ", eps_value)
+# print("purity = ", purity_)
+# # print("timer = ", timer_)
