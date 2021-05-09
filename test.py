@@ -6,6 +6,7 @@ from sklearn.cluster import DBSCAN
 from nltk.tokenize import word_tokenize
 
 from function.cleanText import CleanText
+from function.word_embedding import averaged_word_vectorizer
 from function.findNumberPCA import featurePCA
 from function.purityCluster import purity
 from function.findEPS import best_eps
@@ -16,33 +17,38 @@ df = pd.read_csv("dataset/corona.csv")
 data = list(df['data'])
 
 data = np.array(data)
+
+data = CleanText(data)
 # print(data)
 tmp = []
 for i in range(len(data)):
     text = word_tokenize(data[i])
-    print(text)
+    # print(text)
     tmp.append(text)
 
-# print(data)
-# model = Word2Vec(tmp, min_count=1)
-# # model = Word2Vec(sentences=data, min_count=1)
+# str = ""
+# for i in tmp:
+#     for j in i:
+#         str += j+" "
 
-# result = model[model.wv.vocab]
+# num = word_tokenize(str)
+# print(len(set(num)))
 
-# print(result)
+model = Word2Vec(tmp, min_count=1)
 
-# cluster = DBSCAN(eps=0.9, min_samples=5).fit(result)
+word = model.wv.index2word
+result = model.wv[word]
 
-# labels_ = cluster.labels_
+feature = averaged_word_vectorizer(tmp, model, model.vector_size)
 
-# print(labels_)
-# df["labels"] = labels_
+# eps_value = best_eps(feature)
 
-# df = df[df.labels != -1]
 
-# comp = pd.crosstab(df['intent'], df['labels'])
-# print("comp\n", comp)
-# purity_ = purity(crosstab_=comp, size_data=len(df))
-# print("best eps = ", eps_value)
-# print("purity = ", purity_)
-# # print("timer = ", timer_)
+# start clustering
+cluster = DBSCAN(eps=0.1, min_samples=100).fit(feature)
+
+labels_ = cluster.labels_
+
+set_ = set(labels_)
+
+print(set_)
