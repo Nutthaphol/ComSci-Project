@@ -11,7 +11,7 @@ from function.bestKmeans import best_k
 from function.purityCluster import purity
 
 # import data
-df = pd.read_csv('dataset/case_routing_intent.csv')
+df = pd.read_csv('dataset/corona.csv')
 data = list(df['data'])
 
 # cleaning data
@@ -25,14 +25,14 @@ n_component = min(len(feature_extraction), len(tf_idf.get_feature_names()))
 
 feature_pca = featurePCA(feature=feature_extraction, n_component=n_component)
 
-k_value = best_k(feature=feature_pca, max_=int(0.1*len(data)))
+k_value = best_k(feature=feature_extraction, max_=int(0.1*len(data)))
 
 # start timing for clustering
 start_time = time.time()
 
 # start clustering
-cluster = KMeans(n_clusters=k_value, max_iter=1000).fit(feature_pca)
-distence_point = cluster.transform(feature_pca)
+cluster = KMeans(n_clusters=k_value, max_iter=1000).fit(feature_extraction)
+distence_point = cluster.transform(feature_extraction)
 
 # end timing for clustering
 timer_ = time.time() - start_time

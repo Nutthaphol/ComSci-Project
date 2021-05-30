@@ -1,0 +1,35 @@
+{
+  "name": "air_line",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "BANGKOK AIR",
+            "NOK AIR",
+            "THAI ASIA",
+            "EXPRESS WING",
+            "MENTARI",
+            "THAI",
+            "THAI SMILE",
+            "THAIVIET JET"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

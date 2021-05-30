@@ -1,19 +1,19 @@
-﻿intent,respont
-air_line,BANGKOK AIR
-,NOK AIR
-,THAI ASIA
-,EXPRESS WING
-,MENTARI
-,THAI
-,THAI SMILE
-,THAIVIET JET
-name,nut
-,gao
-,heen
-,jo
-,tar
-computer,apple
-,dell
-,asus
-,acer
-,hp
+﻿text,intent,respont
+,air_line,BANGKOK AIR
+,,NOK AIR
+,,THAI ASIA
+,,EXPRESS WING
+,,MENTARI
+,,THAI
+,,THAI SMILE
+,,THAIVIET JET
+,name,nut
+,,gao
+,,heen
+,,jo
+,,tar
+,computer,apple
+,,dell
+,,asus
+,,acer
+,,hp
