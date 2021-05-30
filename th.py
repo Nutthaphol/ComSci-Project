@@ -71,3 +71,5 @@ purity_ = purity(crosstab_=comp, size_data=len(data))
 print("best k value = ", k_value)
 print("purity = ", purity_)
 print("timer = ", timer_)
+
+print(df)
