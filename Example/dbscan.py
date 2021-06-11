@@ -4,7 +4,7 @@ import time
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import DBSCAN
 
-from function.cleanText import CleanText
+from function.cleanTextEng import CleanText
 from function.findNumberPCA import featurePCA
 from function.purityCluster import purity
 from function.findEPS import best_eps

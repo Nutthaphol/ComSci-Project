@@ -16,7 +16,8 @@ from pythainlp import sent_tokenize, word_tokenize
 def identity_fun(text):
     return text
 
-df = pd.read_csv('dataset/TH1_csv.csv')
+df = pd.read_csv('lineData/food_data.csv')
+# df = pd.read_csv('dataset/TH1_csv.csv')
 data = list(df['text'])
 
 last_words = {"ครับ","คะ","ค่ะ","ค่า","คับ","ฮ่ะ"}

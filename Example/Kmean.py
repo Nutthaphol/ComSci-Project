@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
 
-from function.cleanText import CleanText
+from function.cleanTextEng import CleanText
 from function.findNumberPCA import featurePCA
 from function.bestKmeans import best_k
 from function.purityCluster import purity
