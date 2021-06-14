@@ -15,7 +15,7 @@ def identity_fun(text):
 
 
 # import data
-df = pd.read_csv("lineData/comsci_data.csv")
+df = pd.read_csv("lineData/food_data.csv")
 raw_data = list(df['text'])
 
 clean_text = CleanText(raw_data)
@@ -32,15 +32,31 @@ tf_idf = TfidfVectorizer(analyzer = 'word', #this is default
 
 fe = tf_idf.fit_transform(token_text).todense()
 
+print(fe.shape)
+
 n_component = min(len(fe), len(tf_idf.get_feature_names()))
 
-k_value = best_k(feature=fe, max_=10)
+k_value = best_k(feature=fe, max_=(20))
 
 cluster = KMeans(n_clusters=k_value, max_iter=1000).fit(fe)
 distence_point = cluster.transform(fe)
 
 df["centroids_id"] = cluster.labels_
 
+u = cluster.cluster_centers_
+
+# print("u = ",u[1])
+# print("fe = ",fe[1])
+
+dist = np.linalg.norm(u[1] - fe[1])
+
+print("dist", dist)
+
+# df["distances"] = cluster.inertia_
+
+
 df = df.sort_values(by=['centroids_id'])
 
-print(df)
+# print(df)
+
+df.to_csv("cluster_food.csv")

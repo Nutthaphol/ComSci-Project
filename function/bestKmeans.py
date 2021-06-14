@@ -11,8 +11,9 @@ def best_k (feature, max_):
         label_ = model.labels_
         centroids = model.cluster_centers_
         num_sil.append(silhouette_score(feature,label_,metric='euclidean'))
+       
         if num_sil[-1] > maximum:
             maximum = num_sil[-1]
             k = i
-
+    print("silhouet = ",num_sil)
     return k
