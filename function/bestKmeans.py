@@ -7,13 +7,11 @@ def best_k (feature, max_):
     maximum = 0
     
     for i in range(2, max_+1):
-        model = KMeans(n_clusters=i, max_iter=1000).fit(feature)
+        model = KMeans(n_clusters=i).fit(feature)
         label_ = model.labels_
         centroids = model.cluster_centers_
         num_sil.append(silhouette_score(feature,label_,metric='euclidean'))
-       
         if num_sil[-1] > maximum:
             maximum = num_sil[-1]
             k = i
-    print("silhouet = ",num_sil)
     return k

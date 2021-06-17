@@ -3,6 +3,7 @@ import numpy as np
 import time
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
+from sklearn.cluster import DBSCAN
 from pythainlp import  word_tokenize
 
 
@@ -15,14 +16,17 @@ def identity_fun(text):
 
 
 # import data
-df = pd.read_csv("lineData/food_data.csv")
+df = pd.read_csv("lineData/comsci_data.csv")
 raw_data = list(df['text'])
 
 clean_text = CleanText(raw_data)
 
-token_text = []
-for sen in clean_text:
-        token_text.append(word_tokenize(sen))
+for i in range(len(clean_text)):
+    print("No",i," ",clean_text[i])
+
+# token_text = []
+# for sen in clean_text:
+#         token_text.append(word_tokenize(sen,engine='newmm'))
 
 
 tf_idf = TfidfVectorizer(analyzer = 'word', #this is default
@@ -30,33 +34,61 @@ tf_idf = TfidfVectorizer(analyzer = 'word', #this is default
                                    preprocessor=identity_fun, #no extra preprocessor
                                    token_pattern=None)
 
-fe = tf_idf.fit_transform(token_text).todense()
+fe = tf_idf.fit_transform(clean_text).todense()
 
-print(fe.shape)
+# print(fe.shape)
 
-n_component = min(len(fe), len(tf_idf.get_feature_names()))
+# n_component = min(len(fe), len(tf_idf.get_feature_names()))
 
-k_value = best_k(feature=fe, max_=(20))
+k_value = best_k(feature=fe, max_=30)
 
-cluster = KMeans(n_clusters=k_value, max_iter=1000).fit(fe)
+cluster = KMeans(n_clusters=k_value).fit(fe)
 distence_point = cluster.transform(fe)
 
 df["centroids_id"] = cluster.labels_
 
+label = cluster.labels_
 u = cluster.cluster_centers_
 
-# print("u = ",u[1])
-# print("fe = ",fe[1])
+num_label = set(label)
 
-dist = np.linalg.norm(u[1] - fe[1])
+# print("center shape = ", u.shape)
+# print("feature shape = ", fe.shape)
+# print("label shape = ", len(num_label))
+# print("size of data = ", len(clean_text))
 
-print("dist", dist)
+score = []
+
+for center in range(len(u)):
+    number = 0
+    dis = 0
+    text_ = list(df["text"])
+    label_ = list(df["centroids_id"])
+    for point in range(len(label_)):
+        if label_[point] == center:
+            number += 1
+            dis += np.linalg.norm(u[center] - fe[point])
+    # print("dis = ", dis, ", number = ", number)
+    dis = dis/number
+    score.append(dis)
+
+for i in range(len(score)):
+    print("label = ", i ,", average distance of all data point in label = ", score[i])
+
+sum_score = 0
+for i in score:
+    sum_score += i
+print("sum_score", sum_score)
+print("average score", sum_score/len(score))
+        
+# dist = np.linalg.norm(u[1] - fe[1])
+
+# print("dist", dist)
 
 # df["distances"] = cluster.inertia_
-
 
 df = df.sort_values(by=['centroids_id'])
 
 # print(df)
 
-df.to_csv("cluster_food.csv")
+df.to_csv("cluster_comsci_kmean.csv",encoding='utf-8-sig')
