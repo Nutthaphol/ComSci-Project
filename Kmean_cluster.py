@@ -1,4 +1,3 @@
-from re import L
 import pandas as pd
 import numpy as np
 import time
@@ -85,10 +84,7 @@ for i in range(len(score)):
                 print("before {}, after {}".format(tmp, centroids_id[j]))
 
 
-tmp_centroids_id = centroids_id
 
-# print(label)
-# df["centroids_id_level_2"] = centroids_id
 
 df = df.sort_values(by=['centroids_id_level_1'])    
 
