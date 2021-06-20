@@ -1,3 +1,4 @@
+from re import L
 import pandas as pd
 import numpy as np
 import time
@@ -21,8 +22,8 @@ raw_data = list(df['text'])
 
 clean_text = CleanText(raw_data)
 
-for i in range(len(clean_text)):
-    print("No",i," ",clean_text[i])
+# for i in range(len(clean_text)):
+#     print("No",i," ",clean_text[i])
 
 # token_text = []
 # for sen in clean_text:
@@ -36,58 +37,60 @@ tf_idf = TfidfVectorizer(analyzer = 'word', #this is default
 
 fe = tf_idf.fit_transform(clean_text).todense()
 
-# print(fe.shape)
+# n_component = min(len(fe), len(tf_idf.get_feature_names())) - 1
 
-# n_component = min(len(fe), len(tf_idf.get_feature_names()))
-
-k_value = best_k(feature=fe, max_=30)
+k_value = best_k(feature=fe, max_= int(len(clean_text) *0.2))
 
 cluster = KMeans(n_clusters=k_value).fit(fe)
 distence_point = cluster.transform(fe)
 
-df["centroids_id"] = cluster.labels_
+centroids_id = cluster.labels_
 
-label = cluster.labels_
+df["centroids_id_level_1"] = centroids_id
+
 u = cluster.cluster_centers_
-
-num_label = set(label)
-
-# print("center shape = ", u.shape)
-# print("feature shape = ", fe.shape)
-# print("label shape = ", len(num_label))
-# print("size of data = ", len(clean_text))
 
 score = []
 
-for center in range(len(u)):
-    number = 0
-    dis = 0
-    text_ = list(df["text"])
-    label_ = list(df["centroids_id"])
-    for point in range(len(label_)):
-        if label_[point] == center:
-            number += 1
-            dis += np.linalg.norm(u[center] - fe[point])
-    # print("dis = ", dis, ", number = ", number)
-    dis = dis/number
-    score.append(dis)
+tmp_label = set(centroids_id)
+
+for index_u in range(len(u)):
+    tmp_value = 0
+    counter = 0
+    for index_label in range(len(centroids_id)):
+        if centroids_id[index_label] == index_u:
+            tmp_value += np.linalg.norm(u[index_u] - fe[index_label])
+            counter += 1
+    av_dis = tmp_value/counter
+    score.append(av_dis)
+
+label = set(centroids_id)
+label = list(label)
 
 for i in range(len(score)):
-    print("label = ", i ,", average distance of all data point in label = ", score[i])
+    print("label = ", label[i] ,", average distance of all data point in label = ", score[i])
 
-sum_score = 0
-for i in score:
-    sum_score += i
+sum_score = sum(score)
+av_score = np.mean(score)
 print("sum_score", sum_score)
-print("average score", sum_score/len(score))
-        
-# dist = np.linalg.norm(u[1] - fe[1])
+print("average score", av_score)
 
-# print("dist", dist)
+for i in range(len(score)):
+    if (score[i] < av_score):
+        for j in range(len(centroids_id)):
+            if centroids_id[j] == i:
+                check_count_label = True
+                tmp = centroids_id[j]
+                centroids_id[j] = -1
+                print("before {}, after {}".format(tmp, centroids_id[j]))
 
-# df["distances"] = cluster.inertia_
 
-df = df.sort_values(by=['centroids_id'])
+tmp_centroids_id = centroids_id
+
+# print(label)
+# df["centroids_id_level_2"] = centroids_id
+
+df = df.sort_values(by=['centroids_id_level_1'])    
 
 # print(df)
 
