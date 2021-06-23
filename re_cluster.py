@@ -6,8 +6,6 @@ from sklearn.cluster import KMeans
 from sklearn.cluster import DBSCAN
 from pythainlp import  word_tokenize
 import math
-
-
 from function.cleanTextTH import CleanText
 from function.findNumberPCA import featurePCA
 from function.bestKmeans import best_k
@@ -27,10 +25,9 @@ def nextLevel (data):
 
         fe = tf_idf.fit_transform(clean_data).todense()
 
-        k_value = best_k(feature=fe, max_= int(math.ceil((len(clean_data) *0.2))))
+        tmp_val_k = int(math.ceil((len(clean_data) *0.2)))
 
-        if k_value < 2:
-                k_value = 2
+        k_value = best_k(feature=fe, max_= max(2,tmp_val_k))
 
         # print("k value", k_value)
 
@@ -105,7 +102,8 @@ score = []
 
 tmp_label = set(centroids_id)
 
-for index_u in range(len(u)):
+
+for index_u in range(len(u)): # for each cluster
     tmp_value = 0
     counter = 0
     for index_label in range(len(centroids_id)):
@@ -128,9 +126,6 @@ for i in range(len(score)):
                 next_.append(i)
 
 print("next",next_)
-
-label = set(centroids_id)
-label = list(label)
 
 label = set(centroids_id)
 label = list(label)
