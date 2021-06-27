@@ -99,7 +99,7 @@ for center_id in range(len(u)):
         if score[center_id] > avg_score:
                 level_two.append(center_id)
 
-# start cluster level 2
+''' start cluster level 2 '''
 for next_ in level_two:
         index_fe = np.where(centroids_id == next_) #select all index  with same centroids id
         index_fe = list(index_fe[0]) #tranform tuple to list 
@@ -140,6 +140,7 @@ for next_ in level_two:
                 df.at[index_fe[i],"avg_dist_score_from_level"] = "level 2"
                 df.at[index_fe[i],"avg_dist_score"] = score[centroids_id_next[i]]
 
+''' start cluster level 3'''
 for index_fe in level_three:
         tmp_fe = fe.tolist()  # select feature 
         fe_next = []
