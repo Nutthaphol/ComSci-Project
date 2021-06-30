@@ -149,4 +149,22 @@ def Kmean_three_level(fe,df):
                         df.at[index_fe[i],"avg_dist_score_from_level"] = "level 3"
                         df.at[index_fe[i],"avg_dist_score"] = score[centroids_id_next[i]]
 
+        
+        df["centroids_id"] = -1
+        pattern = []
+        for i in range(len(df)):
+                tmp = []                
+                tmp.append(df["centroids_id_level_1"].loc[i])
+                tmp.append(df["centroids_id_level_2"].loc[i])
+                tmp.append(df["centroids_id_level_3"].loc[i])
+                if tmp in pattern:
+                        continue
+                pattern.append(tmp)
+
+        for i in range(len(pattern)):
+                set_pattern = pattern[i]
+                df.at[(df.centroids_id_level_1 == set_pattern[0] ) & \
+                                (df.centroids_id_level_2 == set_pattern[1]) & \
+                                (df.centroids_id_level_3 == set_pattern[2]), "centroids_id"] = i
+                                
         return df
