@@ -66,28 +66,20 @@ for index_u in range(len(u)):
 label = set(centroids_id)
 label = list(label)
 
+df["avg_dist_score"] = -1
+
 for i in range(len(score)):
-    print("label = ", label[i] ,", average distance of all data point in label = ", score[i])
+    df.at[df["centroids_id_level_1"] == i,"avg_dist_score"] = score[i] 
 
 sum_score = sum(score)
 av_score = np.mean(score)
 print("sum_score", sum_score)
 print("average score", av_score)
 
-for i in range(len(score)):
-    if (score[i] < av_score):
-        for j in range(len(centroids_id)):
-            if centroids_id[j] == i:
-                check_count_label = True
-                tmp = centroids_id[j]
-                centroids_id[j] = -1
-                print("before {}, after {}".format(tmp, centroids_id[j]))
-
-
 
 
 df = df.sort_values(by=['centroids_id_level_1'])    
 
-# print(df)
+# # print(df)
 
 df.to_csv("cluster_comsci_kmean.csv",encoding='utf-8-sig')
