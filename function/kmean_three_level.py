@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-from function.cleanTextTH import CleanText
 from function.bestKmeans import best_k
 
 def identity_fun(text):
@@ -16,17 +14,13 @@ def cluster_kmean(feature):
         cluster = KMeans(n_clusters=k_value).fit(feature)
         centroids_id = cluster.labels_
         u = cluster.cluster_centers_
-        score = []
+        data_f = pd.DataFrame({"label":centroids_id})
+        data_f["dist_score"] = -1
         for index_u in range(len(u)):
-                tmp_value = 0
-                counter = 0
                 for index_label in range(len(centroids_id)):
                         if centroids_id[index_label] == index_u:
-                                tmp_value += np.linalg.norm(u[index_u] - feature[index_label])
-                                counter += 1
-                                score.append(tmp_value)
-        col_ = {"label":centroids_id,"dist score":score}
-        data_f = pd.DataFrame(data=col_)
+                                data_score = np.linalg.norm(u[index_u] - feature[index_label])
+                                data_f.at[data_f.index == index_label,"dist_score"] = data_score
         return data_f
 
 
@@ -38,7 +32,7 @@ def avg_dist(score):
                         next_.append(i)
         return next_
 
-def Kmean_three_level(fe,df):
+def Kmean_three_level(fe,data_):
         k_value = best_k(feature=fe, max_= int(len(fe) *0.2))
 
         cluster = KMeans(n_clusters=k_value).fit(fe)
@@ -46,11 +40,12 @@ def Kmean_three_level(fe,df):
         centroids_id = cluster.labels_
 
         # create col in datafream
-        df["centroids_id_level_1"] = centroids_id
-        df["centroids_id_level_2"] = -1
-        df["centroids_id_level_3"] = -1
-        df["avg_dist_score"] = -1
-        df["avg_dist_score_from_level"] = "level 1"
+        data_["centroids_id_level_1"] = centroids_id
+        data_["centroids_id_level_2"] = -1
+        data_["centroids_id_level_3"] = -1
+        data_["dist_score"] = -1
+        data_["avg_dist_score"] = -1
+        data_["avg_dist_score_from_level"] = "level 1"
 
         u = cluster.cluster_centers_ #point of center
 
@@ -58,20 +53,17 @@ def Kmean_three_level(fe,df):
 
         #find average distance of each data to its center
         for index_u in range(len(u)):
-                tmp_value = 0
-                counter = 0
+                tmp_value = []
                 for index_label in range(len(centroids_id)):
                         if centroids_id[index_label] == index_u:
-                                tmp_value += np.linalg.norm(u[index_u] - fe[index_label])
-                                counter += 1
-                av_dis = tmp_value/counter
-                score.append(av_dis)
+                                value_dist = np.linalg.norm(u[index_u] - fe[index_label])
+                                tmp_value.append(value_dist) 
+                                data_.at[data_.index == index_label, "dist_score"] = value_dist
+                avg_dist = np.mean(tmp_value)
+                score.append(avg_dist)
+                data_.at[data_["centroids_id_level_1"] == index_u,"avg_dist_score"] = avg_dist
 
-        sum_score = sum(score)
         avg_score = np.mean(score)
-
-        for i in range(len(score)):
-                df.at[df["centroids_id_level_1"] == i,"avg_dist_score"] = score[i] 
 
         # next level
         level_two = []
@@ -96,14 +88,14 @@ def Kmean_three_level(fe,df):
 
                 data_f = cluster_kmean(fe_next) # cluster level 2 return datafream label and score distance of each feature
                 centroids_id_next = data_f["label"] 
-                dist_score = data_f["dist score"]
+                dist_score = data_f["dist_score"]
 
                 # compute average of each label
                 set_label = list(set(list(centroids_id_next)))
                 score = []
                 for i in set_label:
                         tmp = dist_score[centroids_id_next == i].tolist()
-                        score.append((sum(tmp))/len(tmp))
+                        score.append(np.mean(tmp))
                 avg_score = np.mean(score)
 
                 # compute index for cluster in level three 
@@ -119,9 +111,11 @@ def Kmean_three_level(fe,df):
                                         level_three.append(to_level_three)
 
                 for i in range(len(index_fe)): # set centroids id level 2 at index from line 113 
-                        df.at[index_fe[i],"centroids_id_level_2"] = centroids_id_next[i]
-                        df.at[index_fe[i],"avg_dist_score_from_level"] = "level 2"
-                        df.at[index_fe[i],"avg_dist_score"] = score[centroids_id_next[i]]
+                        data_.at[data_.index == index_fe[i],"centroids_id_level_2"] = centroids_id_next[i]
+                        data_.at[data_.index == index_fe[i],"avg_dist_score_from_level"] = "level 2"
+                        data_.at[data_.index == index_fe[i],"avg_dist_score"] = score[centroids_id_next[i]]
+                        data_.at[data_.index == index_fe[i],"dist_score"] = data_f["dist_score"][i]
+
 
         ''' start cluster level 3'''
         for index_fe in level_three:
@@ -135,36 +129,37 @@ def Kmean_three_level(fe,df):
 
                 data_f = cluster_kmean(fe_next) # cluster level 2 return datafream label and score distance of each feature
                 centroids_id_next = data_f["label"] 
-                dist_score = data_f["dist score"]
+                dist_score = data_f["dist_score"]
 
                 # compute average of each label
                 set_label = list(set(list(centroids_id_next)))
                 score = []
                 for i in set_label:
                         tmp = dist_score[centroids_id_next == i].tolist()
-                        score.append((sum(tmp))/len(tmp))
+                        score.append(np.mean(tmp))
 
                 for i in range(len(index_fe)): # set centroids id level 2 at index from line 113 
-                        df.at[index_fe[i],"centroids_id_level_3"] = centroids_id_next[i]
-                        df.at[index_fe[i],"avg_dist_score_from_level"] = "level 3"
-                        df.at[index_fe[i],"avg_dist_score"] = score[centroids_id_next[i]]
+                        data_.at[data_.index == index_fe[i],"centroids_id_level_3"] = centroids_id_next[i]
+                        data_.at[data_.index == index_fe[i],"avg_dist_score_from_level"] = "level 3"
+                        data_.at[data_.index == index_fe[i],"avg_dist_score"] = score[centroids_id_next[i]]
+                        data_.at[data_.index == index_fe[i],"dist_score"] = data_f["dist_score"][i]
 
-        
-        df["centroids_id"] = -1
+
+        data_["centroids_id"] = -1
         pattern = []
-        for i in range(len(df)):
+        for i in range(len(data_)):
                 tmp = []                
-                tmp.append(df["centroids_id_level_1"].loc[i])
-                tmp.append(df["centroids_id_level_2"].loc[i])
-                tmp.append(df["centroids_id_level_3"].loc[i])
+                tmp.append(data_["centroids_id_level_1"].loc[i])
+                tmp.append(data_["centroids_id_level_2"].loc[i])
+                tmp.append(data_["centroids_id_level_3"].loc[i])
                 if tmp in pattern:
                         continue
                 pattern.append(tmp)
 
         for i in range(len(pattern)):
                 set_pattern = pattern[i]
-                df.at[(df.centroids_id_level_1 == set_pattern[0] ) & \
-                                (df.centroids_id_level_2 == set_pattern[1]) & \
-                                (df.centroids_id_level_3 == set_pattern[2]), "centroids_id"] = i
-                                
-        return df
+                data_.at[(data_.centroids_id_level_1 == set_pattern[0] ) & \
+                                (data_.centroids_id_level_2 == set_pattern[1]) & \
+                                (data_.centroids_id_level_3 == set_pattern[2]), "centroids_id"] = i
+
+        return data_

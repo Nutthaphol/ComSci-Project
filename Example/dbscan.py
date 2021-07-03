@@ -7,8 +7,8 @@ from sklearn.cluster import DBSCAN
 from function.cleanTextEng import CleanText
 from function.findNumberPCA import featurePCA
 from function.purityCluster import purity
-from function.findEPS import best_eps
-from gensim.models import Word2Vec  # new feature extraction
+from function.bestEps import bestEps
+# from gensim.models import Word2Vec  # new feature extraction
 
 # import data
 # df = pd.read_csv('dataset/atis_intents.csv')
