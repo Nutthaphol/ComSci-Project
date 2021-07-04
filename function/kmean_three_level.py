@@ -119,12 +119,13 @@ def Kmean_three_level(fe,data_):
 
         ''' start cluster level 3'''
         for index_fe in level_three:
+                if len(index_fe) <= 2:     #  feature > 2 for find k value with silhouette_score in function beat_k
+                        continue
+                
                 tmp_fe = fe.tolist()  # select feature 
                 fe_next = []
                 for i in index_fe:      # select feature every feature used in cluster level 2 from matching index
                         fe_next.append(tmp_fe[i])
-                if len(fe_next) <= 2:     #  feature > 2 for find k value with silhouette_score in function beat_k
-                        continue
                 fe_next = np.matrix(fe_next)
 
                 data_f = cluster_kmean(fe_next) # cluster level 2 return datafream label and score distance of each feature

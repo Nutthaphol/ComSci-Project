@@ -3,10 +3,10 @@ from sklearn.metrics import silhouette_score
 
 def best_k (feature, max_):
     num_sil = []
-    k = 0
+    k = 2
     maximum = -1
     
-    for i in range(2, max_+1):
+    for i in range(2, max_):
         model = KMeans(n_clusters=i).fit(feature)
         label_ = model.labels_
         centroids = model.cluster_centers_
