@@ -1,4 +1,4 @@
-data,intent
+text,intent
 I need to change my billing and shipping info?,Billing
 make an account change,Billing
 "I need to update my account, can you help?",Billing

@@ -13,14 +13,17 @@ def SSE(data_):
                 tmp = tmp[0].tolist()
                 num_data_centroids_id.append(len(tmp))
 
-                avg_dist = data_[data_["centroids_id"] == i]["avg_dist_score"].tolist()
-                avg_dist = avg_dist[0]
+                # just in case DBSCAN noise will be cluster in label -1
+                if i == -1:
+                        sse.append(-1)
+                        continue
+
                 dist_score = data_[data_["centroids_id"] == i]["dist_score"].tolist()
 
                 tmp_sse = []
                 
                 for i in dist_score:
-                        pow_ = math.pow(i-avg_dist,2)
+                        pow_ = math.pow(i,2)
                         tmp_sse.append(pow_)
                 
                 sse.append(sum(tmp_sse))

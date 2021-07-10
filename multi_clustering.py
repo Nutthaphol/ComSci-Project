@@ -18,6 +18,7 @@ if __name__ == '__main__':
     # test sse function
     sse_kmean_normal = SSE(kmean_normal.copy())
     sse_kmean_three_level = SSE(kmean_three_level.copy())
+    sse_dbscan = SSE(dbscan.copy())
     
     # clustering result quality
     # sse
@@ -30,10 +31,13 @@ if __name__ == '__main__':
     # tm.to_csv("tmp_show.csv",encoding='utf-8-sig')
 
     '''set show real data'''
-    kmean_three_level = pd.DataFrame({"text":kmean_three_level["text"],"centroids_id":kmean_three_level["centroids_id"],"dist_score":kmean_three_level["dist_score"],"avg_dist":kmean_three_level["avg_dist_score"]})
+    kmean_three_level = pd.DataFrame({"text":kmean_three_level["text"],\
+                                                                    "centroids_id":kmean_three_level["centroids_id"],\
+                                                                    "dist_score":kmean_three_level["dist_score"],\
+                                                                    "avg_dist":kmean_three_level["avg_dist_score"]})  # select the desired column
     kmean_three_level = kmean_three_level.sort_values(by=['centroids_id'])
     kmean_three_level.to_csv("comsci_result/Kmean_three_level.csv",encoding='utf-8-sig')
-    kmean_three_level.to_csv("comsci_result/SSE_kmean_three_level.csv",encoding='utf-8-sig')
+    sse_kmean_three_level.to_csv("comsci_result/SSE_kmean_three_level.csv",encoding='utf-8-sig')
 
     kmean_normal = kmean_normal.sort_values(by=["centroids_id"])
     kmean_normal.to_csv("comsci_result/Kmean_normal.csv",encoding='utf-8-sig')
@@ -41,3 +45,4 @@ if __name__ == '__main__':
 
     dbscan = dbscan.sort_values(by=["centroids_id"])
     dbscan.to_csv("comsci_result/DBSCAN.csv",encoding='utf-8-sig')
+    sse_dbscan.to_csv("comsci_result/SSE_DBSCAN.csv",encoding='utf-8-sig')

@@ -75,6 +75,7 @@ def Kmean_three_level(fe,data_):
                         level_two.append(center_id)
 
         ''' start cluster level 2 '''
+        # **optimized geting feature of each label (fe_next = fe[centroids_id == next_])
         for next_ in level_two:
                 index_fe = np.where(centroids_id == next_) #select all index  with same centroids id
                 index_fe = list(index_fe[0]) #tranform tuple to list 
