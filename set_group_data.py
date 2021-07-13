@@ -5,11 +5,9 @@ if __name__ == "__main__":
         df = pd.read_csv("comsci_result/kmean_three_level.csv") # get data from keam 3 level
 
         label_group = df.centroids_id.unique() # get label number
-        tmp_l = [0,1,2]
         df["intent"] = np.NaN
 
-
-        for i in tmp_l: # insert label name by user
+        for i in label_group: # insert label name by user
                 insert_label = df[df.centroids_id == i]
                 ex_text = insert_label[insert_label.dist_score == insert_label.dist_score.min()].text.sample(1).to_string(index=False)
                 print("message : ", ex_text)
