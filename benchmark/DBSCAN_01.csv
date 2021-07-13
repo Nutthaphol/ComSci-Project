@@ -1,0 +1,151 @@
+﻿,text,intent,centroids_id,dist_score
+0,I need to change my billing and shipping info?,Billing,-1,-1.0
+96,"You haven't shipped my order, can I add to it?",Order Change,-1,-1.0
+97,"if it is still not processed and shipped, how can I make a change",Order Change,-1,-1.0
+98,I need to fix a mistake on my latest order,Order Change,-1,-1.0
+99,help! I need to edit my purchase from 5 minutes ago,Order Change,-1,-1.0
+100,"if you have a second, can you change something on my recent purchase?",Order Change,-1,-1.0
+101,I want to remove an item from my order,Order Change,-1,-1.0
+95,"my purchase hasn't shipped, can I update my address?",Order Change,-1,-1.0
+102,I need to cancel my order,Order Change,-1,-1.0
+104,I want to add something to my order,Order Change,-1,-1.0
+105,Can you take backordered items off my order?,Order Change,-1,-1.0
+106,Do you have any new products available?,Sales Opportunity,-1,-1.0
+107,when is the spring catalog come up out?,Sales Opportunity,-1,-1.0
+108,is the summer options available?,Sales Opportunity,-1,-1.0
+109,can I buy last year's jersey anymore,Sales Opportunity,-1,-1.0
+103,Can I change the shipping address on this order? I'll be out of town when it arrives,Order Change,-1,-1.0
+94,"my order is still pending, can I change my address",Order Change,-1,-1.0
+93,"shoot, I messed my last order up, can you help me edit it?",Order Change,-1,-1.0
+92,what is the best way to quickly make a change on an existing purchase,Order Change,-1,-1.0
+77,what is the shipping method,Shipping Info,-1,-1.0
+78,Has my order been sent?,Shipping Info,-1,-1.0
+79,Was my order delivered?,Shipping Info,-1,-1.0
+80,"oops I made the wrong order quantity, can I update it?",Order Change,-1,-1.0
+81,is it too late to update my shipping address,Order Change,-1,-1.0
+82,is my order still pending,Order Change,-1,-1.0
+83,"I just bought online but need to change quanity, can you help",Order Change,-1,-1.0
+84,"I misspelled the location, can you help me update this?",Order Change,-1,-1.0
+85,do you know if my order is fulfilled yet? I want to make a change,Order Change,-1,-1.0
+86,can I change a pending order,Order Change,-1,-1.0
+87,can I update my delivery to overnight?,Order Change,-1,-1.0
+88,where can I see my pending purchases,Order Change,-1,-1.0
+89,I'd like to change the credit card on my last purchase,Order Change,-1,-1.0
+90,"my order hasn't shipped, can I make an order change?",Order Change,-1,-1.0
+91,I need to edit a purchase,Order Change,-1,-1.0
+110,do you have a shirt that goes with my shorts?,Sales Opportunity,-1,-1.0
+111,do you make your product in different sizes,Sales Opportunity,-1,-1.0
+112,"can I buy another pair, these are great?",Sales Opportunity,-1,-1.0
+113,do you have any recommended products,Sales Opportunity,-1,-1.0
+133,Is there a store near me?,Sales Opportunity,-1,-1.0
+134,where are you located in sf?,Sales Opportunity,-1,-1.0
+135,is there spot in Miami?,Sales Opportunity,-1,-1.0
+136,does your company have a physical store here?,Sales Opportunity,-1,-1.0
+137,"I'd like to return my purchase to a retail store, is one nearby?",Sales Opportunity,-1,-1.0
+138,Can I try my gear on someplace close,Sales Opportunity,-1,-1.0
+139,is there a store near by,Sales Opportunity,-1,-1.0
+140,where are you located?,Sales Opportunity,-1,-1.0
+141,am I close to you?,Sales Opportunity,-1,-1.0
+142,please find me a store,Sales Opportunity,-1,-1.0
+143,get me the nearest store?,Sales Opportunity,-1,-1.0
+144,I'd like to shop nearby,Sales Opportunity,-1,-1.0
+145,where can I get more gear?,Sales Opportunity,-1,-1.0
+146,do you have a store here,Sales Opportunity,-1,-1.0
+147,do you know where a store is around my location,Sales Opportunity,-1,-1.0
+132,Wher can I buy your gear?,Sales Opportunity,-1,-1.0
+76,what is the timeline to receive my order?,Shipping Info,-1,-1.0
+131,find me a store,Sales Opportunity,-1,-1.0
+129,Is there a store close by,Sales Opportunity,-1,-1.0
+114,"I like soccer, any new kits available?",Sales Opportunity,-1,-1.0
+115,"that is it, unless you have any recommended products",Sales Opportunity,-1,-1.0
+116,"thanks for help, do you have any more products in stock I would like",Sales Opportunity,-1,-1.0
+117,"just got my last order yesterday and I want to buy a pair for my friend, but its sold out, any other options?",Sales Opportunity,-1,-1.0
+118,"I don't like my shoes, can you recommend any others in that color?",Sales Opportunity,-1,-1.0
+119,"I am looking for a more formal shoe, do you have any options?",Sales Opportunity,-1,-1.0
+120,"I'm all set, found my order, now I want to buy a hat",Sales Opportunity,-1,-1.0
+121,need a new hat to go with these shoes,Sales Opportunity,-1,-1.0
+122,do you have any matching products,Sales Opportunity,-1,-1.0
+123,"that's it, but would like to find out what other gear you have that's similar",Sales Opportunity,-1,-1.0
+124,"awesome, any other recommendations",Sales Opportunity,-1,-1.0
+125,do you know where I can find my favorite team's gear?,Sales Opportunity,-1,-1.0
+126,Do you have any more barca gear,Sales Opportunity,-1,-1.0
+127,Do you have any more real madrid kits?,Sales Opportunity,-1,-1.0
+128,Where is the nearest location for me?,Sales Opportunity,-1,-1.0
+130,how far is the nearest retail outlet,Sales Opportunity,-1,-1.0
+75,Do you do overnight shipping on all orders,Shipping Info,-1,-1.0
+74,are those shoes being shipped overnight?,Shipping Info,-1,-1.0
+73,who is the shipper of my products? I can't find the tracking info,Shipping Info,-1,-1.0
+20,where do I update my account information for payments,Billing,-1,-1.0
+21,how do I change payment options,Billing,-1,-1.0
+22,How can I set up a corporate account?,Billing,-1,-1.0
+23,Will I be charged tax on the order?,Billing,-1,-1.0
+24,i forgot my password,Password Help,-1,-1.0
+25,i want to reset my password,Password Help,-1,-1.0
+19,how can I switch billing preferences,Billing,-1,-1.0
+26,i cant remember my login,Password Help,-1,-1.0
+28,can't login,Password Help,-1,-1.0
+29,unable to login,Password Help,-1,-1.0
+31,where do I got to find my password,Password Help,-1,-1.0
+32,I forgot my credentials,Password Help,-1,-1.0
+33,I can't login,Password Help,-1,-1.0
+34,please reset me,Password Help,-1,-1.0
+27,My password doesn't work,Password Help,-1,-1.0
+18,why was I charged that much,Billing,-1,-1.0
+17,how much did you charge me,Billing,-1,-1.0
+16,can you tell me the cost of the item I purchased,Billing,-1,-1.0
+1,make an account change,Billing,-1,-1.0
+2,"I need to update my account, can you help?",Billing,-1,-1.0
+3,how can I change my account details,Billing,-1,-1.0
+4,user profile update,Billing,-1,-1.0
+5,can you change my profile to a new address,Billing,-1,-1.0
+6,can you chage my profile to have my latest address,Billing,-1,-1.0
+7,"my billing address is same as shipping, please update",Billing,-1,-1.0
+8,how do I update account settings,Billing,-1,-1.0
+9,Can I change my credit card,Billing,-1,-1.0
+10,I see two charges on my account,Billing,-1,-1.0
+11,why did my order get denied,Billing,-1,-1.0
+12,where is the security code on my credit card,Billing,-1,-1.0
+13,my billing info is wrong,Billing,-1,-1.0
+14,can you help me update my billing information,Billing,-1,-1.0
+15,my billing info is out of date,Billing,-1,-1.0
+35,what's my PW,Password Help,-1,-1.0
+148,what store is closest to me?,Sales Opportunity,-1,-1.0
+36,do you have a way to reset my PW remotely?,Password Help,-1,-1.0
+38,I hit the limits on my password,Password Help,-1,-1.0
+58,do you know if my package shipped,Shipping Info,-1,-1.0
+59,has my order been fulfilled,Shipping Info,-1,-1.0
+60,when can I see the order status for my purchase?,Shipping Info,-1,-1.0
+61,what is my shipping status?,Shipping Info,-1,-1.0
+62,do you have my tracking # handy?,Shipping Info,-1,-1.0
+63,"my shoes haven't arrived, where are they?",Shipping Info,-1,-1.0
+64,"my order says in progress, what does that mean?",Shipping Info,-1,-1.0
+65,is there a expected delivery date for my latest order,Shipping Info,-1,-1.0
+66,when should I receive my items by,Shipping Info,-1,-1.0
+67,do you drop off the shoes at my door or do I need to sign?,Shipping Info,-1,-1.0
+68,can I check on the latest location of my order?,Shipping Info,-1,-1.0
+69,why is taking so long to get me my shoes? Are they close?,Shipping Info,-1,-1.0
+70,Should I receive my shoes by this Tuesday?,Shipping Info,-1,-1.0
+71,I need my order to come by Thursday is that possible,Shipping Info,-1,-1.0
+72,can I get an update on my order status?,Shipping Info,-1,-1.0
+57,when will it come by?,Shipping Info,-1,-1.0
+56,my package hasn't arrive,Shipping Info,-1,-1.0
+55,i want to know if my order has shipped,Shipping Info,-1,-1.0
+54,i'd like to check the status of my order?,Shipping Info,-1,-1.0
+39,my account is locked,Password Help,-1,-1.0
+40,my password is locked?,Password Help,-1,-1.0
+41,I cant sing in?,Password Help,-1,-1.0
+42,how do I log in?,Password Help,-1,-1.0
+43,can I change privacy settings,Password Help,-1,-1.0
+44,i forgot my username,Password Help,-1,-1.0
+37,I cant figure out my user name /passoword combo,Password Help,-1,-1.0
+149,do you have a store near my home address,Sales Opportunity,-1,-1.0
+47,login problems,Password Help,-1,-1.0
+48,login not working for me,Password Help,-1,-1.0
+50,when will my order arrive?,Shipping Info,-1,-1.0
+51,I'm still waiting for my package,Shipping Info,-1,-1.0
+52,track order,Shipping Info,-1,-1.0
+53,i'd like to track my package,Shipping Info,-1,-1.0
+46,i can't remember my login,Password Help,-1,-1.0
+30,can I reset my password,Password Help,0,0.28455163710505954
+49,need to reset my password,Password Help,0,0.4093729965630136
+45,can you help me reset my password,Password Help,0,0.42537714947073574

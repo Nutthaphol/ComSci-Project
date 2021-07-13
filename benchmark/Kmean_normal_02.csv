@@ -1,0 +1,1054 @@
+﻿, Domain,intent,text,centroids_id,dist_score,avg_dist_score
+229,Coronavirus Recommendations,Pregnant,"i'm having a baby, should I be worried?",0,0.4707714349018532,0.47077143490185325
+1021,Coronavirus Recommendations,Children,should i worry about my kids?_,0,0.47077143490185325,0.47077143490185325
+571,About Coronavirus,Infected Twice,can people get infected again,1,0.4988988076816187,0.5485516905816024
+286,About Coronavirus,Methods of Transmission,how does it infect people,1,0.3866538634694043,0.5485516905816024
+868,About Coronavirus,How Many Infected,people infected worldwide,1,0.6543777520557622,0.5485516905816024
+956,About Coronavirus,Methods of Transmission,How does the virus travel from people to people?,1,0.6542763391196242,0.5485516905816024
+538,Employer Guidelines,Daycare,What can I do if my employees can’t work because of the schools are closed ,2,0.36995519524548526,0.36995519524548526
+681,Employer Guidelines,Daycare,what can I do if my employee cannot come to work because of his child's school is closed due to coronavirus,2,0.36995519524548526,0.36995519524548526
+671,About Coronavirus,Symptoms,What symptoms do you have when infected with Corona ,3,0.0,0.0
+318,Coronavirus Recommendations,Not At Risk,I'm not part of any known risk groups. What is my actions?,4,0.36612145018731296,0.366121450187313
+214,Coronavirus Recommendations,Not At Risk,what can i do if i am not in the known risk groups,4,0.366121450187313,0.366121450187313
+52,Coronavirus Recommendations,Employer,what is the employer supposed to do to protect the employees? ,5,0.4507147641381542,0.5046336451854853
+73,Coronavirus Recommendations,Employer,what is the employer supposed to do to protect the employees? ,5,0.4507147641381542,0.5046336451854853
+378,Coronavirus Recommendations,Employer,I am an employer. How do I protect my employees?,5,0.3570080122732588,0.5046336451854853
+381,Employer Guidelines,Sick Employee,What of my employees (I'm the employer) has been affected by the virus. What to do?,5,0.7984969251265241,0.5046336451854853
+185,Employer Guidelines,Sick Employee,what do i do as an employer if an employee is infected,5,0.6138593931635613,0.5046336451854853
+556,Coronavirus Recommendations,Employer,If I am an employer how can I protect my employees? ,5,0.3570080122732588,0.5046336451854853
+316,Coronavirus Recommendations,Doctor,When should I go to the doctor?,6,0.12992851126802682,0.24468350087122628
+849,Coronavirus Recommendations,Doctor,When do I have to go to the doctor?,6,0.12992851126802682,0.24468350087122628
+439,Coronavirus Recommendations,Doctor,When can I go to the doctor?,6,0.12992851126802682,0.24468350087122628
+787,Coronavirus Recommendations,Doctor,When should i go to the doctor?,6,0.12992851126802682,0.24468350087122628
+994,Coronavirus Recommendations,Doctor,Do I go to the doctor if I have corona? ,6,0.40505901081320095,0.24468350087122628
+485,Coronavirus Recommendations,Doctor,What symptoms do you have to have before you go to a medical doctor ,6,0.7728379285484483,0.24468350087122628
+56,Coronavirus Recommendations,Doctor,when should I go to the doctor+,6,0.12992851126802682,0.24468350087122628
+606,Coronavirus Recommendations,Doctor,Should I go to the doctor?,6,0.12992851126802682,0.24468350087122628
+665,About Coronavirus,What Is Coronavirus,What is Corona ,7,0.0,0.0
+165,Contact,Hotline,i would like to get hold of the hotline,8,0.645477258095996,0.6737549380436053
+929,Employer Guidelines,Quarantine,"one of us is under quarantine, we would like to know how to proceed",8,0.7226406255013278,0.6737549380436053
+184,Coronavirus Recommendations,Student,i would like information for students during the pandemi,8,0.685578679848187,0.6737549380436053
+209,Coronavirus Recommendations,Public Spaces,i would like to get recommendations on how to behave in the public,8,0.6413231887289106,0.6737549380436053
+407,Coronavirus Recommendations,Pet,What do I do with my dog if I got a positive corona test?,9,0.4008676886541359,0.4008676886541359
+597,Coronavirus Recommendations,Pet,If I am tested positive for Coronavirus what shall I do with my dog?,9,0.40086768865413597,0.4008676886541359
+1013,Coronavirus Recommendations,Postponed Surgeries,Can you still get surgery during corona virus?,10,0.0,0.0
+710,About Coronavirus,Pandemic,what is a pandemic,11,0.24581564503991393,0.4691369793877109
+834,About Coronavirus,Pandemic,can you tell me what a pandemic is,11,0.6898837070813518,0.4691369793877109
+772,About Coronavirus,Pandemic,What is pandemic?,11,0.24581564503991393,0.4691369793877109
+573,About Coronavirus,Pandemic,what is a pandemic?,11,0.24581564503991393,0.4691369793877109
+1037,About Coronavirus,Pandemic,What is a pandemic?,11,0.24581564503991393,0.4691369793877109
+684,About Coronavirus,Pandemic,do you know what a pandemic is,11,0.6558225889539642,0.4691369793877109
+980,About Coronavirus,Pandemic,What is a pandemic and who decides it,11,0.8120914052019241,0.4691369793877109
+307,About Coronavirus,Pandemic,What is a pandemic?,11,0.24581564503991393,0.4691369793877109
+976,About Coronavirus,Strategy,How do we fight the coronavirus pandemic?,11,0.8353568880525879,0.4691369793877109
+656,About Coronavirus,Methods of Transmission,how is it transmitted,12,0.30399289234422877,0.39797026182012335
+466,About Coronavirus,Methods of Transmission,How does the virus get transmitted?,12,0.6011741818426747,0.39797026182012335
+811,About Coronavirus,Methods of Transmission,How can coronavirus be transmitted?,12,0.27313262179621906,0.39797026182012335
+386,About Coronavirus,Methods of Transmission,How is the disease transmitted?,12,0.6632566313451794,0.39797026182012335
+542,About Coronavirus,Methods of Transmission,How is the coronavirus transmitted?,12,0.27313262179621906,0.39797026182012335
+343,About Coronavirus,Methods of Transmission,How is Coronavirus transmitted?,12,0.27313262179621906,0.39797026182012335
+645,Employer Guidelines,Refusal To Work,"What are my rights, if one of my employees refuses to come to work because of coronavirus?",13,0.0,0.0
+43,Employer Guidelines,Refusal To Travel,are my employees allowed to refuse travelling because of corona?,14,0.619432470797413,0.6489218385231577
+1038,Employer Guidelines,Refusal To Travel,Can anyone in my team refuse to travel during the pandemia?,14,0.8611980632700293,0.6489218385231577
+253,Employer Guidelines,Refusal To Travel,"one of my guys refuses to go abroad, can he refuse to do that?",14,0.8557356844237719,0.6489218385231577
+275,Employer Guidelines,Refusal To Travel,Can an employee refuse to travel due to Coronavirus?,14,0.552423406618762,0.6489218385231577
+833,Employer Guidelines,Refusal To Travel,Can Employees Refuse To Travel Out Of Fear Of Contracting coronavirus?,14,0.7128827532769532,0.6489218385231577
+674,Employer Guidelines,Refusal To Travel,Can any of my workers refuse to travel during the pandemic?,14,0.7929342621875514,0.6489218385231577
+738,Employer Guidelines,Refusal To Travel,Can my employee refuse to travel because of coronavirus?,14,0.41927318824066473,0.6489218385231577
+531,Employer Guidelines,Refusal To Travel,Is ok for an employee to refuse to travel ,14,0.6325714369068269,0.6489218385231577
+535,Employer Guidelines,Refusal To Travel,can my employee refuse to travel?,14,0.3938452809864475,0.6489218385231577
+578,Gatherings,Arranging Gathering,What do I do if I want to celebrate my birthday ,15,0.9919443722819319,0.7726755815802206
+582,Gatherings,Gathering Precautions,What shall I do when having a wedding ,15,0.9989217353351572,0.7726755815802206
+584,Coronavirus Recommendations,Contact With Infected,my friend just tested positive and we hung out ealier this week. what do i do,15,0.9950865261843437,0.7726755815802206
+155,Coronavirus Recommendations,Sick Child,What do I need to do with my kid has fever?,15,0.9908620141711278,0.7726755815802206
+0,Coronavirus Recommendations,Pet,_,15,0.10743958051848407,0.7726755815802206
+149,Employer Guidelines,Sick Employee,no,15,0.10743958051848407,0.7726755815802206
+127,About Coronavirus,Coronavirus Versus Influenza,_,15,0.10743958051848407,0.7726755815802206
+128,About Coronavirus,Latest News,_,15,0.10743958051848407,0.7726755815802206
+129,About Coronavirus,Status,_,15,0.10743958051848407,0.7726755815802206
+130,About Coronavirus,Strategy,_,15,0.10743958051848407,0.7726755815802206
+131,About Coronavirus,Testing,_,15,0.10743958051848407,0.7726755815802206
+132,About Coronavirus,Fear,_,15,0.10743958051848407,0.7726755815802206
+133,Coronavirus Recommendations,Health Authority Recommendations,_,15,0.10743958051848407,0.7726755815802206
+134,Coronavirus Recommendations,Public Spaces,_,15,0.10743958051848407,0.7726755815802206
+135,Coronavirus Recommendations,Illness,_,15,0.10743958051848407,0.7726755815802206
+136,Coronavirus Recommendations,Contact With Infected,_,15,0.10743958051848407,0.7726755815802206
+137,Coronavirus Recommendations,Employer,_,15,0.10743958051848407,0.7726755815802206
+138,Coronavirus Recommendations,Citizen,_,15,0.10743958051848407,0.7726755815802206
+663,Employer Guidelines,Sick Employee,what can I do if someone in my team gets the virus?,15,0.9777138919086056,0.7726755815802206
+143,About Coronavirus,Status,ma name jef,15,0.9989217353351572,0.7726755815802206
+144,About Coronavirus,Strategy,watadarastage,15,0.998921735335157,0.7726755815802206
+642,Coronavirus Recommendations,Border,I have a question about the frontiers locked?,15,0.998921735335157,0.7726755815802206
+628,Coronavirus Recommendations,Postponed Surgeries,What surgery appointments have been moved?,15,0.9989217353351572,0.7726755815802206
+615,Coronavirus Recommendations,Pregnant,I'm expecting a baby. what can I do?,15,0.9960639323933149,0.7726755815802206
+666,About Coronavirus,Coronavirus Versus Influenza,isnt coronavirus just like to flu?,15,0.986937863341321,0.7726755815802206
+510,Coronavirus Recommendations,Border,Can I cross the border to Germany ,15,0.9922509368902813,0.7726755815802206
+559,Gatherings,Cancelling Gathering,Why do the government advise us not to have parties ,15,0.9956141914412968,0.7726755815802206
+198,About Coronavirus,Symptoms,what kind of symptomps do you have if infected by covis19,15,0.9962131552897072,0.7726755815802206
+416,Coronavirus Recommendations,Visiting Elderly,Can I still visit my nan in her home?,15,0.9804106400530129,0.7726755815802206
+411,Gatherings,Arranging Gathering,"I'm arranging a party, is there something in particular I should do to prepare?",15,0.9890295395435561,0.7726755815802206
+406,About Coronavirus,What Do We Know About Coronavirus,What is the current knowledge around the corona outbreak?,15,0.9891621816991674,0.7726755815802206
+203,About Coronavirus,Mortality Rate,how highg is the mortality with covid19,15,0.998921735335157,0.7726755815802206
+388,About Coronavirus,Coronavirus Versus Influenza,Is the corona outbreak equal to the flu?,15,0.9898297602260495,0.7726755815802206
+383,Employer Guidelines,Refusal To Travel,Are my employees allowed to deny business related travels due to the outbreak? ,15,0.9839198325273367,0.7726755815802206
+375,Employer Guidelines,Daycare,"Schools and daycares are closed due to the outbreak. What is my rights as an employer, when employees do not have the opportunity to have someone to look after their child? ",15,0.9788643073471721,0.7726755815802206
+372,Coronavirus Recommendations,Visiting Elderly,Is it OK for me still til visit senior citizens in their home or at their nursing homes?,15,0.9835304548985052,0.7726755815802206
+312,Gatherings,Gathering Precautions,"As an event organizer, what actions do I need to take?",15,0.9808742860377619,0.7726755815802206
+279,About Coronavirus,What Do We Know About Coronavirus,what do you as a chatbot know about corona that I can't read in the news?,15,0.9913305327310701,0.7726755815802206
+276,Coronavirus Recommendations,Doctor,"I have started coughing, when should a call the doctor?",15,0.9965145543482193,0.7726755815802206
+272,Gatherings,Gathering Precautions,I am arranging a gathering for 20 bridge game members. can I still go through with the event?,15,0.9813304560377907,0.7726755815802206
+269,Gatherings,Arranging Gathering,"I am a event manager for a night club in cph with the new rules, can i then arrange club nigths?",15,0.9930505739271736,0.7726755815802206
+227,About Coronavirus,Strategy,wht is the current startegy?,15,0.9977545251165026,0.7726755815802206
+266,Coronavirus Recommendations,Educating Children On Coronavirus,Should I be educating the same way my child during the COVID-19?,15,0.9890749842143465,0.7726755815802206
+251,Employer Guidelines,Sick Employee,"one of my employees tells me that he is sick but he doesn't know if it is corono, what do I do? do I send him home just like that?",15,0.9818327888280821,0.7726755815802206
+418,Coronavirus Recommendations,Actions At Home,Do I have to perform particular actions at home to keep myself and my family safe?,15,0.9844948323387699,0.7726755815802206
+160,Coronavirus Recommendations,Public Transport,Is it safe to take the bus?,15,0.985838743158498,0.7726755815802206
+431,Coronavirus Recommendations,Returning From Travel,"I've just returned from [country], is there anything special I should be aware of or something I should do?",15,0.9937756555216032,0.7726755815802206
+436,Coronavirus Recommendations,Citizen,Is tehre anything in particular I can do as a citizen to help coronavirus pass faster?,15,0.9899201151629389,0.7726755815802206
+163,Coronavirus Recommendations,Student,How can I continue my education during the pandemic?,15,0.9942736006463232,0.7726755815802206
+164,Employer Guidelines,Sick Employee,What are the signs someone has coronavirus?,15,0.9833479849113441,0.7726755815802206
+552,Gatherings,Arranging Gathering,how should i react if i'm arranging a gatering,15,0.9954423993038066,0.7726755815802206
+541,Employer Guidelines,Daycare,what can i do if my employee cant work beacuse no one can take care of their child,15,0.9817462967637606,0.7726755815802206
+170,About Coronavirus,Infection Through Food,Can I catch coronavirus from eating takeout?,15,0.9913060813450909,0.7726755815802206
+173,About Coronavirus,Coronavirus Versus Influenza,_,15,0.10743958051848407,0.7726755815802206
+514,Coronavirus Recommendations,Returning From Travel,i just came home from traveling. what should i do,15,0.9851014518670119,0.7726755815802206
+512,Coronavirus Recommendations,Visiting Elderly,Can I visit my grandma in the care center ,15,0.9890501540215297,0.7726755815802206
+126,About Coronavirus,Treatment,_,15,0.10743958051848407,0.7726755815802206
+495,Coronavirus Recommendations,Postponed Surgeries,What sorts of operations has been postponed due to Corona ,15,0.99229037821977,0.7726755815802206
+492,Coronavirus Recommendations,Swimming Hall,Is it dangerous to go swimming in a public bathroom ,15,0.9871894623095104,0.7726755815802206
+181,Coronavirus Recommendations,Public Transport,can i still use publictransport,15,0.9925988009209236,0.7726755815802206
+182,Coronavirus Recommendations,Actions At Home,how can i reduce risk at home,15,0.9886481266321638,0.7726755815802206
+187,Employer Guidelines,Refusal To Travel,can an eomployee fefuse to travel because of coronavirus,15,0.9896128038317793,0.7726755815802206
+189,Employer Guidelines,Daycare,as an employer. what can i do if an employee cant send children to school or daycare,15,0.9868501557127338,0.7726755815802206
+452,About Coronavirus,Pandemic,"I wanted to ask what a pandemic was, is that a videogame?",15,0.9926327702247343,0.7726755815802206
+193,Gatherings,Gathering Precautions,what precorsiens do i have to make if i am hosting an event,15,0.9937429220303613,0.7726755815802206
+434,Coronavirus Recommendations,Contact With Infected,"I've shaken hands with someone who is Coronavirus positive, what should I do?",15,0.9843240423601438,0.7726755815802206
+125,About Coronavirus,Methods of Transmission,_,15,0.10743958051848407,0.7726755815802206
+117,Coronavirus Recommendations,Citizen,As a conscious resident of the U.S. how can I mitigate the spread of the virus?,15,0.9955996911977948,0.7726755815802206
+123,About Coronavirus,What Do We Know About Coronavirus,_,15,0.10743958051848407,0.7726755815802206
+971,Gatherings,Arranging Gathering,Can I still have a gathering of people? What do I have to do in that case? ,15,0.9883476173403973,0.7726755815802206
+893,Coronavirus Recommendations,Precautions,is my Easter flight going to get cancelled,15,0.9899608609463786,0.7726755815802206
+889,Coronavirus Recommendations,Pregnant,"i've got a baby on the way, what to do",15,0.9922350431285298,0.7726755815802206
+887,Coronavirus Recommendations,People At Risk,is grandma or grandpa in danger,15,0.9907381669549056,0.7726755815802206
+884,Gatherings,Arranging Gathering,it's my graduation can i celebrate with my friends,15,0.99485473005975,0.7726755815802206
+53,Coronavirus Recommendations,Citizen,can i take an action to minimize the spead of coronavirus? ,15,0.9863160008847172,0.7726755815802206
+875,Coronavirus Recommendations,Not At Risk,i'm low risk but am i still in danger?,15,0.9841290960870294,0.7726755815802206
+872,Coronavirus Recommendations,Contact With Infected,my boyfriend is positive what do i do,15,0.9960561166456919,0.7726755815802206
+894,Coronavirus Recommendations,Returning From Travel,"i just came back from france, can i see my sister",15,0.9944016358265301,0.7726755815802206
+972,Gatherings,Gathering Precautions,How do I keep a gathering of people safe? ,15,0.9879828930161052,0.7726755815802206
+124,About Coronavirus,Symptoms,_,15,0.10743958051848407,0.7726755815802206
+61,About Coronavirus,Fear,how dangerous is coronvirus?,15,0.9918793532106984,0.7726755815802206
+16,Coronavirus Recommendations,Doctor,at what point should I seek medical help?,15,0.997864806679882,0.7726755815802206
+987,Coronavirus Recommendations,Public Spaces,Do I need a mask when I go outside? What are the rules for social distancing?,15,0.9891479194583447,0.7726755815802206
+844,Coronavirus Recommendations,Closed Shops,_,15,0.10743958051848407,0.7726755815802206
+843,Coronavirus Recommendations,Contact With Infected,What to do if you were potentially exposed to someone with coronavirus?,15,0.9860298959359625,0.7726755815802206
+842,Coronavirus Recommendations,Returning From Travel,_,15,0.10743958051848407,0.7726755815802206
+841,Coronavirus Recommendations,Postponed Surgeries,_,15,0.10743958051848407,0.7726755815802206
+861,About Coronavirus,Fear,am i likely to end up in the hospital or die?,15,0.991843874659732,0.7726755815802206
+959,About Coronavirus,Latest News,Is there any news today?,15,0.9958249000660069,0.7726755815802206
+897,Coronavirus Recommendations,Student,do i go to classes at uni,15,0.9922501540283344,0.7726755815802206
+902,Coronavirus Recommendations,Closed Shops,can i still buy ice cream,15,0.9878494642862379,0.7726755815802206
+957,About Coronavirus,Treatment,Is there a cure for the virus?,15,0.993773149178003,0.7726755815802206
+945,Coronavirus Recommendations,Purchasing Groceries,Is it safe to buy food? ,15,0.9866178747354611,0.7726755815802206
+940,Coronavirus Recommendations,Actions If At Risk,I have a lung disease. What should I do?,15,0.9989217353351569,0.7726755815802206
+28,Contact,Hotline,ho can I get in touch with you fast?,15,0.9957512731514638,0.7726755815802206
+29,Gatherings,Cancelling Gathering,we can we not meet up in crowds?,15,0.996900784602942,0.7726755815802206
+928,Employer Guidelines,Daycare,"our employee is saying that she cannot leave her child alone at home, we don't know what to do",15,0.9858185694115598,0.7726755815802206
+924,Employer Guidelines,Sick Employee,What are we supposed to do as a company if one of us is infected?,15,0.9925256843326506,0.7726755815802206
+919,Coronavirus Recommendations,Visiting Elderly,can we go and visit our granny?,15,0.9849279118653114,0.7726755815802206
+900,Employer Guidelines,Refusal To Travel,we have a business trip to florida but an employee is scared to come,15,0.9942916991309191,0.7726755815802206
+33,Coronavirus Recommendations,Health Authority Recommendations,_,15,0.10743958051848407,0.7726755815802206
+915,Coronavirus Recommendations,Sick Child,So... What do we do if our daughter gets it?,15,0.9916906831087884,0.7726755815802206
+36,Coronavirus Recommendations,Pregnant,am I at risk if I am preganant and get corona?,15,0.9876436586538013,0.7726755815802206
+913,Coronavirus Recommendations,Precautions,so do i need to wipe all doorknobs?_,15,0.9935588328534708,0.7726755815802206
+911,About Coronavirus,What Do We Know About Coronavirus,can i see the most recent statistics on contagion,15,0.9966678503038302,0.7726755815802206
+906,Coronavirus Recommendations,Border,can i buy stuff in Germany,15,0.9901991502888529,0.7726755815802206
+904,Coronavirus Recommendations,Purchasing Groceries,what if i run out of toilet paper,15,0.998921735335157,0.7726755815802206
+41,Employer Guidelines,Sick Employee,what should my direct report do if he is infected with corona virus?,15,0.9889308521462021,0.7726755815802206
+903,Coronavirus Recommendations,Sick Child,"my kid is coughing, does he need to see the doctor or to be taken to the hospital",15,0.9856956525991026,0.7726755815802206
+918,Coronavirus Recommendations,Border,"based on the news about the border lockout, can we travel abroad?",15,0.9914168430247838,0.7726755815802206
+830,Coronavirus Recommendations,Visiting Elderly,_,15,0.10743958051848407,0.7726755815802206
+1009,Coronavirus Recommendations,Children,Is coronavirus bas for children?,15,0.9906531631292582,0.7726755815802206
+826,Coronavirus Recommendations,Sick Child,How should I look after my child that is infected with coronavirus?,15,0.9826648893920668,0.7726755815802206
+759,Coronavirus Recommendations,Precautions,_,15,0.10743958051848407,0.7726755815802206
+752,Gatherings,Gathering Precautions,_,15,0.10743958051848407,0.7726755815802206
+828,Coronavirus Recommendations,Visiting Elderly,_,15,0.10743958051848407,0.7726755815802206
+744,Employer Guidelines,Quarantine,What to do if my employee is undert quaranteen?,15,0.9945293520951656,0.7726755815802206
+736,Employer Guidelines,Refusal To Work,What to do if my employee do not want to work because od Coronavirus?,15,0.9822556482973617,0.7726755815802206
+731,Coronavirus Recommendations,Not At Risk,"im young and healthy, but should i take any precautions",15,0.9949632801236482,0.7726755815802206
+102,Gatherings,Cancelling Gathering,because they have seen thousands of deaths,15,0.9989217353351569,0.7726755815802206
+7,Coronavirus Recommendations,Health Authority Recommendations,What should I do?,15,0.10743958051848407,0.7726755815802206
+713,Employer Guidelines,Daycare,_,15,0.10743958051848407,0.7726755815802206
+696,Gatherings,Arranging Gathering,I was preparing like a big meeting. what should I do?,15,0.9912415036862295,0.7726755815802206
+111,About Coronavirus,Fear,How fearful should I be of Coronavirus?,15,0.9900881230133196,0.7726755815802206
+687,Employer Guidelines,Daycare,Schools are closed and someone in my team has no one to take care of his daughter. Can I do anything about it?,15,0.9768545985941784,0.7726755815802206
+1,Coronavirus Recommendations,People At Risk,_,15,0.10743958051848407,0.7726755815802206
+245,Coronavirus Recommendations,Border,who is allowed to cross the borders? what if I'm just going on a short visit to my mom?,15,0.985039556231397,0.7726755815802206
+119,About Coronavirus,Status,Which country has the most number of casualties due to Corona virus?,15,0.9875236289550544,0.7726755815802206
+669,Employer Guidelines,Refusal To Work,Someone in my team doesn't want to go to work because of the pandemic. What can I do?,15,0.9741737288829923,0.7726755815802206
+700,Gatherings,Gathering Precautions,How can I organise an event?,15,0.9922369290986592,0.7726755815802206
+785,Coronavirus Recommendations,Not At Risk,_,15,0.10743958051848407,0.7726755815802206
+750,Coronavirus Recommendations,Sick Child,Is there some special procedure for people whose kids got infected with coronavirus?,15,0.9869452568998053,0.7726755815802206
+89,Coronavirus Recommendations,Pregnant,buy diapers.,15,0.9918331229348967,0.7726755815802206
+825,Coronavirus Recommendations,Postponed Surgeries,_,15,0.10743958051848407,0.7726755815802206
+823,Coronavirus Recommendations,Actions At Home,_,15,0.10743958051848407,0.7726755815802206
+817,Coronavirus Recommendations,Returning From Travel,_,15,0.10743958051848407,0.7726755815802206
+816,Employer Guidelines,Quarantine,_,15,0.10743958051848407,0.7726755815802206
+815,Coronavirus Recommendations,Public Transport,what should i do if i travel by bus every day,15,0.9929058422639263,0.7726755815802206
+814,Coronavirus Recommendations,People At Risk,who are most af risk of getting hospitalized due to covid-19,15,0.9861619925720703,0.7726755815802206
+91,Coronavirus Recommendations,Mask,not unless it's halloween,15,0.998921735335157,0.7726755815802206
+808,About Coronavirus,What Do We Know About Coronavirus,How much knowledge we already have about coronavirus?,15,0.9910497269457215,0.7726755815802206
+1019,Coronavirus Recommendations,Visiting Elderly,Can I visit my older relatives during corona?,15,0.9876621981395884,0.7726755815802206
+964,About Coronavirus,Infection Of Pets,Can animals catch the virus?,15,0.9927038888505522,0.7726755815802206
+88,Coronavirus Recommendations,Actions If At Risk,send thoughts and prayers,15,0.9960554333499897,0.7726755815802206
+84,Coronavirus Recommendations,Precautions,What do I need to do if I'm going away?,15,0.9849450267186804,0.7726755815802206
+800,About Coronavirus,Incubation Period,_,15,0.10743958051848407,0.7726755815802206
+668,About Coronavirus,Latest News,what is the latest news,16,0.18810160208330962,0.34908529163773794
+673,About Coronavirus,Latest News,What’s the latest news about Corona ,16,0.3833900959967136,0.34908529163773794
+718,About Coronavirus,Latest News,"latest news, please",16,0.5990073092639807,0.34908529163773794
+301,About Coronavirus,Latest News,Latest news on Coronavirus,16,0.26367760340405105,0.34908529163773794
+804,About Coronavirus,Latest News,What are the latest news about coronavirus?,16,0.26367760340405105,0.34908529163773794
+698,About Coronavirus,Latest News,What are the latest news on Coronavirus?,16,0.26367760340405105,0.34908529163773794
+389,About Coronavirus,Latest News,The latest news re the outbreak,16,0.5301380781451638,0.34908529163773794
+230,About Coronavirus,Latest News,what are the latest news about covid19?,16,0.18810160208330962,0.34908529163773794
+846,About Coronavirus,Latest News,what are the latest covid-19 news,16,0.4619961269550112,0.34908529163773794
+1022,About Coronavirus,Mortality Rate,how many dies from it?,17,0.2721176289525523,0.5142784200138724
+1023,About Coronavirus,Mortality Rate,how many dies from it?,17,0.2721176289525523,0.5142784200138724
+1024,About Coronavirus,Mortality Rate,how many dies from the virus?_,17,0.4540994621913759,0.5142784200138724
+6,About Coronavirus,Fear,Will I die?,17,0.6596657014120244,0.5142784200138724
+858,About Coronavirus,Status,how many have died?,17,0.2721176289525523,0.5142784200138724
+675,About Coronavirus,Mortality Rate,how many percent of infecet people die,17,0.8224673227846167,0.5142784200138724
+864,About Coronavirus,Mortality Rate,how many have died worldwide?,17,0.6774491460179018,0.5142784200138724
+708,About Coronavirus,Mortality Rate,how many die of covid19,17,0.2721176289525523,0.5142784200138724
+835,About Coronavirus,Mortality Rate,how many die on average of coronavirus,17,0.7294959893778714,0.5142784200138724
+565,About Coronavirus,Mortality Rate,how many die of covid-19,17,0.5249940573179362,0.5142784200138724
+576,About Coronavirus,Mortality Rate,How many people die because of the virus?,17,0.5080262638423589,0.5142784200138724
+771,About Coronavirus,Mortality Rate,How many people die from Coronavirus?,17,0.479964539111306,0.5142784200138724
+657,About Coronavirus,Mortality Rate,How many out of a hundred people will die from Corona ,17,0.7409864623147412,0.5142784200138724
+440,Coronavirus Recommendations,Pet,I've tested positive for corona. What should I do about my pet?,18,0.4008827034522623,0.5040047335117755
+1026,Employer Guidelines,Sick Employee,What to do if your employee has tested positive for covid,18,0.6541295578081701,0.5040047335117755
+712,About Coronavirus,How Many Infected,how many have tested positive for coronavirus,18,0.7057331269456815,0.5040047335117755
+789,Coronavirus Recommendations,Pet,What to do with my pet if i am tested covid-19 positive?,18,0.356488233996344,0.5040047335117755
+850,Coronavirus Recommendations,Pet,What do I do with my pet if I have tested positive for Coronavirus / COVID-19?,18,0.38223232388626627,0.5040047335117755
+500,Coronavirus Recommendations,Pet,im positive. what about my pet?,18,0.7732182383751732,0.5040047335117755
+486,Coronavirus Recommendations,Pet,What do I do about my pet when tested positive for Corona virus ,18,0.5034483086669425,0.5040047335117755
+317,Coronavirus Recommendations,Pet,What can I do with my pet if I have tested positive for Coronavirus?,18,0.3585966216827674,0.5040047335117755
+237,Coronavirus Recommendations,Pet,what do i do with my pet if I am tested positive?,18,0.3113906230375029,0.5040047335117755
+1052,Coronavirus Recommendations,Contact With Infected,What do I do if my neighboor has been tested positive for COVID?,18,0.7865417077409184,0.5040047335117755
+217,Coronavirus Recommendations,Pet,what do i do with my pet if i am tested positive?,18,0.3113906230375029,0.5040047335117755
+905,Coronavirus Recommendations,Curfew,am i allowed out after 9?,19,0.4363710918917342,0.598707540502501
+507,Coronavirus Recommendations,Curfew,Am so allowed to leave my home ,19,0.7088642939297771,0.598707540502501
+931,Gatherings,Cancelling Gathering,are gatherings and meetings allowed?,19,0.6955303736092286,0.598707540502501
+946,Coronavirus Recommendations,Curfew,Am I allowed to go out?,19,0.554064402579264,0.598707540502501
+836,About Coronavirus,Coronavirus Versus Influenza,How does coronavirus compare to Influenza?,20,0.7240272839945121,0.6551318657189045
+547,About Coronavirus,Coronavirus Versus Influenza,Are coronavirus and influenza the same virus?,20,0.5446512787898566,0.6551318657189045
+67,About Coronavirus,Coronavirus Versus Influenza,are there any resemblances between coronavirus and influenza?  ,20,0.724027283994512,0.6551318657189045
+450,About Coronavirus,Coronavirus Versus Influenza,Isn't corona and influenza just the same thing?,20,0.7783269318877464,0.6551318657189045
+697,About Coronavirus,Coronavirus Versus Influenza,Is coronavirus equal to Influenza?,20,0.7072152338778995,0.6551318657189045
+355,About Coronavirus,Coronavirus Versus Influenza,is coronavirus the same that influenza?,20,0.3927131182775197,0.6551318657189045
+679,About Coronavirus,Coronavirus Versus Influenza,Is Corona similar to influenza,20,0.7783269318877464,0.6551318657189045
+362,About Coronavirus,Coronavirus Versus Influenza,are Covid-19 and influenza the same?,20,0.6367461335427024,0.6551318657189045
+803,About Coronavirus,Coronavirus Versus Influenza,Is coronavirus same as influenza?,20,0.3927131182775197,0.6551318657189045
+1040,About Coronavirus,Coronavirus Versus Influenza,"I'm confused, I don't know if corona is related to influenza. Is it the same?",20,0.8725713426590302,0.6551318657189045
+332,Coronavirus Recommendations,Pregnant,"I'm pregnant, what are my precautions?",21,0.6590657103131465,0.6064484798472957
+324,Coronavirus Recommendations,Pregnant,What can I do if I am pregnant?,21,0.3456799365126444,0.6064484798472957
+753,Coronavirus Recommendations,Pregnant,What to do if i am pregnant?,21,0.3456799365126444,0.6064484798472957
+489,Coronavirus Recommendations,Pregnant,I am pregnant what to do to protect myself ,21,0.6159342063864639,0.6064484798472957
+605,Coronavirus Recommendations,Pregnant,"I am pregnant, what shall I do to protect myself from the virus?",21,0.7669192321105351,0.6064484798472957
+505,Coronavirus Recommendations,Pregnant,what do i do if im pregnant,21,0.6776553571061067,0.6064484798472957
+220,Coronavirus Recommendations,Pregnant,what do i do if being pregnant?,21,0.3456799365126444,0.6064484798472957
+728,Coronavirus Recommendations,Pregnant,should i take extra precautions if im pregnant,21,0.8629018517743586,0.6064484798472957
+1008,Coronavirus Recommendations,Pregnant,What do I do if I’m pregnant? Is corona virus dangerous for me? ,21,0.7958344147141319,0.6064484798472957
+106,Coronavirus Recommendations,Pregnant,What should I do if I am pregnant?,21,0.3456799365126444,0.6064484798472957
+80,Coronavirus Recommendations,Pregnant,Should I be isolating if I am pregnant?,21,0.7918336550120316,0.6064484798472957
+709,Coronavirus Recommendations,Pregnant,How should I behave if I am pregnant,21,0.7245175847001962,0.6064484798472957
+592,Coronavirus Recommendations,Public Spaces,What do you recommend when taking public transport ,22,0.4160680695191198,0.4160680695191198
+794,Coronavirus Recommendations,Public Transport,Is public transport working?,22,0.4160680695191198,0.4160680695191198
+544,About Coronavirus,Treatment,How can the Covid 19 been treated?,23,0.0,0.0
+345,About Coronavirus,Treatment,How is Covid-19 treated?,23,0.0,0.0
+620,Coronavirus Recommendations,Closed Shops,What shops are closed during Coronavirus pandemic?,24,0.5580494418170723,0.4580632688657999
+498,Coronavirus Recommendations,Closed Shops,What shops has been closed during the lockdown  ,24,0.5966428777585763,0.4580632688657999
+517,Coronavirus Recommendations,Closed Shops,which shops are closed?,24,0.2567380032595281,0.4580632688657999
+433,Coronavirus Recommendations,Closed Shops,Which shops are still closed?,24,0.49209296790794854,0.4580632688657999
+241,Coronavirus Recommendations,Closed Shops,which shops are closed these days?,24,0.5881183191921459,0.4580632688657999
+721,Coronavirus Recommendations,Closed Shops,which shops will close?,24,0.2567380032595281,0.4580632688657999
+852,Coronavirus Recommendations,Actions If At Risk,What precautions should I take if I am part of a risk group?,25,0.0,0.0
+716,About Coronavirus,Status,what is the status for the coronavirus outbreak,26,0.33716989807543396,0.33716989807543396
+714,About Coronavirus,Status,what is the current status for the outbreak,26,0.33716989807543396,0.33716989807543396
+501,Coronavirus Recommendations,Sick Child,What do I do if my child gets sick ,27,0.35272217803906886,0.4645298323745001
+444,Coronavirus Recommendations,Sick Child,"My child is sick, should I be doing something in particular?",27,0.725019590546509,0.4645298323745001
+622,Coronavirus Recommendations,Sick Child,"My child is sick, what shall I do? ",27,0.5644633132859876,0.4645298323745001
+258,Coronavirus Recommendations,Sick Child,What can I do if my child is sick?,27,0.32772190196186635,0.4645298323745001
+737,Coronavirus Recommendations,Sick Child,What can I do if my child gets sick?,27,0.35272217803906886,0.4645298323745001
+188,Employer Guidelines,Vacation,can agreed vacation be changed if an employee cant take vacation due to coronavirus,28,0.5638777353694078,0.4776863090522456
+280,Employer Guidelines,Vacation,Can an employee change vacation due to Coronavirus?,28,0.3328223387227546,0.4776863090522456
+539,Employer Guidelines,Vacation,can i change my employee's vacation to now?,28,0.5069536244803163,0.4776863090522456
+423,Employer Guidelines,Vacation,Can scheduled vacation be changed if an employee is prevented from taking their vacation due to travel restrictions and such?,28,0.5887281356941754,0.4776863090522456
+741,Employer Guidelines,Vacation,Does my vacation will changed due to coronavirus?,28,0.38080572163545384,0.4776863090522456
+409,Employer Guidelines,Vacation,Can I change my vacation schedule due to coronavirus,28,0.4929302984113657,0.4776863090522456
+215,Coronavirus Recommendations,Infection Prevention,how can i prevent getting infected,29,0.3547920040953849,0.5485275542444871
+40,Coronavirus Recommendations,Precautions,how can i prevent getting corona while travelling?,29,0.7286831320593314,0.5485275542444871
+497,Coronavirus Recommendations,Infection Prevention,ho to prevent infection,29,0.7137000973541708,0.5485275542444871
+315,Coronavirus Recommendations,Infection Prevention,How can I prevent to be infected?,29,0.38833391337343515,0.5485275542444871
+55,Coronavirus Recommendations,Infection Prevention,how can I prevent getting infected with coronavirus?,29,0.4223690933620264,0.5485275542444871
+616,Coronavirus Recommendations,Employer,how do i prevent my employees from getting infected,29,0.4875174040689425,0.5485275542444871
+822,Coronavirus Recommendations,Actions At Home,What steps I can take at home to prevent coronavirus infection?,29,0.7604644834837925,0.5485275542444871
+527,Coronavirus Recommendations,Actions At Home,what can i do at home to prevent being infected,29,0.5323603061588131,0.5485275542444871
+391,Coronavirus Recommendations,Public Spaces,What are the recommendations for entering a public space?,30,0.580685783274062,0.5591162077908979
+481,Coronavirus Recommendations,Public Spaces,How should I behave in the public space?,30,0.5288132320413307,0.5591162077908979
+461,Coronavirus Recommendations,Public Spaces,Should I be doing anything in particular when I'm in public spaces?,30,0.5678496080573011,0.5591162077908979
+320,Coronavirus Recommendations,Infection Prevention,Please tell me how I can avoid infection?,31,0.7384941035368354,0.6631783925160887
+859,About Coronavirus,Strategy,should i avoid people?,31,0.566417024315132,0.6631783925160887
+484,Coronavirus Recommendations,Infection Prevention,How do I best avoid to be infected ,31,0.7136134077005578,0.6631783925160887
+848,Coronavirus Recommendations,Infection Prevention,What guidelines do I have to follow to avoid being infected?,31,0.7851240381326321,0.6631783925160887
+967,Coronavirus Recommendations,Public Spaces,Should I avoid people when I am outside? ,31,0.7134341791715837,0.6631783925160887
+35,Coronavirus Recommendations,Actions If At Risk,who should I avoid to not get corona?,31,0.6614225499990802,0.6631783925160887
+15,Coronavirus Recommendations,Infection Prevention,how can I avoid being infected?,31,0.46374344475679935,0.6631783925160887
+857,About Coronavirus,Latest News,did the government close the borders?,32,0.0,0.0
+962,About Coronavirus,Testing,Should I get my grandfather tested?,33,0.7212972918136377,0.47889504629375873
+912,About Coronavirus,Testing,should everyone get tested,33,0.7020066230112614,0.47889504629375873
+228,About Coronavirus,Testing,who should get a test?,33,0.27501822446786295,0.47889504629375873
+878,Coronavirus Recommendations,Doctor,should i get tested for corona? ,33,0.46480571240462676,0.47889504629375873
+330,About Coronavirus,Testing,who should get tested,33,0.27501822446786295,0.47889504629375873
+977,About Coronavirus,Testing,Who gets tested for the coronavirus?,33,0.4352242015973008,0.47889504629375873
+944,Coronavirus Recommendations,Sick Child,My kid may be sick from corona. What should I do?,34,0.5645135310152305,0.37634235401015365
+519,Coronavirus Recommendations,Sick Child,my kid is sick.. what should i do,34,0.2822567655076153,0.37634235401015365
+176,Coronavirus Recommendations,Sick Child,what do i do if my kid is sick,34,0.2822567655076153,0.37634235401015365
+490,Coronavirus Recommendations,Children,Is children especially at risk catching Corona ,35,0.4503229211426274,0.48944203090546806
+487,Coronavirus Recommendations,People At Risk,Who is especially at risk for catching Corona and get ill ,35,0.47576418434759904,0.48944203090546806
+319,Coronavirus Recommendations,People At Risk,Who are especially at risk of infection?,35,0.5422389872261778,0.48944203090546806
+359,About Coronavirus,What Do We Know About Coronavirus,what do we know about Covid-19?,36,0.27744153244940967,0.36992204326587946
+652,About Coronavirus,What Do We Know About Coronavirus,what do we know abt covid-19,36,0.5548830648988191,0.36992204326587946
+809,About Coronavirus,What Do We Know About Coronavirus,What do you know about covid-19?,36,0.27744153244940967,0.36992204326587946
+58,About Coronavirus,Status,what's the current status of covid 19? ,37,0.31264845145239284,0.31264845145239284
+108,About Coronavirus,Status,Status of COVID-19,37,0.3126484514523929,0.31264845145239284
+677,Coronavirus Recommendations,Pet,can i take care of my pet if i get coronavirus,38,0.6655412821553145,0.3327706410776573
+477,About Coronavirus,Infection Of Pets,Can pets get infected with Coronavirus?,38,0.2218470940517715,0.3327706410776573
+775,About Coronavirus,Infection Of Pets,Can pets get infected by coronavirus?,38,0.2218470940517715,0.3327706410776573
+310,About Coronavirus,Infection Of Pets,Can my pet get infected by Coronavirus?,38,0.2218470940517715,0.3327706410776573
+426,Contact,Hotline,I'd like to contact the coronavirus hotline,39,0.0,0.0
+295,Coronavirus Recommendations,Employer,What can I do to protect my employees?,40,0.21155581664505654,0.3797556643219718
+840,Coronavirus Recommendations,Employer,What are the steps to protect employees during coronavirus?,40,0.6973043138241681,0.3797556643219718
+624,Coronavirus Recommendations,Employer,What do I do to protect my employees from Corona ,40,0.4257636355773843,0.3797556643219718
+604,Coronavirus Recommendations,Infection Prevention,How can I protect myself?,40,0.5207985865951089,0.3797556643219718
+435,Coronavirus Recommendations,Employer,What can I do to protect my employees?,40,0.21155581664505654,0.3797556643219718
+782,Coronavirus Recommendations,Employer,How can i protect my employees?,40,0.21155581664505654,0.3797556643219718
+766,About Coronavirus,What Is Coronavirus,What does coronavirus mean?,41,0.5718947351222466,0.4596787887066475
+346,About Coronavirus,Pandemic,What does pandemic mean?,41,0.28938541706506976,0.4596787887066475
+763,About Coronavirus,Pandemic,What a pandemic mean?,41,0.28938541706506976,0.4596787887066475
+168,About Coronavirus,Pandemic,What does it mean when it says pandemic?,41,0.5477916380476621,0.4596787887066475
+863,About Coronavirus,Pandemic,pnademic what does it mean,41,0.7702301078747672,0.4596787887066475
+655,About Coronavirus,Pandemic,What does pandemic means ,41,0.28938541706506976,0.4596787887066475
+401,Coronavirus Recommendations,Health Authority Recommendations,What is the recommendations of the Board of Health?,42,0.8239701441867824,0.4656229002857259
+112,Coronavirus Recommendations,Health Authority Recommendations,What are the recommendations of our health authorities?,42,0.20899926554677115,0.4656229002857259
+480,Coronavirus Recommendations,Health Authority Recommendations,What are the recommendations of Health Authority?,42,0.20899926554677115,0.4656229002857259
+986,Coronavirus Recommendations,Health Authority Recommendations,What are the health recommendations for coronavirus?,42,0.6634890454385499,0.4656229002857259
+778,Coronavirus Recommendations,Health Authority Recommendations,What Health authorities recommends?,42,0.20899926554677115,0.4656229002857259
+338,Coronavirus Recommendations,Health Authority Recommendations,what do the health authorities command,42,0.7496913512898222,0.4656229002857259
+208,Coronavirus Recommendations,Health Authority Recommendations,what are the recommendations by the authorities,42,0.6503489314172148,0.4656229002857259
+460,Coronavirus Recommendations,Health Authority Recommendations,What does the health authority recommend?,42,0.20899926554677115,0.4656229002857259
+575,Coronavirus Recommendations,Health Authority Recommendations,what does the health authority reccomend,42,0.7237332027910338,0.4656229002857259
+314,Coronavirus Recommendations,Health Authority Recommendations,What are the Health Authority recommendations?,42,0.20899926554677115,0.4656229002857259
+263,Coronavirus Recommendations,Visiting Elderly,Can I visit elderly people?,43,0.3867921548086766,0.54962500213923
+643,Coronavirus Recommendations,Visiting Elderly,Can I visit my elders?,43,0.4127281380106926,0.54962500213923
+180,Coronavirus Recommendations,Visiting Elderly,can i still visit elderly in their home ,43,0.5118106026413219,0.54962500213923
+876,Coronavirus Recommendations,Visiting Elderly,can i still visit elderly family,43,0.6487440229933457,0.54962500213923
+827,Coronavirus Recommendations,Visiting Elderly,Are visits to homes of elderly people or care houses banned?,43,0.7267552341473399,0.54962500213923
+632,Coronavirus Recommendations,Visiting Elderly,Is it safe to visit elderly people in their homes or carehouses?,43,0.6683082805494157,0.54962500213923
+793,Coronavirus Recommendations,Visiting Elderly,Can i go to visit elderly people?,43,0.49223658182381713,0.54962500213923
+376,Employer Guidelines,Quarantine,"What do I do as an employer, when one of my employees is in quarantine",44,0.5195561102339596,0.5805387797008242
+685,Employer Guidelines,Quarantine,What is the procedure if one of my employees is under quarantine? ,44,0.5890610350316033,0.5805387797008242
+688,Employer Guidelines,Quarantine,One of my employees is lockdown under quarantine. How do I manage the situation?,44,0.7162079266902631,0.5805387797008242
+727,Employer Guidelines,Quarantine,one of my employees have been put inder quarantine. now what,44,0.6990915208803623,0.5805387797008242
+284,Employer Guidelines,Quarantine,What can I do if one of my employees is under quarantine?,44,0.37877730566793305,0.5805387797008242
+607,Coronavirus Recommendations,Children,Are children at higher risk of Coronavirus?,45,0.6602356972914938,0.26409427891659754
+107,Coronavirus Recommendations,Children,Are children at risk from this?,45,0.16505892432287345,0.26409427891659754
+325,Coronavirus Recommendations,Children,are children at risk?,45,0.16505892432287345,0.26409427891659754
+81,Coronavirus Recommendations,Children,What is the risk to my children?,45,0.16505892432287345,0.26409427891659754
+756,Coronavirus Recommendations,Children,Does my children are in risk?,45,0.16505892432287345,0.26409427891659754
+313,About Coronavirus,How Many Infected,How many have been infected by Coronavirus?,46,0.44487609358156366,0.5902441864168313
+777,About Coronavirus,How Many Infected,How many people have been infected with Coronavirus?,46,0.43362558902667164,0.5902441864168313
+207,About Coronavirus,How Many Infected,how many people are infected with coronvirus ,46,0.706102605592161,0.5902441864168313
+586,About Coronavirus,How Many Infected,How many people are infected by Corona in Denmark ,46,0.6874824312247614,0.5902441864168313
+400,About Coronavirus,How Many Infected,How many has been infected by the corona?,46,0.5317908470055794,0.5902441864168313
+574,About Coronavirus,How Many Infected,how many have had coronavirus,46,0.6108968630571796,0.5902441864168313
+747,Gatherings,Arranging Gathering,What to do if i am organising a gathering of many people?,46,0.8620391131916556,0.5902441864168313
+837,About Coronavirus,How Many Infected,how many infected?,46,0.4451399486550781,0.5902441864168313
+157,Coronavirus Recommendations,Curfew,When is curfew?,47,0.19762586087906392,0.3820946576134278
+768,Coronavirus Recommendations,Curfew,Is there a curfew now?,47,0.19762586087906392,0.3820946576134278
+680,Coronavirus Recommendations,Curfew,is there currently a curfew,47,0.6358843163484443,0.3820946576134278
+178,Coronavirus Recommendations,Curfew,is there a curfew,47,0.19762586087906392,0.3820946576134278
+474,Coronavirus Recommendations,Curfew,Is there a curfew?,47,0.19762586087906392,0.3820946576134278
+370,Coronavirus Recommendations,Curfew,Has the curfew been set in place?,47,0.8777150263688737,0.3820946576134278
+917,Coronavirus Recommendations,Curfew,are we allowed to go out there? is there any curfew?,47,0.7394974105291484,0.3820946576134278
+521,Coronavirus Recommendations,Curfew,is there a curfew,47,0.19762586087906392,0.3820946576134278
+802,Coronavirus Recommendations,Curfew,Is a curfew on?,47,0.19762586087906392,0.3820946576134278
+98,Employer Guidelines,Vacation,yes,48,0.1846185603096351,0.29538969649541613
+148,Coronavirus Recommendations,Student,yes,48,0.1846185603096351,0.29538969649541613
+92,Coronavirus Recommendations,Swimming Hall,yes,48,0.1846185603096351,0.29538969649541613
+90,Coronavirus Recommendations,Children,"yes, as their parents WILL die",48,0.7384742412385403,0.29538969649541613
+120,Coronavirus Recommendations,Contact With Infected,Yes,48,0.1846185603096351,0.29538969649541613
+516,Coronavirus Recommendations,Postponed Surgeries,what kinds of surgeries are being postponed,49,0.384874274144544,0.5928375761382866
+194,Coronavirus Recommendations,Postponed Surgeries,what kind of surgery is being postponed,49,0.384874274144544,0.5928375761382866
+432,Coronavirus Recommendations,Postponed Surgeries,"I was scheduled to have rhinoplasty, are those kinds of surgeries postponed?",49,0.6577871396692185,0.5928375761382866
+337,Coronavirus Recommendations,Postponed Surgeries,I would like to know which surgeries have been postponed,49,0.7591963361262343,0.5928375761382866
+820,Coronavirus Recommendations,Postponed Surgeries,What surgeries are postponed because of coronavirus?,49,0.5320050586691217,0.5928375761382866
+1029,Employer Guidelines,Vacation,Can i postpone my vacation,49,0.8418031278972263,0.5928375761382866
+798,Coronavirus Recommendations,Postponed Surgeries,What kinds of surgeries are postponed for the future?,49,0.589322822317117,0.5928375761382866
+226,Coronavirus Recommendations,Returning From Travel,what do I do if i am returning from abroad?,50,0.23149506556690627,0.2314950655669063
+334,Coronavirus Recommendations,Returning From Travel,What can I do if I am returning from travelling abroad?,50,0.23149506556690633,0.2314950655669063
+526,Coronavirus Recommendations,Public Transport,what should i do if i use public transportation,51,0.2503044315927277,0.4342249089794913
+247,Coronavirus Recommendations,Public Transport,is it a bad idea to use public transport,51,0.6716794909309016,0.4342249089794913
+513,Coronavirus Recommendations,Public Transport,Can I use public transport ,51,0.2503044315927277,0.4342249089794913
+792,Coronavirus Recommendations,Public Transport,Can I use public transportation during the coronavirus outbreak?,51,0.43172634054187037,0.4342249089794913
+417,Coronavirus Recommendations,Public Transport,Is it fine if I use public transport?,51,0.5717385390653472,0.4342249089794913
+373,Coronavirus Recommendations,Public Transport,How can public transportation be used during the outbreak?,51,0.38593946780460403,0.4342249089794913
+1049,Coronavirus Recommendations,Public Transport,What are the rules for using the public transport?,51,0.4778816613282606,0.4342249089794913
+146,About Coronavirus,Fear,really much,52,0.5767581204470225,0.5766027629137273
+935,Coronavirus Recommendations,Illness,"I have some symptoms, how do I really know if I've got it?",52,0.6317279630452194,0.5766027629137273
+609,Coronavirus Recommendations,People At Risk,Who are really at risk?,52,0.5213222052489399,0.5766027629137273
+562,Coronavirus Recommendations,Citizen,"I want to be a good citizen, what can I do to limit the spread of the virus",53,0.490842358631347,0.49084235863134695
+335,Coronavirus Recommendations,Citizen,what can I do as a citizen to avoid spreading the virus,53,0.4908423586313469,0.49084235863134695
+281,Coronavirus Recommendations,Citizen,How can I as a citizen do to minimize the spread of corona virus?,54,0.5448526499070746,0.37471650656168204
+296,Coronavirus Recommendations,Citizen,How can I minimize the spread of Coronavirus?,54,0.3093479614641987,0.37471650656168204
+482,Coronavirus Recommendations,Citizen,How do I minimize the spread of Coronavirus,54,0.3093479614641987,0.37471650656168204
+648,Coronavirus Recommendations,Citizen,what can i do to minimize spreading the virus,54,0.33531745341125613,0.37471650656168204
+774,About Coronavirus,Infection Through Food,Is it possible to get infected with coronavirus with food?,55,0.09807844310478303,0.13077125747304405
+476,About Coronavirus,Infection Through Food,Is it possible to get infected with Coronavirus through food?,55,0.09807844310478303,0.13077125747304405
+396,About Coronavirus,Infection Through Food,Is it possible to get infected through food?,55,0.19615688620956606,0.13077125747304405
+1044,Coronavirus Recommendations,Public Spaces,can I go out?,56,0.3682986118075165,0.5309537479013128
+1050,Coronavirus Recommendations,Curfew,can I go out?,56,0.3682986118075165,0.5309537479013128
+988,Coronavirus Recommendations,Illness,can I go to the hospital? ,56,0.7002202787300565,0.5309537479013128
+1025,Coronavirus Recommendations,Student,Should i go to school?,56,0.6869974892601616,0.5309537479013128
+1045,Contact,Hotline,can I get in touch with a human?,57,0.5651239326316866,0.5349472150737392
+393,Coronavirus Recommendations,Contact With Infected,I have been close to a human who has been tested corona positive. What to do?,57,0.6054956400159196,0.5349472150737392
+87,Coronavirus Recommendations,People At Risk,all humans,57,0.43422207257361156,0.5349472150737392
+222,Coronavirus Recommendations,Mask,am i supposed to wear a mask?,58,0.5670772068655002,0.6476135990323926
+610,Coronavirus Recommendations,Mask,Shall I wear a face mask in the public places?,58,0.8415412780661728,0.6476135990323926
+619,Coronavirus Recommendations,Mask,Must a wear a mask?,58,0.6876381453485731,0.6476135990323926
+348,Coronavirus Recommendations,Mask,Do I need to wear a mask?,58,0.5455494640765756,0.6476135990323926
+326,Coronavirus Recommendations,Mask,should I be wearing a mask?,58,0.3390386313160019,0.6476135990323926
+508,Coronavirus Recommendations,Mask,am i supposed to wear a mask,58,0.5670772068655002,0.6476135990323926
+870,Coronavirus Recommendations,Public Spaces,should i wear mask and gloves,58,0.6876381453485731,0.6476135990323926
+233,Coronavirus Recommendations,Mask,is it really necessary to wear a mask?,58,0.7745767082261323,0.6476135990323926
+428,Coronavirus Recommendations,Mask,"I see everyone wearing masks nowadays, is that something I should be doing?",58,0.870713482341694,0.6476135990323926
+18,Coronavirus Recommendations,Mask,should I be wearing a mask when I am outside?,58,0.6277875541434175,0.6476135990323926
+82,Coronavirus Recommendations,Mask,Should we be wearing N95 masks to protect us?,58,0.717618487322544,0.6476135990323926
+38,Coronavirus Recommendations,Mask,should I wear a mask every time I go out?,58,0.7799579690661652,0.6476135990323926
+757,Coronavirus Recommendations,Mask,Should i wear a mask?,58,0.3390386313160019,0.6476135990323926
+491,Coronavirus Recommendations,Mask,Do I have to wear a mask to avoid catching Corona ,58,0.7213374761506431,0.6476135990323926
+95,Employer Guidelines,Sick Employee,fire them immediately.,59,0.0,0.0
+96,Employer Guidelines,Refusal To Work,fire them immediately.,59,0.0,0.0
+236,Coronavirus Recommendations,Swimming Hall,If I swim in a public swimming pool am I then puttingmyself at risk,60,0.4333634920026238,0.4333634920026238
+364,Coronavirus Recommendations,Swimming Hall,i usually swim in a indoor swimming pool. Am I at risk,60,0.43336349200262375,0.4333634920026238
+767,Coronavirus Recommendations,Purchasing Groceries,Can i still do the groceries?,61,0.4780354503856186,0.5967563718483734
+156,Coronavirus Recommendations,Purchasing Groceries,Is it safe to go to the grocery store?,61,0.6912728227089271,0.5967563718483734
+259,Coronavirus Recommendations,Purchasing Groceries,Can I purchase groceries?,61,0.781593918449109,0.5967563718483734
+715,Coronavirus Recommendations,Purchasing Groceries,can i still get groceries,61,0.5388465581075501,0.5967563718483734
+413,Coronavirus Recommendations,Purchasing Groceries,Can I still go to the grocery store?,61,0.494033109590662,0.5967563718483734
+270,Coronavirus Recommendations,Student,What are the recommendations for the students during COVID-19?,62,0.6816069438578577,0.7007982769348986
+523,Coronavirus Recommendations,Student,I am a student what do I do about exams ,62,0.7696639817440727,0.7007982769348986
+250,Coronavirus Recommendations,Student,"i am a student, how will you advice me in these times?",62,0.8335093262484774,0.7007982769348986
+733,Coronavirus Recommendations,Student,If i am a student will i have classes?,62,0.7545339649072712,0.7007982769348986
+813,Coronavirus Recommendations,Student,What should students do during coronavirus?,62,0.5467688894952811,0.7007982769348986
+530,Coronavirus Recommendations,Student,what am i suppsed to do - im a student,62,0.8315913945270493,0.7007982769348986
+923,Coronavirus Recommendations,Student,what am I supposed to do as a student?,62,0.7082204394352898,0.7007982769348986
+661,Coronavirus Recommendations,Student,As an student... what are the recommendations for me during the crisis?,62,0.7478302873420934,0.7007982769348986
+420,Coronavirus Recommendations,Student,"As a student, what can I do?",62,0.43345926485669506,0.7007982769348986
+682,Coronavirus Recommendations,Closed Shops,are electronic stores closed due to coronavirus,63,0.6301072548060088,0.5775606668506345
+717,Coronavirus Recommendations,Closed Shops,will regular stores close due to covid-19,63,0.6178396750132605,0.5775606668506345
+154,Coronavirus Recommendations,Closed Shops,What's stores are closed?,63,0.4591558839303841,0.5775606668506345
+195,Coronavirus Recommendations,Closed Shops,what kind of stores are closed due to covid19,63,0.5496615586304607,0.5775606668506345
+630,Coronavirus Recommendations,Closed Shops,what stores are closed during the pandemic?,63,0.590759953710432,0.5775606668506345
+711,Coronavirus Recommendations,Closed Shops,will variety stores close due to covid-19,63,0.6178396750132605,0.5775606668506345
+856,About Coronavirus,Coronavirus Versus Influenza,is it more serious than the flu?,64,0.6043480964033886,0.4333887750962304
+799,About Coronavirus,Fear,How serious i should be about coronavirus?,64,0.2894048826844954,0.4333887750962304
+469,About Coronavirus,Fear,How serious we should be about Coronavirus?,64,0.2894048826844954,0.4333887750962304
+166,About Coronavirus,Fear,Is coronavirus so serious? How worried should I be?,64,0.5503972386125422,0.4333887750962304
+525,Employer Guidelines,Sick Employee,What do I do if one of my employees has Corona ,65,0.49765180257612746,0.588244669301519
+644,Employer Guidelines,Sick Employee,What shall I do if one of my employees got infected?,65,0.6783362170861958,0.588244669301519
+22,Employer Guidelines,Sick Employee,what should I do as one of my employees are sick?,65,0.607909633184165,0.588244669301519
+271,Employer Guidelines,Sick Employee,What can I do if one of my employees has been infected?,65,0.3859770165503353,0.588244669301519
+734,Employer Guidelines,Sick Employee,What to do if my employee is infected?,65,0.7388878134131046,0.588244669301519
+998,Employer Guidelines,Sick Employee,One of my employees has corona. What do I need to do about it?,65,0.6207055329991855,0.588244669301519
+174,About Coronavirus,Latest News,Send me information on corona virus,66,0.8241577256568537,0.6137998444325042
+34,Coronavirus Recommendations,People At Risk,who is at risk of getting corona virus?,66,0.6654613217506097,0.6137998444325042
+551,About Coronavirus,Latest News,Tell me the latest updates about the corona virus,66,0.8098431148941242,0.6137998444325042
+954,About Coronavirus,What Do We Know About Coronavirus,What can you tell me about the corona virus?,66,0.5982637438758901,0.6137998444325042
+1011,Coronavirus Recommendations,Precautions,What to do if I have to travel during corona virus!,66,0.6175742548282137,0.6137998444325042
+536,About Coronavirus,What Is Coronavirus,What is the corona virus?,66,0.3906493750109191,0.6137998444325042
+968,About Coronavirus,What Is Coronavirus,Is corona a virus?,66,0.3906493750109191,0.6137998444325042
+69,About Coronavirus,Methods of Transmission,how can i get infected with Coronavirus? ,67,0.4365510598683217,0.5936066031482243
+311,About Coronavirus,Infected Twice,Can I get infected more than once?,67,0.31360501182212275,0.5936066031482243
+676,About Coronavirus,Methods of Transmission,How do you get infected by Corona ,67,0.5490340940067661,0.5936066031482243
+221,Coronavirus Recommendations,Children,are kids in a high risk getting infected?,67,0.8742220577204779,0.5936066031482243
+147,About Coronavirus,Methods of Transmission,how do i get it?,67,0.7369883790919121,0.5936066031482243
+638,Coronavirus Recommendations,Actions At Home,What can I do at home not to get infected?,67,0.639405193176714,0.5936066031482243
+594,Coronavirus Recommendations,Infection Prevention,How can protected myself and not get infected? ,67,0.6775305063021358,0.5936066031482243
+786,Coronavirus Recommendations,Infection Prevention,What can i do to not get infected?,67,0.31360501182212275,0.5936066031482243
+600,Coronavirus Recommendations,People At Risk,Who is at risk of getting infected and suffering from coronavirus?,67,0.8169850868981686,0.5936066031482243
+1046,About Coronavirus,Infected Twice,can I be infected again?_,67,0.7351951740534043,0.5936066031482243
+478,About Coronavirus,Infected Twice,Can I get infected more than once with coronavirus?,67,0.4365510598683217,0.5936066031482243
+5,About Coronavirus,Testing,Who should be tested?,68,0.24300094564743938,0.4523247749236686
+557,About Coronavirus,Testing,who is being tested,68,0.24300094564743938,0.4523247749236686
+465,About Coronavirus,Testing,Who is eligible for coronavirus test?,68,0.8529337866210935,0.4523247749236686
+110,About Coronavirus,Testing,Who should be tested?,68,0.24300094564743938,0.4523247749236686
+564,About Coronavirus,Testing,What people should be tested?,68,0.6289162276100377,0.4523247749236686
+304,About Coronavirus,Testing,Who should be tested?,68,0.24300094564743938,0.4523247749236686
+797,About Coronavirus,Testing,Who should be tested against coronavirus?,68,0.4835006537796025,0.4523247749236686
+404,About Coronavirus,Testing,Who should be tested?,68,0.24300094564743938,0.4523247749236686
+60,About Coronavirus,Testing,can anyone be tested for corona`,68,0.8256856120258511,0.4523247749236686
+637,About Coronavirus,Testing,Who has to be tested for Corona ,68,0.5172067409629051,0.4523247749236686
+572,About Coronavirus,Strategy,what is the current strategy,69,0.2855856354612247,0.5136179705693853
+303,About Coronavirus,Strategy,What is the current strategy for COVID-19?,69,0.49280635918248167,0.5136179705693853
+299,About Coronavirus,Strategy,what is the current strategy in my state,69,0.6679886405721702,0.5136179705693853
+446,About Coronavirus,Strategy,Is there a current strategy from the government?,69,0.5041988446697411,0.5136179705693853
+403,About Coronavirus,Strategy,What is the current strategy?,69,0.2855856354612247,0.5136179705693853
+796,About Coronavirus,Strategy,What is the strategy against coronavirus?,69,0.6440075289163507,0.5136179705693853
+633,About Coronavirus,Strategy,What’s the current strategy to prevent Corona from spreading ,69,0.7041888970463297,0.5136179705693853
+558,About Coronavirus,Strategy,What is the strategy now?,69,0.5720206747421923,0.5136179705693853
+109,About Coronavirus,Strategy,What is the current strategy,69,0.2855856354612247,0.5136179705693853
+456,About Coronavirus,Strategy,What is the government's current strategy regarding Coronavirus?,69,0.6942118541809131,0.5136179705693853
+579,About Coronavirus,Infection Through Food,Can I get the virus from the food I eat?,70,0.4613429832652395,0.5092119097702206
+1039,About Coronavirus,Infection Through Food,Can I get the virus eating?,70,0.4509946341828293,0.5092119097702206
+204,About Coronavirus,Infection Through Food,can i get infected eating food?,70,0.46279407227503777,0.5092119097702206
+937,About Coronavirus,Infection Through Food,Can I get infected by eating?,70,0.4465302411546112,0.5092119097702206
+659,About Coronavirus,Infection Through Food,Can you get Corona from eating take away ,70,0.7243976179733852,0.5092119097702206
+321,Coronavirus Recommendations,Actions If At Risk,What can I do if I am a part of an at risk group?,71,0.16248579328928123,0.24372868993392185
+329,Coronavirus Recommendations,Actions If At Risk,How should I react if I'm part of the risk groups? ,71,0.4874573798678437,0.24372868993392185
+722,Coronavirus Recommendations,Actions If At Risk,what should i do if i'm part of an at risk group,71,0.16248579328928123,0.24372868993392185
+791,Coronavirus Recommendations,Actions If At Risk,What to do if i am a part of the risk group?,71,0.16248579328928123,0.24372868993392185
+580,Coronavirus Recommendations,Illness,im sick!!! what am a supposed to do?,72,0.6486705788697423,0.4324470525798283
+504,Coronavirus Recommendations,Actions If At Risk,im at risk.. what do i do,72,0.3243352894348712,0.4324470525798283
+496,Coronavirus Recommendations,Not At Risk,im not at risk. what do i do,72,0.3243352894348712,0.4324470525798283
+617,Coronavirus Recommendations,Postponed Surgeries,What types of surgeries have been postponed by hospitals?,73,0.3628895516939777,0.2419263677959852
+762,Coronavirus Recommendations,Postponed Surgeries,What type of surgeries has been postponed?,73,0.18144477584698893,0.2419263677959852
+366,Coronavirus Recommendations,Postponed Surgeries,What are the types of surgeries that has been postponed?,73,0.18144477584698893,0.2419263677959852
+950,Coronavirus Recommendations,Actions At Home,How can we prevent the virus to spread in our household? ,74,0.5500824778145997,0.5615321082091427
+31,Gatherings,Gathering Precautions,Is there anyhting I can do to prevent spread of the virus during my party?,74,0.5933084470366239,0.5615321082091427
+921,Coronavirus Recommendations,Actions At Home,what can we do here to prevent the spread of it? at home?,74,0.5412053997762045,0.5615321082091427
+886,Coronavirus Recommendations,Pet,can my bird catch the corona if i have it,75,0.5683446373843811,0.3788964249229207
+701,About Coronavirus,Methods of Transmission,How do you catch Corona _,75,0.2841723186921905,0.3788964249229207
+583,About Coronavirus,Infected Twice,Can you catch Corona more than once ,75,0.2841723186921905,0.3788964249229207
+735,Coronavirus Recommendations,Curfew,Has been a curfew introduced already?,76,0.23634163592096194,0.236341635920962
+627,Coronavirus Recommendations,Curfew,Have the authorities introduced a curfew already?,76,0.23634163592096205,0.236341635920962
+64,Coronavirus Recommendations,Illness,what should I do if I feel sick?,77,0.42273666162427526,0.42273666162427526
+167,About Coronavirus,Incubation Period,How long does it take for me to feel sick after I catch coronavirus?,77,0.42273666162427526,0.42273666162427526
+561,About Coronavirus,Incubation Period,whats the incubation period,78,0.49568289818552863,0.4184752858111086
+306,About Coronavirus,Incubation Period,What is the incubation period of COVID-19?,78,0.3983218242133657,0.4184752858111086
+470,About Coronavirus,Incubation Period,What is the incubation period of Coronavirus?,78,0.33910667333145067,0.4184752858111086
+672,About Coronavirus,Incubation Period,tell me about the incubation period,78,0.4407897475140895,0.4184752858111086
+331,Coronavirus Recommendations,Precautions,What precautions do I need to take if I am going travelling?,79,0.40903200934143286,0.5866228062256146
+238,Coronavirus Recommendations,Precautions,"i'm going travelling, do I need to take any precautions?",79,0.40903200934143286,0.5866228062256146
+430,Coronavirus Recommendations,Precautions,Are there special precautions I have to take if I'm travelling abroad?,79,0.6817970855042313,0.5866228062256146
+336,Coronavirus Recommendations,Not At Risk,"i don't think I'm at risk, do I need to take any precautions?",79,0.7082047096230658,0.5866228062256146
+224,Coronavirus Recommendations,Precautions,what precautions should i make if travelling,79,0.72504821731791,0.5866228062256146
+1012,Coronavirus Recommendations,Returning From Travel,Do I have to go into quarantine if I come back home from abroad? Is it mandatory?,80,0.0,0.0
+353,Coronavirus Recommendations,Swimming Hall,"Am I exposed for infections, if i swim in a public pool",81,0.4591872560882749,0.4591872560882749
+19,Coronavirus Recommendations,Swimming Hall,is it safe to use a public swimming pool?,81,0.4591872560882749,0.4591872560882749
+39,Coronavirus Recommendations,Swimming Hall,is is possible to get infected with corona if i go swimming?,82,0.6523160858159978,0.4703760273746015
+429,Coronavirus Recommendations,Swimming Hall,"If I go swimming, am I at risk of infection?",82,0.3831674509102037,0.4703760273746015
+758,Coronavirus Recommendations,Swimming Hall,Can i get infected if i go to swimming hall?,82,0.5464469521121713,0.4703760273746015
+509,Coronavirus Recommendations,Swimming Hall,am a at risk of infection if i go swimming?,82,0.3831674509102037,0.4703760273746015
+328,Coronavirus Recommendations,Swimming Hall,Am I at risk of infection if I go swimming in a swimming hall?,82,0.3867821971244312,0.4703760273746015
+702,About Coronavirus,What Do We Know About Coronavirus,What info about coronavirus you have?,83,0.3370854693521189,0.33708546935211897
+76,Contact,Hotline,where can I find info about coronavirus? _,83,0.337085469352119,0.33708546935211897
+101,Contact,Hotline,can i call a hotline,84,0.323304355825217,0.4177558214919828
+689,Contact,Hotline,Where can I call?,84,0.47694497999414165,0.4177558214919828
+546,Contact,Hotline,i want to call a coronavirus hotline,84,0.45301812865658997,0.4177558214919828
+290,About Coronavirus,Treatment,I'm sick. how can I treat corona from home,85,0.7131092270904417,0.5568230141200353
+664,About Coronavirus,Treatment,how to treat covid19,85,0.32602606652583177,0.5568230141200353
+795,About Coronavirus,Treatment,How infected people with coronavirus are treated?,85,0.6383421610381366,0.5568230141200353
+387,About Coronavirus,Treatment,how is the disease treated,85,0.6734091042047888,0.5568230141200353
+801,About Coronavirus,Treatment,How coronavirus needs to be treated?,85,0.6062707984250786,0.5568230141200353
+471,About Coronavirus,Treatment,How does the virus get treated?,85,0.6145776750301388,0.5568230141200353
+234,About Coronavirus,Treatment,how is covid19 treated?,85,0.32602606652583177,0.5568230141200353
+890,Coronavirus Recommendations,Children,should i send the kids to kindergarten,86,0.4092621470288794,0.4092621470288794
+743,Employer Guidelines,Daycare,What to do if my employee cannot work because the kids are not having kindergarten?,86,0.4092621470288794,0.4092621470288794
+568,About Coronavirus,Infection Through Food,can i get covid-19 from food,87,0.3754292328099189,0.3754292328099189
+839,About Coronavirus,Infection Through Food,Can you catch COVID-19 from food?,87,0.3754292328099189,0.3754292328099189
+449,About Coronavirus,Incubation Period,How long does the virus incubate?,88,0.7839776099478876,0.6438537410416596
+953,About Coronavirus,Incubation Period,How long does it take to get sick?,88,0.4700595452034941,0.6438537410416596
+969,About Coronavirus,Incubation Period,How long is the period from getting the virus to becoming sick?_,88,0.7029300287000946,0.6438537410416596
+651,About Coronavirus,Incubation Period,How long does it take before you get sick from Corona ,88,0.5054529735357784,0.6438537410416596
+201,About Coronavirus,Incubation Period,how long time does it take before i get infected until it is shown in a test?,88,0.7568485478210437,0.6438537410416596
+1014,Coronavirus Recommendations,Closed Shops,What kind of shops are still allowed CODID-19?,89,0.7619589833034152,0.5997114498705823
+636,Coronavirus Recommendations,Purchasing Groceries,Can I do the grocery shopping?,89,0.6117000258744251,0.5997114498705823
+625,Coronavirus Recommendations,Purchasing Groceries,Am I allowed to do groceries? ,89,0.6117000258744251,0.5997114498705823
+243,Coronavirus Recommendations,Purchasing Groceries,am I still allowed to go groceri shopping,89,0.41348676443006394,0.5997114498705823
+855,About Coronavirus,Treatment,is there a vaccine?,90,0.0,0.0
+989,Coronavirus Recommendations,Contact With Infected,What to do if someone I’ve been in contact with has corona?,91,0.4878626504744852,0.4663246894497323
+761,Coronavirus Recommendations,Contact With Infected,"I was in contact with someone infected with coronavirus, what shall I do now?",91,0.4453828586695547,0.4663246894497323
+739,Coronavirus Recommendations,Contact With Infected,What are recommendations for people who were in contact with someone infected with Coronavirus?,91,0.465728559205157,0.4663246894497323
+847,Coronavirus Recommendations,Not At Risk,What do I have to do if I don't belong to any of the risk groups?,92,0.275178463940902,0.3669046185878693
+566,Coronavirus Recommendations,Not At Risk,What can I do if I do not belong to any of risk groups,92,0.275178463940902,0.3669046185878693
+300,Coronavirus Recommendations,Not At Risk,Do I have to take some special measure if I don't belong any risk group?,92,0.5503569278818039,0.3669046185878693
+660,Coronavirus Recommendations,Educating Children On Coronavirus,How can explain to my girls how they should avoid infection?,93,0.6957948337798635,0.6082292719571618
+1035,Coronavirus Recommendations,Educating Children On Coronavirus,What should I explain about coronavirus to my kids?,93,0.5806302738744568,0.6082292719571618
+1051,About Coronavirus,What Is Coronavirus,Can you explain me what is the Corona?,93,0.5045100500139068,0.6082292719571618
+394,About Coronavirus,Pandemic,Please explain what pandemic is ,93,0.6519819301604203,0.6082292719571618
+285,Contact,Hotline,I want to contact with a hotline,94,0.4952134788163079,0.34198256404440547
+472,Contact,Hotline,Can I contact a hotline?,94,0.20467251561010655,0.34198256404440547
+1032,Contact,Hotline,Contact ,94,0.6006817945753997,0.34198256404440547
+745,Contact,Hotline,How can i contact the hotline?,94,0.20467251561010655,0.34198256404440547
+720,Contact,Hotline,can i contact a hotline,94,0.20467251561010655,0.34198256404440547
+765,Coronavirus Recommendations,Sick Child,What to do if my child is at risk?,95,0.6791813603540567,0.5689438490659408
+618,Coronavirus Recommendations,Children,is there any risk for my kids?,95,0.6815424680674247,0.5689438490659408
+1042,Coronavirus Recommendations,People At Risk,Am I at risk?_,95,0.37003270903188457,0.5689438490659408
+441,Coronavirus Recommendations,People At Risk,Who is at risk when it comes to coronavirus?,95,0.7439299988444534,0.5689438490659408
+488,Coronavirus Recommendations,Actions If At Risk,What do I do if I am at risk ,95,0.37003270903188457,0.5689438490659408
+352,About Coronavirus,How Many Infected,how many in total has been sick with corona,96,0.4340292961104877,0.43402929611048763
+985,About Coronavirus,How Many Infected,How many people are sick of corona? ,96,0.4340292961104876,0.43402929611048763
+641,Coronavirus Recommendations,Student,How can I find recommendations for students during Coronavirus outbreak?,97,0.30521467135729274,0.30521467135729274
+380,Coronavirus Recommendations,Student,Where do I find info and recommendations for student during an outbreak?,97,0.30521467135729274,0.30521467135729274
+532,Employer Guidelines,Sick Employee,what do i do if someone at work has been infected and i'm their manager,98,0.0,0.0
+776,About Coronavirus,Infected Twice,Can i get infected twice?,99,0.37185300844234326,0.5005069452164459
+398,About Coronavirus,Infected Twice,Is it likely to be infected twice?,99,0.5479125671639664,0.5005069452164459
+829,About Coronavirus,Infected Twice,Can you catch the coronavirus twice?,99,0.678854086856527,0.5005069452164459
+1043,About Coronavirus,Infected Twice,can I be infected twice?_,99,0.33665305544661495,0.5005069452164459
+458,About Coronavirus,Infected Twice,Is it possible to get infected twice?,99,0.567262008172778,0.5005069452164459
+347,About Coronavirus,Fear,"do I need to be scared? Trump isn't scared, why should I",100,0.5055169153301385,0.4550350045364019
+200,About Coronavirus,Fear,how scared should i be for coronavirus,100,0.4055639315452547,0.4550350045364019
+896,Coronavirus Recommendations,Educating Children On Coronavirus,my child is scared what do i tell him,100,0.6593119964991501,0.4550350045364019
+963,About Coronavirus,Fear,Should I be scared?,100,0.27320019325665307,0.4550350045364019
+448,About Coronavirus,Fear,How scared should I be of corona?,100,0.43158198605081327,0.4550350045364019
+467,About Coronavirus,Treatment,Is there a treatment plan for coronavirus?,101,0.0,0.0
+77,Contact,Hotline,what is the phone number for coronavirus hotline? _,102,0.3490740109553701,0.44202027510913244
+47,Contact,Hotline,what's the phone number where i can find more information about corona,102,0.6199761197268627,0.44202027510913244
+1004,Contact,Hotline,What is the coronavirus phone number? What is the coronavirus hotline number,102,0.3570106946451645,0.44202027510913244
+941,Coronavirus Recommendations,Pregnant,I am with child and don’t know what to do ,103,0.33034974219917185,0.3303497421991719
+242,Coronavirus Recommendations,Sick Child,"my child is sick, how do I know if it is corona?",103,0.3303497421991719,0.3303497421991719
+151,Coronavirus Recommendations,Precautions,What do I need to do to be safe while traveling?,104,0.47269846938362586,0.6013664796550903
+613,Coronavirus Recommendations,Precautions,What shall I do if I need to travel?,104,0.649480734852761,0.6013664796550903
+161,Coronavirus Recommendations,Actions At Home,Is there anything I need to do while at hom to be safe?,104,0.6819202347288839,0.6013664796550903
+704,About Coronavirus,What Is Coronavirus,What is coronavirus?,105,0.0,0.0
+196,About Coronavirus,What Is Coronavirus,what is coronavirus,105,0.0,0.0
+649,About Coronavirus,What Is Coronavirus,what is the coronavirus,105,0.0,0.0
+357,About Coronavirus,What Is Coronavirus,What is coronavirus?,105,0.0,0.0
+422,Employer Guidelines,Refusal To Work,"One of my employees is saying that they're not coming to work because of the virus, what are my options?",106,0.46951835234376976,0.46951835234376976
+754,Employer Guidelines,Refusal To Work,What are my options is case my employee does not want to come to work due to coronavirus?,106,0.46951835234376976,0.46951835234376976
+749,Coronavirus Recommendations,Closed Shops,What stores are shut down during coronavirus?,107,0.15472934982125097,0.154729349821251
+831,Coronavirus Recommendations,Closed Shops,What stores are shut down?,107,0.15472934982125103,0.154729349821251
+658,Employer Guidelines,Vacation,Can my employee changed already scheduled vacation because of coronavirus,108,0.41247646107807456,0.41247646107807456
+927,Employer Guidelines,Vacation,can employees re-schedule scheduled vacation?,108,0.41247646107807456,0.41247646107807456
+54,Coronavirus Recommendations,Not At Risk,is there anything I should do if i am not risky,109,0.7352773470042885,0.5895098828411383
+603,Coronavirus Recommendations,Not At Risk,I'm not in any risk group. Should I do anything?,109,0.5378799671787954,0.5895098828411383
+730,Coronavirus Recommendations,Actions At Home,Is there anything i can do to decrease the risk on COVID-19 infection?,109,0.6583869890321918,0.5895098828411383
+14,Coronavirus Recommendations,Not At Risk,"I am not at risk, is there anything I should do?",109,0.4264952281492775,0.5895098828411383
+729,Coronavirus Recommendations,Returning From Travel,i'm returning from another country. what should i do,110,0.0,0.0
+567,About Coronavirus,Fear,Should I be afraid of the pandemia?,111,0.6460232419642019,0.5174112280713075
+646,About Coronavirus,Fear,How afraid do I have to be for the Corona virus ,111,0.5467470635436449,0.5174112280713075
+405,About Coronavirus,Fear,Do I need to be afraid of the outbreak?,111,0.6450119832148564,0.5174112280713075
+305,About Coronavirus,Fear,How afraid should I be of Coronavirus?,111,0.4264243193191761,0.5174112280713075
+560,About Coronavirus,Fear,how afraid should i be,111,0.32284953231465774,0.5174112280713075
+179,Coronavirus Recommendations,Border,are the borders closed,112,0.20733505737247399,0.37084168046677224
+371,Coronavirus Recommendations,Border,I have a question regarding the close down of the border?,112,0.757350742374602,0.37084168046677224
+631,Coronavirus Recommendations,Border,Are borders closed? ,112,0.20733505737247399,0.37084168046677224
+158,Coronavirus Recommendations,Border,Is the border closed?,112,0.20733505737247399,0.37084168046677224
+262,Coronavirus Recommendations,Border,Is the border closed?,112,0.20733505737247399,0.37084168046677224
+770,Coronavirus Recommendations,Border,Which borders are closed?,112,0.20733505737247399,0.37084168046677224
+415,Coronavirus Recommendations,Border,Is the border effectively closed now or can people still cross?,112,0.8018657340304339,0.37084168046677224
+819,About Coronavirus,Pandemic,What is a pandemic exactly?,113,0.4613044084539089,0.44867221015466807
+71,About Coronavirus,What Is Coronavirus,what is exactly coronavirus? ,113,0.39833531663336136,0.44867221015466807
+363,About Coronavirus,What Is Coronavirus,what is it exactly and why do you get so sick?,113,0.486376905376734,0.44867221015466807
+503,Coronavirus Recommendations,People At Risk,who is at risk of severe illness,114,0.2492284378982262,0.24922843789822624
+506,Coronavirus Recommendations,Children,are children at risk of severe illness,114,0.24922843789822627,0.24922843789822624
+703,About Coronavirus,Infected Twice,Can I be reinfected? ,115,0.280546564896719,0.280546564896719
+984,About Coronavirus,Infected Twice,Can you get reinfected with the coronavirus? ,115,0.280546564896719,0.280546564896719
+46,Employer Guidelines,Quarantine,"if one my employees has corona, does he have to work from home",116,0.41540576607406454,0.41540576607406454
+45,Employer Guidelines,Daycare,what if my employees can't work because their kids are at home,116,0.4154057660740646,0.41540576607406454
+518,Coronavirus Recommendations,Educating Children On Coronavirus,How do I teach my child about Corona ,117,0.2939698580917186,0.4411884531517045
+183,Coronavirus Recommendations,Educating Children On Coronavirus,how can i teach my child about covid19,117,0.37413155132426157,0.4411884531517045
+379,Coronavirus Recommendations,Educating Children On Coronavirus,How do I teach my child about the corona virus?,117,0.3834334647640456,0.4411884531517045
+249,Coronavirus Recommendations,Educating Children On Coronavirus,"my child is only 2 years old, how do I teach him to behave properly during corona",117,0.7132189384267923,0.4411884531517045
+577,Coronavirus Recommendations,Public Spaces,how should i act in public,118,0.3249039067715991,0.4194942570032156
+779,Coronavirus Recommendations,Public Spaces,How should I act in public places?,118,0.4667894321190238,0.4194942570032156
+291,Coronavirus Recommendations,Public Spaces,How can I act in public spaces?,118,0.46678943211902374,0.4194942570032156
+1033,Gatherings,Cancelling Gathering,Why does the government ban gatherings,119,0.8439428240009402,0.7117033318147095
+191,Gatherings,Cancelling Gathering,why is the government saying larger events has to be cancelled?,119,0.7791392998852641,0.7117033318147095
+548,Gatherings,Cancelling Gathering,why are gatherings being cancelled,119,0.6497571962633849,0.7117033318147095
+267,Gatherings,Cancelling Gathering,Why is it recommended that larger group meetings are cancelled?,119,0.8580907388910785,0.7117033318147095
+746,Gatherings,Cancelling Gathering,Why government is cancelling social activities?,119,0.8124500167952989,0.7117033318147095
+690,Gatherings,Cancelling Gathering,What are reasons behind the government's decision to cancel gathering of people?,119,0.7628483185816367,0.7117033318147095
+410,Gatherings,Cancelling Gathering,What's that about the government recommending the cancellation of gatherings?,119,0.4786378468878598,0.7117033318147095
+287,Gatherings,Cancelling Gathering,Why does the government recommend cancelling gatherings of people?,119,0.5087604132122119,0.7117033318147095
+936,About Coronavirus,Mortality Rate,What’s the death rate of the corona?,120,0.17287787778940256,0.17287787778940256
+773,About Coronavirus,Mortality Rate,What is the death rate?,120,0.17287787778940253,0.17287787778940256
+86,Coronavirus Recommendations,Pet,Shoot it,121,0.48760452404593313,0.48760452404593313
+104,Gatherings,Gathering Precautions,make sure to shoot them all afterwards,121,0.4876045240459331,0.48760452404593313
+235,About Coronavirus,Coronavirus Versus Influenza,is covid19 the same as a normal flu?,122,0.3356463118345008,0.33564631183450083
+958,About Coronavirus,Coronavirus Versus Influenza,Is corona different from a normal flu?,122,0.3356463118345009,0.33564631183450083
+309,About Coronavirus,Infection Through Food,Can I contract Coronavirus through food?,123,0.6021360132773833,0.6625584664900783
+114,Coronavirus Recommendations,Illness,Steps I should take when I contract the virus,123,0.7364292928989116,0.6625584664900783
+140,Coronavirus Recommendations,Children,What is the likelihood my children will contract Coronavirus?,123,0.6918641364194014,0.6625584664900783
+740,About Coronavirus,Infected Twice,Is it possible to contract coronavirus more than once?,123,0.6198044233646168,0.6625584664900783
+169,About Coronavirus,Mortality Rate,How often do people die from coronavirus?,124,0.0,0.0
+66,Coronavirus Recommendations,Pet,should I do anything if my dog has coronavirus,125,0.0,0.0
+866,About Coronavirus,Infection Of Pets,is my cat at risk,126,0.0,0.0
+479,About Coronavirus,How Many Infected,What is the number of infected people?,127,0.5580261307090101,0.6042369682221268
+882,Contact,Hotline,is there a number for questions,127,0.7729316126383455,0.6042369682221268
+459,About Coronavirus,How Many Infected,What's the current number of infected people?,127,0.4353527223427255,0.6042369682221268
+57,About Coronavirus,Latest News,what is the current number of cases in the world?,127,0.7535559223365828,0.6042369682221268
+824,About Coronavirus,How Many Infected,What is the current number of infected with coronavirus?,127,0.5013184530839697,0.6042369682221268
+790,Coronavirus Recommendations,People At Risk,Who are at the highest risk of infection?,128,0.0,0.0
+982,About Coronavirus,Infection Through Food,Can you get corona virus from food?,129,0.41461856403052183,0.41461856403052183
+361,About Coronavirus,Infection Through Food,can I get sick through food if I get my food delivered,129,0.41461856403052183,0.41461856403052183
+999,Employer Guidelines,Refusal To Work,Can you fire someone for not coming to work during coronavirus? ,130,0.6308166647813178,0.4205444431875452
+100,Employer Guidelines,Quarantine,fire them,130,0.31540833239065896,0.4205444431875452
+99,Employer Guidelines,Daycare,fire them,130,0.31540833239065896,0.4205444431875452
+960,About Coronavirus,Status,What is the status?,131,0.38866186921309503,0.5353241892019668
+629,About Coronavirus,Status,What’s status with Corona in Denmark ,131,0.6842849254818326,0.5353241892019668
+806,About Coronavirus,Status,What is the status of coronavirus?,131,0.43147592055084344,0.5353241892019668
+445,About Coronavirus,Status,What's teh status on corona?,131,0.7220896883340722,0.5353241892019668
+175,About Coronavirus,Status,what is the status on corona virus,131,0.5539568110811136,0.5353241892019668
+302,About Coronavirus,Status,What is the status of Coronavirus?,131,0.43147592055084344,0.5353241892019668
+892,Coronavirus Recommendations,Swimming Hall,but i like to swim in the pool,132,0.556904070555149,0.5280054032388682
+223,Coronavirus Recommendations,Swimming Hall,am I at risk to get infected swimming in a public pool?,132,0.5136703727955064,0.5280054032388682
+621,Coronavirus Recommendations,Swimming Hall,Is it risky to go to a swimming pool?,132,0.6553699390862237,0.5280054032388682
+150,Coronavirus Recommendations,Swimming Hall,Am I at risk for Corona at a swimming pool?,132,0.48122941461168867,0.5280054032388682
+611,Coronavirus Recommendations,Swimming Hall,Can I get infected in the swimming pool?,132,0.4328532191457736,0.5280054032388682
+121,About Coronavirus,Treatment,what do the doctors do if i have it?,133,0.43112574419307853,0.5324625101720141
+683,About Coronavirus,Treatment,What do the doctors do to people with Corona ,133,0.5486516094820586,0.5324625101720141
+322,Coronavirus Recommendations,Doctor,What symptoms should I have before I visit my doctor?,133,0.6176101768409049,0.5324625101720141
+595,Coronavirus Recommendations,Doctor,If I get sick when I should see a doctor?,134,0.4020008518661411,0.2680005679107607
+499,Coronavirus Recommendations,Doctor,should i see a doctor,134,0.20100042593307052,0.2680005679107607
+216,Coronavirus Recommendations,Doctor,when should i see my doctor?,134,0.20100042593307052,0.2680005679107607
+821,Gatherings,Gathering Precautions,Are there any measures I can take when organizing a gathering of people?,135,0.0,0.0
+254,Employer Guidelines,Vacation,can holiday plans be changed due to corona?,136,0.5074129710579469,0.5106431555187724
+901,Employer Guidelines,Vacation,"i can't go on holiday now, can i change my flight tickets?",136,0.6163574081173047,0.5106431555187724
+534,Employer Guidelines,Vacation,Can you change your holiday because of Corona ,136,0.4081590873810653,0.5106431555187724
+925,Employer Guidelines,Refusal To Work,can we force people to work during this period?,137,0.5194963327535684,0.508849587220171
+926,Employer Guidelines,Refusal To Travel,can employees refuse to travel in this period? Can we force them to do so?,137,0.48622131921258444,0.508849587220171
+408,Employer Guidelines,Refusal To Travel,can an employee be forced to travel for work during coronavirus,137,0.5208311096943603,0.508849587220171
+881,Employer Guidelines,Quarantine,"my colleague is in lockdown, when can he be back in the office?",138,0.7283755801392535,0.6601869445784592
+879,Employer Guidelines,Daycare,someone in my office can't work because they are babysitting,138,0.7105983262530081,0.6601869445784592
+990,Coronavirus Recommendations,Employer,What are the office rules for coronavirus?,138,0.6216338288008513,0.6601869445784592
+873,Coronavirus Recommendations,Employer,should i close the office,138,0.5801400431207236,0.6601869445784592
+292,About Coronavirus,Coronavirus Versus Influenza,is it the same as a bad flu? ,139,0.4023841232790886,0.4023841232790886
+978,About Coronavirus,Fear,Is the coronavirus bad? ,139,0.4023841232790886,0.4023841232790886
+908,Coronavirus Recommendations,Public Transport,can i take the train?,140,0.4730307851776066,0.5718512724438423
+920,Coronavirus Recommendations,Public Transport,is it allowed to take buses or trains during this outage?,140,0.6321456644404934,0.5718512724438423
+880,Coronavirus Recommendations,Public Transport,i take the train to work every day,140,0.610377367713427,0.5718512724438423
+706,Coronavirus Recommendations,People At Risk,What group of people are of higher risk to get coronavirus?,141,0.7409365343904873,0.6579635781870466
+1006,Coronavirus Recommendations,People At Risk,What are the risk groups for COVID-19? ,141,0.5713680359069605,0.6579635781870466
+602,Coronavirus Recommendations,Actions If At Risk,"If I am in the risk group, what I shall do to protect myself?",141,0.6996491948896427,0.6579635781870466
+851,Coronavirus Recommendations,People At Risk,What are the main risk groups for the disease?,141,0.7696290428791434,0.6579635781870466
+812,Coronavirus Recommendations,Actions If At Risk,What is the guidance for people in risk group?,141,0.7157886337985032,0.6579635781870466
+612,Coronavirus Recommendations,Actions If At Risk,I've seen I'm in a risk group. what should I do?,141,0.6927126648302995,0.6579635781870466
+79,Coronavirus Recommendations,Actions If At Risk,What should I do if I'm in an at risk group?,141,0.41566094061429054,0.6579635781870466
+248,Coronavirus Recommendations,Actions At Home,what can I do at home to minimize the risk of getting sick,142,0.48863330836125934,0.519689464817473
+374,Coronavirus Recommendations,Actions At Home,What can be done at home to minimize the risk of being infected with the virus?,142,0.5681882777482131,0.519689464817473
+515,Coronavirus Recommendations,Actions At Home,What do I have to do at home to minimize the risk of catching Corona ,142,0.5022468083429464,0.519689464817473
+1020,Coronavirus Recommendations,Public Transport,Are the buses still running during COVID-19? ,143,0.3367814970395145,0.33678149703951454
+635,Coronavirus Recommendations,Public Transport,Are buses and trains still running during coronavirus?,143,0.33678149703951454,0.33678149703951454
+520,Coronavirus Recommendations,Purchasing Groceries,can i still buy groceries,144,0.3018789804004335,0.3018789804004335
+916,Coronavirus Recommendations,Purchasing Groceries,Is it still allowed to go out and buy groceries?,144,0.3018789804004335,0.3018789804004335
+190,Employer Guidelines,Quarantine,what do i do as an employer if one of staff is in querantine,145,0.506620268809972,0.5155625189147903
+186,Employer Guidelines,Refusal To Work,what can i do as an employer if one of my staff refuses to go to work,145,0.5156359678411292,0.5155625189147903
+212,Coronavirus Recommendations,Employer,how do I as an employer protect my staff,145,0.5244313200932699,0.5155625189147903
+4,Employer Guidelines,Refusal To Travel,Can an employee say that they dont want to travel because of coronavirus?,146,0.7292464400130133,0.65705984088683
+788,Employer Guidelines,Refusal To Travel,Can my employee say no to travel due to coronavirus?,146,0.6567172598371545,0.65705984088683
+1028,Employer Guidelines,Refusal To Travel,Rules for work travel during corona,146,0.7540837737227087,0.65705984088683
+1000,Employer Guidelines,Refusal To Travel,Can you make employees travel for work during corona virus?,146,0.6976592459189417,0.65705984088683
+24,Employer Guidelines,Refusal To Travel,Can an employee say no to travelling for work because of the corona?,146,0.4475924849423316,0.65705984088683
+725,About Coronavirus,How Many Infected,how many people have been infected globally,147,0.20220138904930854,0.2022013890493085
+726,About Coronavirus,How Many Infected,how many people have been infected with covid-19 globally,147,0.2022013890493085,0.2022013890493085
+105,Coronavirus Recommendations,Contact With Infected,pray,148,0.0,0.0
+94,Coronavirus Recommendations,Returning From Travel,pray,148,0.0,0.0
+252,Employer Guidelines,Refusal To Work,"one of my employees are refusing to work due to fear of getting sick, can I fire him?",149,0.0,0.0
+172,About Coronavirus,Infected Twice,"If someone has gotten the virus, can they catch it again?",150,0.45501978381165753,0.4550197838116576
+966,About Coronavirus,How Many Infected,How many people has gotten the virus ,150,0.45501978381165764,0.4550197838116576
+368,Coronavirus Recommendations,Sick Child,What do I do if my child gets ill?,151,0.40737891755371436,0.2715859450358096
+598,Coronavirus Recommendations,Illness,What do I do if I am getting ill ,151,0.20368945877685724,0.2715859450358096
+392,Coronavirus Recommendations,Illness,What do I do if I get ill,151,0.20368945877685724,0.2715859450358096
+68,About Coronavirus,Symptoms,what are symptoms of coronavirus infection? ,152,0.44559226057169143,0.6356585055675912
+385,About Coronavirus,Symptoms,"If I am infected by the virus, which symptoms will I then experience?",152,0.7099589627735461,0.6356585055675912
+199,About Coronavirus,Methods of Transmission,how does coronavirus infect?,152,0.6981074962378333,0.6356585055675912
+464,About Coronavirus,Symptoms,What are the symptoms of a nCov infection?,152,0.6889753026872938,0.6356585055675912
+784,About Coronavirus,What Is Coronavirus,What is the definition of coronavirus?,153,0.3447234356344508,0.34472343563445074
+473,About Coronavirus,Pandemic,What a definition of pandemic?,153,0.3447234356344507,0.34472343563445074
+780,Coronavirus Recommendations,Illness,What to do if i got sick?,154,0.7732922550845844,0.8015016610268808
+634,Coronavirus Recommendations,Sick Child,My girl is sick. how can I take care of her?,154,0.8933352297765824,0.8015016610268808
+351,About Coronavirus,Infected Twice,can I get sick again from coronoa,154,0.825614623375014,0.8015016610268808
+9,Coronavirus Recommendations,Illness,I'm sick wtf do i do?,154,0.8360391844651315,0.8015016610268808
+10,Coronavirus Recommendations,Illness,i dont know what to do now that I am sick,154,0.8622074870729819,0.8015016610268808
+11,Coronavirus Recommendations,Contact With Infected,What should I do because I touched someone who are sick with corona,154,0.8479226000437894,0.8015016610268808
+277,Coronavirus Recommendations,Pet,what should I do with my cat now that I'm sick with corona? Can I get it checked too?,154,0.8624486612856253,0.8015016610268808
+349,About Coronavirus,Infection Of Pets,can my pet pig get sick from corona?,154,0.8484806807507659,0.8015016610268808
+462,Coronavirus Recommendations,Illness,"I'm sick, what do I do?",154,0.5343590553473639,0.8015016610268808
+344,Coronavirus Recommendations,Contact With Infected,I was close to a person last week who now tells me she is sick woith corona. can I expect to be sick also?,154,0.864367819082041,0.8015016610268808
+340,Coronavirus Recommendations,Illness,I'm sick what do i do,154,0.5343590553473639,0.8015016610268808
+210,Coronavirus Recommendations,Illness,what do i do if i fall sick,154,0.8360391844651316,0.8015016610268808
+218,Coronavirus Recommendations,People At Risk,who is at risk getting the virus and hence become sick?,154,0.9010557572530754,0.8015016610268808
+1036,About Coronavirus,What Do We Know About Coronavirus,What do we know about corona?_,155,0.22673505761173554,0.37493988480284673
+853,About Coronavirus,Symptoms,how do I know if I have Corona?,155,0.22673505761173554,0.37493988480284673
+871,Coronavirus Recommendations,Illness,i have a cough but i don't know if it's corona,155,0.6618011650943857,0.37493988480284673
+537,About Coronavirus,What Do We Know About Coronavirus,What do you know about the corona?,155,0.22673505761173554,0.37493988480284673
+402,About Coronavirus,What Is Coronavirus,I need to know about the corona. What is it?,155,0.5326930860846413,0.37493988480284673
+877,Coronavirus Recommendations,Infection Prevention,if i wash my hands am i safe?,156,0.46624065460214714,0.46624065460214714
+993,Coronavirus Recommendations,Infection Prevention,Do I need to wear a mask? How often should I wash my hands?,156,0.46624065460214714,0.46624065460214714
+103,Gatherings,Arranging Gathering,make sure not to do this,157,0.28009275750232515,0.36804251510335706
+723,Coronavirus Recommendations,Infection Prevention,how do i make sure i don't get infected,157,0.3830580142380784,0.36804251510335706
+961,About Coronavirus,Strategy,How are we making sure the virus doesn’t not spread?,157,0.44097677356966763,0.36804251510335706
+992,Coronavirus Recommendations,Not At Risk,What to do as a healthy person about the coronavirus pandemic?,158,0.7712382661791989,0.7165140232486026
+694,About Coronavirus,Methods of Transmission,How coronavirus transmits from person to person?,158,0.5667471597919727,0.7165140232486026
+206,About Coronavirus,Infected Twice,can a person get the infection more than one time?,158,0.765270967719071,0.7165140232486026
+225,Coronavirus Recommendations,Actions If At Risk,What should I do if i'm a person who is more vulnerable than others,158,0.8174602105091988,0.7165140232486026
+27,Employer Guidelines,Quarantine,what should a person do when under quaranteen?,158,0.7313143757203742,0.7165140232486026
+601,Coronavirus Recommendations,Contact With Infected,I have been close to a person with Corona what do I do?,158,0.6816495436230193,0.7165140232486026
+593,Coronavirus Recommendations,Contact With Infected,I been with an infected person. Should I do anything?,158,0.6819176391973834,0.7165140232486026
+453,About Coronavirus,Status,What is current situation of Coronavirus? ,159,0.3948770828220875,0.5105388979842705
+554,About Coronavirus,Status,What is the situation about the coronavirus right now?,159,0.6073052937526269,0.5105388979842705
+390,About Coronavirus,Status,what is the current situation for the corona outbreak?,159,0.5294343173780974,0.5105388979842705
+475,About Coronavirus,Mortality Rate,What is the mortality rate of Coronavirus?,160,0.25682041788679705,0.3424272238490627
+981,About Coronavirus,Mortality Rate,What is the mortality rate of the coronavirus? Is it worse than the flu?,160,0.5136408357735941,0.3424272238490627
+308,About Coronavirus,Mortality Rate,What is mortality rate of Coronavirus?,160,0.25682041788679705,0.3424272238490627
+932,Gatherings,Arranging Gathering,what are the recommended actions to organize a gathering?,161,0.5929988058101445,0.5343214647365626
+691,Gatherings,Arranging Gathering,Shall I cancel if I organize a gathering of people?,161,0.6141165513712186,0.5343214647365626
+769,Gatherings,Gathering Precautions,What precautions are recommended for people who organize a gathering of people?,161,0.4936040365170098,0.5343214647365626
+692,Gatherings,Gathering Precautions,What are the recommendations if someone organizes a gathering of people?,161,0.4365664652478776,0.5343214647365626
+152,Coronavirus Recommendations,Returning From Travel,Do I need to tell a doctor or health care provider if I just came back from France?,162,0.0,0.0
+323,Coronavirus Recommendations,Pet,How do I treat my pet if I get infected with the virus?,163,0.5005257834748588,0.3716762097409489
+581,About Coronavirus,Infection Of Pets,Can pets get the virus?,163,0.2898217929444356,0.3716762097409489
+205,About Coronavirus,Infection Of Pets,can pets get infected by the virus?,163,0.29795316319930215,0.3716762097409489
+983,About Coronavirus,Infection Of Pets,Can pets get the corona virus? ,163,0.3984040993451991,0.3716762097409489
+1027,Employer Guidelines,Refusal To Work,Recommendations for forcing employees for take vacation during covid ,164,0.0,0.0
+455,About Coronavirus,Infection Through Food,can you get coronavirus from takeaway food?,165,0.38463435791147865,0.38463435791147865
+865,About Coronavirus,Infection Through Food,if i get takeaway am i at risk?,165,0.38463435791147865,0.38463435791147865
+438,Coronavirus Recommendations,Infection Prevention,How do I stop myself from getting coronavirus?,166,0.3750393743139804,0.3750393743139804
+59,About Coronavirus,Strategy,how will covid 19 be stopped?,166,0.3750393743139804,0.3750393743139804
+807,About Coronavirus,What Is Coronavirus,What is Covid-19?,167,0.0,0.0
+468,About Coronavirus,What Is Coronavirus,What is COVID-19?,167,0.0,0.0
+938,Coronavirus Recommendations,Pet,I’m infected and what should I do with my dog?,168,0.5069185963807273,0.5563165062004902
+457,About Coronavirus,Infection Of Pets,Can my dog get coronavirus?,168,0.44079545766119976,0.5563165062004902
+1047,About Coronavirus,Infection Of Pets,can my dog get sick?_,168,0.5453530420055602,0.5563165062004902
+755,About Coronavirus,Infection Of Pets,Do cats and dogs get infected with coronavirus?,168,0.5945716911623601,0.5563165062004902
+171,About Coronavirus,Infection Of Pets,Can my dog catch the virus?,168,0.6939437437926039,0.5563165062004902
+274,Coronavirus Recommendations,Infection Prevention,they say that masks don't really help. What can I do to protect myself then? I need to do groceries and live.,169,0.7390973267754282,0.6740259451324059
+141,Coronavirus Recommendations,Mask,Do masks protect me from the Coronavirus?,169,0.8338026369881416,0.6740259451324059
+12,Coronavirus Recommendations,Employer,How do I do to help my employes with corona?,169,0.748177907423358,0.6740259451324059
+991,Coronavirus Recommendations,Citizen,What can I do to help with coronavirus? ,169,0.5913685379029214,0.6740259451324059
+1010,Coronavirus Recommendations,Mask,Do masks help with coronavirus?,169,0.45768331657218053,0.6740259451324059
+159,Coronavirus Recommendations,Visiting Elderly,Can I still visit my grandparents?,170,0.29091074175196474,0.38788098900261964
+524,Coronavirus Recommendations,Visiting Elderly,can i still visit my grandparents ,170,0.29091074175196474,0.38788098900261964
+246,Coronavirus Recommendations,Visiting Elderly,am I still allowed to visit my grandparents at their house or retirement home,170,0.5818214835039295,0.38788098900261964
+49,Gatherings,Arranging Gathering,are there any rules when arranging a meeting? ,171,0.7424335410633691,0.7241456490627941
+50,Gatherings,Gathering Precautions,what are the rules to follow when scheduling a meeting? ,171,0.6442307115914384,0.7241456490627941
+365,Coronavirus Recommendations,Returning From Travel,"Which rules do I have to follow, when returning from a foreign country?",171,0.7648605894129631,0.7241456490627941
+1001,Employer Guidelines,Vacation,What are the vacation rules about the corona for companies?,171,0.8209916104741032,0.7241456490627941
+1034,Gatherings,Arranging Gathering,Rules for gatherings,171,0.7264491467686047,0.7241456490627941
+63,Coronavirus Recommendations,Public Spaces,what are the rules to follow in public? ,171,0.6459082950662866,0.7241456490627941
+51,Coronavirus Recommendations,Returning From Travel,what should i do after getting back home from another country? ,172,0.360059441022915,0.4285506890748092
+719,Coronavirus Recommendations,Returning From Travel,i just got home from another country. what do i do,172,0.49554079270267626,0.4285506890748092
+85,Coronavirus Recommendations,Returning From Travel,What do I need to do if I'm coming back home from another country?,172,0.43005183349883636,0.4285506890748092
+265,Coronavirus Recommendations,Actions At Home,Do I need to take some special actions at home to decrease the risk of contracting COVID-19?,173,0.4563962339885621,0.4563962339885621
+805,Coronavirus Recommendations,Actions At Home,What shall I do at my home to decrease the risk of contracting coronavirus?,173,0.4563962339885621,0.4563962339885621
+48,Gatherings,Cancelling Gathering,what are the government recommendation in denmark? ,174,0.5587628857387757,0.444294458414592
+588,Coronavirus Recommendations,Health Authority Recommendations,What are the recommendations?,174,0.6227647465609132,0.444294458414592
+869,Coronavirus Recommendations,Health Authority Recommendations,what does the government recommend to do?,174,0.2978251006793395,0.444294458414592
+32,Coronavirus Recommendations,Health Authority Recommendations,what is the government recommending?,174,0.2978251006793395,0.444294458414592
+599,Coronavirus Recommendations,Citizen,How can I collaborate to reduce the pandemic? ,175,0.0,0.0
+907,Coronavirus Recommendations,Visiting Elderly,can i see my grandma ,176,0.0,0.0
+910,About Coronavirus,What Is Coronavirus,whats corona,177,0.4409558861533042,0.4903256700624634
+563,About Coronavirus,Pandemic,whats a pandemic,177,0.4859491257689655,0.4903256700624634
+670,About Coronavirus,Status,whats the status of the virus,177,0.5440719982651204,0.4903256700624634
+1016,Coronavirus Recommendations,Purchasing Groceries,Are supermarkets still open?,178,0.6770166382532304,0.6341720910913051
+522,Coronavirus Recommendations,Border,when does the borders open,178,0.542216361559661,0.6341720910913051
+1018,Coronavirus Recommendations,Border,Are the borders still open? Who can come into the country?,178,0.6015596442131057,0.6341720910913051
+943,Coronavirus Recommendations,Closed Shops,Are there any shops open right now?,178,0.7158957203392236,0.6341720910913051
+996,Coronavirus Recommendations,Educating Children On Coronavirus,What to tell my kids about coronavirus?,179,0.4943561023767631,0.5098241171842798
+162,Coronavirus Recommendations,Educating Children On Coronavirus,Should I tell my kid about corona?,179,0.3685260173717221,0.5098241171842798
+1015,Coronavirus Recommendations,Sick Child,What to do if my kid got corona?,179,0.6665902318043542,0.5098241171842798
+113,Coronavirus Recommendations,Public Spaces,How should I behave when I’m with other people in public?,180,0.4041287280325129,0.43934236990152997
+589,Coronavirus Recommendations,Public Spaces,How should I behave in public?,180,0.33938150524960004,0.43934236990152997
+356,Coronavirus Recommendations,Precautions,"I should I behave, if I'm travelling?",180,0.574516876422477,0.43934236990152997
+596,Coronavirus Recommendations,Employer,I own a company? How should I protect my people?,181,0.0,0.0
+8,Coronavirus Recommendations,Public Spaces,What to do when outside?,182,0.41536478741132477,0.5159358286429577
+244,Coronavirus Recommendations,Curfew,am I allowed to go outside?,182,0.5598277876825142,0.5159358286429577
+947,Coronavirus Recommendations,Border,Can I travel outside the country?,182,0.5726149108350344,0.5159358286429577
+333,Coronavirus Recommendations,Employer,"even if people don't have their kids at home from next week, should I tell my employees to stay home?",183,0.6319512705131911,0.5472530686047791
+1002,Employer Guidelines,Daycare,What to do when employees have to stay with their kids? ,183,0.5154577453835666,0.5472530686047791
+899,Employer Guidelines,Refusal To Work,"one of my employees has to stay home with the kids, do I fire him?",183,0.4943501899175793,0.5472530686047791
+451,About Coronavirus,Latest News,Is there any news on the virus?,184,0.2294549001545409,0.22945490015454093
+974,About Coronavirus,Latest News,What are the news on corona virus? ,184,0.22945490015454095,0.22945490015454093
+358,About Coronavirus,Pandemic,what is the difference between epidemi and pandemi,185,0.6428136487853449,0.5780341691779617
+202,About Coronavirus,Pandemic,what is a pandemi?,185,0.47959888911884674,0.5780341691779617
+298,About Coronavirus,Status,what is the status on the pandemi worldwide,185,0.6116899696296934,0.5780341691779617
+1005,Coronavirus Recommendations,Pet,Can my pet get coronavirus? What to do if I got coronavirus about my cat?,186,0.4155807917419732,0.4155807917419732
+608,Coronavirus Recommendations,Pet,I got infected. What can I do with my cat?,186,0.4155807917419732,0.4155807917419732
+678,Employer Guidelines,Vacation,Can booked vacations be modified during the crisis?,187,0.0,0.0
+724,Coronavirus Recommendations,Student,can you tell me some informationabout student reccomendations,188,0.39755476002419726,0.3975547600241973
+705,Coronavirus Recommendations,Student,what are the reccomendations for students,188,0.3975547600241974,0.3975547600241973
+867,About Coronavirus,Infected Twice,are there different strands of the virus? does one build immunity?,189,0.0,0.0
+555,Gatherings,Gathering Precautions,what can i do to decrease the spread of the virus during my gathering,190,0.0,0.0
+463,About Coronavirus,What Do We Know About Coronavirus,What do you know about coronavirus?,191,0.3799671107304998,0.3799671107304998
+122,About Coronavirus,What Is Coronavirus,Do you want to know what Coronavirus is?,191,0.3799671107304998,0.3799671107304998
+854,About Coronavirus,Methods of Transmission,can i catch it if i speak to someone?,192,0.49665973743093955,0.4966597374309395
+419,Coronavirus Recommendations,Educating Children On Coronavirus,How can I speak to my children about the virus?,192,0.4966597374309395,0.4966597374309395
+483,Coronavirus Recommendations,Not At Risk,"I am not at risk, what do I do to stay so.",193,0.436145476127887,0.436145476127887
+1007,Coronavirus Recommendations,Actions If At Risk,How to stay safe from corona virus if I am in a risk group?,193,0.43614547612788696,0.436145476127887
+327,Coronavirus Recommendations,People At Risk,who are particularly prone to infection and subsequent illness?,194,0.4382409240227194,0.4382409240227194
+342,Coronavirus Recommendations,Children,Are children are particularly prone to infection?,194,0.43824092402271947,0.4382409240227194
+421,Employer Guidelines,Sick Employee,"One of my subordinates has been infected with Coronavirus, what should I do about that?",195,0.0,0.0
+1030,Employer Guidelines,Daycare,What to do if employee cannot find daycare,196,0.0,0.0
+933,Gatherings,Gathering Precautions,what are the good directives when organizing a meeting?,197,0.0,0.0
+549,Coronavirus Recommendations,Illness,What shall I do if I get sick?,198,0.7373280828296327,0.6078924749823451
+294,Coronavirus Recommendations,Contact With Infected,What can I do if I have been in contact with an infected person for COVID-19?,198,0.7227953129003724,0.6078924749823451
+553,Coronavirus Recommendations,Contact With Infected,What shall I do if I was in contact with  a sick person?,198,0.36355402921703034,0.6078924749823451
+21,Coronavirus Recommendations,Returning From Travel,I have come back from travelling and I am not sure what to do?,199,0.48195407973835985,0.4819540797383599
+626,Coronavirus Recommendations,Returning From Travel,I'm coming back from a trip. What should I do?,199,0.4819540797383599,0.4819540797383599
+640,Coronavirus Recommendations,Curfew,Is there any lockdown?,200,0.0,0.0
+965,About Coronavirus,Infected Twice,Will I be immune?,201,0.0,0.0
+529,Coronavirus Recommendations,Educating Children On Coronavirus,how do i talk to a kid about covid-19,202,0.5856774819656551,0.5973183531802698
+257,Contact,Hotline,i'd rather talk to a doctor,202,0.6368987449256786,0.5973183531802698
+838,Coronavirus Recommendations,Educating Children On Coronavirus,How to talk to your child on coronavirus?,202,0.5693788326494756,0.5973183531802698
+288,Gatherings,Arranging Gathering,what can I do if I am arranging a gathering of people?,203,0.5595245302791638,0.49751319539199884
+289,Gatherings,Gathering Precautions,What precautions can I take when arranging a gathering of people?,203,0.3165055135047202,0.49751319539199884
+412,Gatherings,Gathering Precautions,Which precautions should I take if I'm arranging a party?,203,0.6165095423921125,0.49751319539199884
+1003,Employer Guidelines,Quarantine,What do I about my employees that are in quarantine? Can they still work? ,204,0.0,0.0
+922,Coronavirus Recommendations,Educating Children On Coronavirus,what can we tell to our 5-year-old daughter about COVID-19?,205,0.0,0.0
+748,About Coronavirus,What Do We Know About Coronavirus,How much do we know about coronavirus?,206,0.2534777866600403,0.2534777866600403
+667,About Coronavirus,What Do We Know About Coronavirus,How much do we know about Corona ,206,0.25347778666004034,0.2534777866600403
+283,About Coronavirus,Symptoms,what are the symptoms ,207,0.35957696328736094,0.5160116786714247
+74,About Coronavirus,Symptoms,what are coronavirus symptoms? _,207,0.32825853153606266,0.5160116786714247
+955,About Coronavirus,Symptoms,What symptoms are there?,207,0.35957696328736094,0.5160116786714247
+699,About Coronavirus,Symptoms,What are the main symptoms of coronavirus?,207,0.7418323911885133,0.5160116786714247
+742,About Coronavirus,Symptoms,Where can I find a list of coronavirus symptoms?,207,0.8411150846429577,0.5160116786714247
+540,About Coronavirus,Symptoms,What are the symptoms of having the disease? ,207,0.7548594118155426,0.5160116786714247
+653,About Coronavirus,Symptoms,what the symptoms of the virus,207,0.602368699212899,0.5160116786714247
+350,About Coronavirus,Symptoms,What are the symptoms for Coronavirus?,207,0.32825853153606266,0.5160116786714247
+810,About Coronavirus,Symptoms,What are the symptoms of coronavirus?,207,0.32825853153606266,0.5160116786714247
+62,Coronavirus Recommendations,Health Authority Recommendations,what are the heath authorities recommendations in denmark? ,208,0.0,0.0
+231,Coronavirus Recommendations,Children,are kids also part of the group of people more vulnerable to corona?,209,0.0,0.0
+360,About Coronavirus,Mortality Rate,how many dies from corona. in percentage,210,0.371283843779877,0.371283843779877
+454,About Coronavirus,Mortality Rate,What percentage of people die from coronavirus?,210,0.371283843779877,0.371283843779877
+1041,Coronavirus Recommendations,Public Transport,What's the problem of traveling by bus?,211,0.0,0.0
+707,Coronavirus Recommendations,Curfew,can I still go out of home?,212,0.59300566217748,0.492713826081938
+177,Coronavirus Recommendations,Purchasing Groceries,can i still go shopping,212,0.3911414508888195,0.492713826081938
+369,Coronavirus Recommendations,Purchasing Groceries,Is it OK to still go shopping?,212,0.4939943651795146,0.492713826081938
+256,Employer Guidelines,Quarantine,"my employee is under quarantine, what now?",213,0.43485769265691554,0.6288403615126309
+732,Coronavirus Recommendations,Educating Children On Coronavirus,How can i educate my child under quarantine?,213,0.7898449714752135,0.6288403615126309
+543,Employer Guidelines,Quarantine,my emplyee is in quarantine. what do i do,213,0.7641608200589459,0.6288403615126309
+1031,Employer Guidelines,Quarantine,What can i demand of an employee under quarantine,213,0.6958751906902699,0.6288403615126309
+874,Coronavirus Recommendations,Citizen,do i need to quarantine,213,0.653445801537525,0.6288403615126309
+545,Employer Guidelines,Quarantine,What do I have to do for an employee in  quarantine ,213,0.43485769265691554,0.6288403615126309
+1017,Coronavirus Recommendations,Curfew,Do I have to stay home after a certain time of day?,214,0.4296455768815329,0.42964557688153293
+339,Coronavirus Recommendations,Public Spaces,"i can't stay home all day, what do I do out in public?",214,0.42964557688153293,0.42964557688153293
+614,Coronavirus Recommendations,Returning From Travel,What shall I do if I am coming back from abroad?,215,0.40469512439902194,0.41957711465579256
+494,Coronavirus Recommendations,Returning From Travel,I am coming back from abroad what do I do to avoid infection people ,215,0.47018961936924675,0.41957711465579256
+760,Coronavirus Recommendations,Returning From Travel,What to do if i am coming back home from abroad?,215,0.3838466001991089,0.41957711465579256
+995,Coronavirus Recommendations,Actions At Home,Do I need to wash my produce? What kind of disinfectant works against corona virus?,216,0.0,0.0
+268,Gatherings,Arranging Gathering,I'm an event organizer. How should I react or plan?,217,0.39075007294867736,0.39075007294867736
+192,Gatherings,Arranging Gathering,what do I do if i am planning an event,217,0.39075007294867736,0.39075007294867736
+832,About Coronavirus,Infection Through Food,can i get covid-19 from meat,218,0.0,0.0
+585,About Coronavirus,Infected Twice,Can recovered people get the coronavirus again?,219,0.0,0.0
+83,Coronavirus Recommendations,Swimming Hall,Is it safe to go swimming?,220,0.3982503615133827,0.3982503615133828
+142,Coronavirus Recommendations,Swimming Hall,Is it safe to swim during the Coronavirus outbreak?,220,0.3982503615133828,0.3982503615133828
+895,Coronavirus Recommendations,Postponed Surgeries,i had an eye operation scheduled do you think it will happen,221,0.0,0.0
+3,Coronavirus Recommendations,Pregnant,What to do as a pregnant woman?,222,0.3722941484603916,0.3722941484603916
+139,Coronavirus Recommendations,Pregnant,What should a pregnant woman do to stay safe from the Coronavirus?,222,0.3722941484603916,0.3722941484603916
+860,About Coronavirus,Testing,does my family need to get tested? ,223,0.4554360802780741,0.45543608027807414
+211,Coronavirus Recommendations,Contact With Infected,what do i do if a person in my family is tested positive for covid19,223,0.4554360802780742,0.45543608027807414
+970,Gatherings,Cancelling Gathering,Why does the government recommend to avoid large groups of people? ,224,0.4533119648098117,0.4533119648098116
+693,Gatherings,Cancelling Gathering,why are there recommendations about not grouping people?,224,0.4533119648098116,0.4533119648098116
+948,Coronavirus Recommendations,Visiting Elderly,Can I visit my old father? ,225,0.45543360350482975,0.45543360350482975
+442,Coronavirus Recommendations,Actions If At Risk,I'm 85 old. What should I do?,225,0.4554336035048297,0.45543360350482975
+590,Coronavirus Recommendations,Health Authority Recommendations,What isPublic Health Service recommendation ,226,0.4932598967428705,0.4932598967428705
+425,Employer Guidelines,Quarantine,"One of my employees has been quarantined as per the recommendation of the government/health services, what can I do?",226,0.4932598967428705,0.4932598967428705
+930,Contact,Hotline,please provide me with a number for a hotline of someone I can talk to,227,0.0,0.0
+255,Employer Guidelines,Daycare,"my employees are home with their kids these days and that clearly shows on their work, what can I do so it doesn't ruin my business?",228,0.0,0.0
+427,Coronavirus Recommendations,Children,Do I have to worry about my child contracting the virus?,229,0.0,0.0
+979,About Coronavirus,Incubation Period,How long do you have until you show symptoms of corona? ,230,0.6917713944095345,0.620980196863685
+591,Coronavirus Recommendations,Illness,What should I do if I feel symptoms?,230,0.6939546548484655,0.620980196863685
+751,About Coronavirus,Incubation Period,How long does it take to have coronavirus symptoms? ,230,0.5799153970226445,0.620980196863685
+570,About Coronavirus,Incubation Period,How long make take to feel symptoms of having the virus?,230,0.5182793411740951,0.620980196863685
+20,Coronavirus Recommendations,Precautions,What should I be careful with when travelling?,231,0.0,0.0
+647,Coronavirus Recommendations,Public Transport,can I use the tube during the coronavirus crisis?,232,0.0,0.0
+952,Coronavirus Recommendations,Student,"I am a student, is it ok to study in groups?",233,0.0,0.0
+282,Employer Guidelines,Daycare,What can I do if an employee is unable to get anyone to care for their child?,234,0.0,0.0
+297,About Coronavirus,Latest News,give me the latest status from my country,235,0.4257098863039243,0.42570988630392437
+232,About Coronavirus,Status,what is the latest status on covid19?,235,0.42570988630392437,0.42570988630392437
+997,Coronavirus Recommendations,Student,Are schools still open? What should I do as a student with coronavirus,236,0.0,0.0
+260,Coronavirus Recommendations,Curfew,Is there a curfew in effect?,237,0.35620433969980403,0.356204339699804
+414,Coronavirus Recommendations,Curfew,Is there a curfew in effect and at what hours?,237,0.3562043396998039,0.356204339699804
+447,About Coronavirus,Testing,I want to inquire as to who should undergo testing,238,0.0,0.0
+587,About Coronavirus,How Many Infected,How many people got the Covid 19?,239,0.4043835095070542,0.40438350950705415
+75,Coronavirus Recommendations,Illness,what should I do if I got infected with covid-19?_,239,0.40438350950705415,0.40438350950705415
+116,Coronavirus Recommendations,Employer,What are my responsibilities as an employer when responding to this crisis?,240,0.0,0.0
+384,Employer Guidelines,Vacation,"An employee had planned her vacation, but she is not able to fulfill it due to the current corona situation. Can it be changed or rescheduled? ",241,0.0,0.0
+502,Coronavirus Recommendations,Purchasing Groceries,Can I go shopping food when locked down ,242,0.0,0.0
+44,Employer Guidelines,Vacation,can my employees reschedule their vacation because of covid 19?,243,0.3666779124995609,0.3666779124995609
+25,Employer Guidelines,Vacation,can we reschedule a vacation for an employee due to the corona virus?,243,0.3666779124995609,0.3666779124995609
+639,Coronavirus Recommendations,Educating Children On Coronavirus,What shall I tell my children about coronavirus?,244,0.0,0.0
+424,Employer Guidelines,Daycare,"My employee has tried to get someone to care for their child, but has thus far been unsuccessful. What can I do as an employer?",245,0.0,0.0
+118,About Coronavirus,Latest News,What is total number of deaths due to Corona virus?,246,0.0,0.0
+888,Coronavirus Recommendations,Actions If At Risk,i'm 28 am i gonna catch it,247,0.0,0.0
+240,Coronavirus Recommendations,Postponed Surgeries,"i'm supposed to go into surgery next week, what operations have been postponed sofar?",248,0.0,0.0
+153,Coronavirus Recommendations,Postponed Surgeries,Will I still be able to have my hip replacement?,249,0.0,0.0
+97,Employer Guidelines,Refusal To Travel,they can refuse unless they want to keep their job.,250,0.0,0.0
+883,Gatherings,Cancelling Gathering,why can't i go to a festival,251,0.0,0.0
+264,Coronavirus Recommendations,Public Transport,What is the bus frequency during COVID-19?,252,0.0,0.0
+686,Contact,Hotline,What is coronavirus hotline?,253,0.48269715372990224,0.5399191153823012
+550,Contact,Hotline,Where to find a hotline about Corona ,253,0.6047643383365824,0.5399191153823012
+377,Contact,Hotline,I have the need for a hotline,253,0.5322958540804189,0.5399191153823012
+975,About Coronavirus,Status,What are the statistics about coronavirus?,254,0.0,0.0
+493,Coronavirus Recommendations,Precautions,I have to travel how do I protect myself ,255,0.5508886816528831,0.36725912110192205
+78,Coronavirus Recommendations,Precautions,can i travel? _,255,0.2754443408264415,0.36725912110192205
+93,Coronavirus Recommendations,Precautions,don't travel,255,0.2754443408264415,0.36725912110192205
+437,Coronavirus Recommendations,Not At Risk,"I'm young, healthy, and have no known underlying illnesses, is there anything I should be aware of?",256,0.0,0.0
+973,About Coronavirus,Coronavirus Versus Influenza,Is coronavirus more dangerous than the flu? ,257,0.0,0.0
+145,About Coronavirus,Testing,whomsulbetest,258,0.0,0.0
+37,Coronavirus Recommendations,Children,what are the chances for a kid with corona to die?,259,0.0,0.0
+30,Gatherings,Arranging Gathering,should I cancel my birthday party?,260,0.0,0.0
+951,Coronavirus Recommendations,Educating Children On Coronavirus,How can I tell my son about the corona?,261,0.4445172710437545,0.4445172710437545
+17,Coronavirus Recommendations,Children,is my son at risk of being infected?,261,0.4445172710437545,0.4445172710437545
+367,Coronavirus Recommendations,Closed Shops,Which shops are closed due to the corona?,262,0.24158846658562805,0.32211795544750405
+341,Coronavirus Recommendations,Closed Shops,Which kinds of shops are closed due to Coronavirus?,262,0.48317693317125604,0.32211795544750405
+764,Coronavirus Recommendations,Closed Shops,Which shops are closed due to corona?,262,0.24158846658562805,0.32211795544750405
+443,Coronavirus Recommendations,Pregnant,I'm 36 weeks pregnant. Is there anything I need to do?,263,0.0,0.0
+818,About Coronavirus,Infected Twice,can someone get coronavirus multiple times?,264,2.7755575615628914e-17,2.7755575615628914e-17
+72,About Coronavirus,What Do We Know About Coronavirus,do we know how coronavirus impacts the humas ,265,0.0,0.0
+885,Gatherings,Gathering Precautions,if i have a dinner at my place do we need to be 2m apart?,266,0.0,0.0
+891,Coronavirus Recommendations,Mask,is the mask effective,267,0.0,0.0
+909,Coronavirus Recommendations,Actions At Home,should i disinfect everything at home?,268,0.0,0.0
+949,Coronavirus Recommendations,Public Transport,May I commute via the metro train? ,269,0.0,0.0
+511,Coronavirus Recommendations,Precautions,what should i do if i HAVE to travel soon,270,0.0,0.0
+914,About Coronavirus,What Is Coronavirus,what's carona_,271,0.0,0.0
+845,Coronavirus Recommendations,Visiting Elderly,can i still visit my grandmother at her house?,272,0.0,0.0
+219,Coronavirus Recommendations,Actions If At Risk,what do I do if I am in the the riskgroup,273,0.0,0.0
+783,Coronavirus Recommendations,Citizen,What can i do to minimise the spread of corona?,274,0.4065083575251335,0.47127804658896383
+13,Coronavirus Recommendations,Citizen,waht should i do to minimise the spread?,274,0.5065379763348513,0.47127804658896383
+213,Coronavirus Recommendations,Citizen,how can I as an citizen minimise the spread of the virus,274,0.5007878059069064,0.47127804658896383
+261,Gatherings,Cancelling Gathering,what is the point of the government not allowing big gatherings over 50 when 49 people is bad enough?,275,0.0,0.0
+26,Employer Guidelines,Daycare,my employe can not get her kids look after and I don't know what to do?,276,0.0,0.0
+654,Coronavirus Recommendations,Actions At Home,Being at home... can I do anything else to protect myself?,277,0.0,0.0
+623,Coronavirus Recommendations,Precautions,I'm going to do a trip. how can I protect myself during it?,278,0.0,0.0
+65,Coronavirus Recommendations,Contact With Infected,my friend was confirmed with coronavirus. what should I do? ,279,0.0,0.0
+1048,Coronavirus Recommendations,Public Transport,What are the rules for using the metro?,280,0.0,0.0
+278,Coronavirus Recommendations,People At Risk,who is especially prone to get sick,281,0.0,0.0
+273,Employer Guidelines,Refusal To Work,What can I do if one of my employees is refusing to work due to COVID-19?,282,0.6481265915050136,0.5649885990918733
+533,Employer Guidelines,Refusal To Work,what can i do if an employee is refusing to work,282,0.4620462707238128,0.5649885990918733
+23,Employer Guidelines,Refusal To Work,what are my rights when an employee refuses to work because of the virus?,282,0.47761386732023436,0.5649885990918733
+382,Employer Guidelines,Refusal To Work,"I'm employer. What is my rights, when an employee refuses to work due to the outbreak?",282,0.6164832554399073,0.5649885990918733
+650,Employer Guidelines,Refusal To Travel,Does en employee have a right to refuse to travel for work?,282,0.6466964595332821,0.5649885990918733
+42,Employer Guidelines,Refusal To Work,does my employees have the right to refuse working because of COVID 19,282,0.44698442696189794,0.5649885990918733
+528,Employer Guidelines,Refusal To Work,What can I do if my employees refuses to work during lockdown ,282,0.6569693221589649,0.5649885990918733
+862,About Coronavirus,Incubation Period,how long should i self-quarantine?,283,0.0,0.0
+2,Coronavirus Recommendations,Actions If At Risk,What to do if I'm one of the people with a risk profile?,284,0.0,0.0
+781,Coronavirus Recommendations,Contact With Infected,What to do if i have been in touch with an infected person?,285,0.0,0.0
+239,Coronavirus Recommendations,Returning From Travel,what do I need to do when I retun from a nother country ,286,0.0,0.0
+939,Coronavirus Recommendations,People At Risk,Which demographics are most prone to catch the disease? ,287,0.0,0.0
+293,Coronavirus Recommendations,Illness,What can I do if I have fallen ill?,288,0.0,0.0
+569,About Coronavirus,Infection Of Pets,can i accidentally infect my pet with corona,289,0.5661660633891187,0.5502540042499919
+662,About Coronavirus,Infection Of Pets,Can pets be infected by Corona ,289,0.44935755791371307,0.5502540042499919
+397,About Coronavirus,Infection Of Pets,Are pets susceptible to infection?,289,0.6352383914471441,0.5502540042499919
+197,About Coronavirus,What Do We Know About Coronavirus,what do you know about coroa´navirus?,290,0.0,0.0
+942,Coronavirus Recommendations,Postponed Surgeries,Has cancer treatment been postponed?,291,0.6489889542512047,0.43265930283413656
+70,About Coronavirus,Treatment,is there a treatment for coronavirus,291,0.3244944771256024,0.43265930283413656
+695,About Coronavirus,Treatment,What is the treatment for coronavirus?,291,0.3244944771256024,0.43265930283413656
+934,Coronavirus Recommendations,Public Spaces,"when out there in the street, what are the recommended actions to take?",292,0.0,0.0
+354,About Coronavirus,Incubation Period,how long does it take for the virus to have an effect in my body?,293,0.0,0.0
+898,Employer Guidelines,Sick Employee,my colleague caught the virus shall i stay home?,294,0.0,0.0
+395,About Coronavirus,Mortality Rate,What is the mortality due to the outbreak?,295,0.0,0.0
+399,About Coronavirus,Incubation Period,Please inform me about the incubation time for infection?,296,0.0,0.0
+115,Coronavirus Recommendations,Contact With Infected,When I’ve been in contact with somebody who has the virus what should I do?,297,0.0,0.0
