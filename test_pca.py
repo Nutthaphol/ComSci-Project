@@ -14,8 +14,6 @@ import time
 if __name__ == '__main__':
     df = pd.read_csv('dataset/case_routing_intent.csv')
 
-
-
     text = df.text.tolist()
 
     clean_text = CleanText(text)
@@ -115,4 +113,4 @@ if __name__ == '__main__':
                                                 'dynamic value':dynamic_value, 'purity':purity_score,\
                                                 'time cluster':time_cluster })
 
-    print(final_df.head())
+    final_df.to_excel("stat/test_pca.xlsx", encoding='utf-8-sig')
