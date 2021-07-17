@@ -1,1 +1,26 @@
-{"name": "computer", "auto": true, "contexts": [], "responses": [{"resetContexts": false, "affectedContexts": [], "parameters": [], "messages": [{"type": 0, "lang": "en", "speech": ["apple", "dell", "asus", "acer", "hp"]}], "defaultResponsePlatforms": {}, "speech": []}], "priority": 500000, "webhookUsed": false, "webhookForSlotFilling": false, "fallbackIntent": false, "events": []}
+{
+  "name": "computer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["apple", "dell", "asus", "acer", "hp"]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
