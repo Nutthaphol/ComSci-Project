@@ -113,4 +113,4 @@ if __name__ == '__main__':
                                                 'dynamic value':dynamic_value, 'purity':purity_score,\
                                                 'time cluster':time_cluster })
 
-    final_df.to_excel("stat/test_pca.xlsx", encoding='utf-8-sig')
+    final_df.to_csv("stat/test_pca.csv", encoding='utf-8-sig')
