@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0032184-3aaa-4f71-8982-5bcab9813c40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsci_result/DBSCAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/comsci_result/DBSCAN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsci_result/SSE_DBSCAN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/comsci_result/SSE_DBSCAN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsci_result/comsci_final.csv" beforeDir="false" afterPath="$PROJECT_DIR$/comsci_result/comsci_final.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/dbscan.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/dbscan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/kmean_three_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/kmean_three_level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/sse.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/sse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set_group_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/insert_intent.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vQdL9i2ZZVSWGxhEvCLFl7ALqq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComSci-Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.multi_clustering" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0032184-3aaa-4f71-8982-5bcab9813c40" name="Default Changelist" comment="" />
+      <created>1626498189267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626498189267</updated>
+      <workItem from="1626498192171" duration="389000" />
+      <workItem from="1626498617499" duration="1669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ComSci_Project$multi_clustering.coverage" NAME="multi_clustering Coverage Results" MODIFIED="1626498341714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

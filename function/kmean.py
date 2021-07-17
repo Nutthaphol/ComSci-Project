@@ -4,8 +4,9 @@ from function.bestKmeans import best_k
 import numpy as np
 
 
-def Kmean(fe,data_):
-        k_value = best_k(feature=fe, max_= int(len(fe) *0.3))
+def Kmean(fe,data_,k_value = None):
+        if k_value == None:
+                k_value = best_k(feature=fe, max_= int(len(fe) *0.3))
         
         cluster = KMeans(n_clusters=k_value).fit(fe)
 

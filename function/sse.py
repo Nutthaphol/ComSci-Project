@@ -14,9 +14,6 @@ def SSE(data_):
                 num_data_centroids_id.append(len(tmp))
 
                 # just in case DBSCAN noise will be cluster in label -1
-                if i == -1:
-                        sse.append(-1)
-                        continue
 
                 dist_score = data_[data_["centroids_id"] == i]["dist_score"].tolist()
 

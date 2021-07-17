@@ -10,8 +10,8 @@ if __name__ == "__main__":
         for i in label_group: # insert label name by user
                 insert_label = df[df.centroids_id == i]
                 ex_text = insert_label[insert_label.dist_score == insert_label.dist_score.min()].text.sample(1).to_string(index=False)
-                print("message : ", ex_text)
-                label_name = input()
+                print("example message : ", ex_text)
+                label_name = input("assigned intent : ")
                 df.at[df.centroids_id == i, "intent"] = label_name
         
         label_name = df.intent.unique().tolist()
@@ -20,5 +20,13 @@ if __name__ == "__main__":
                 data_group = df[df.intent == i].text
                 save_at = "data_training/"+str(i)+".csv"
                 data_group.to_csv(save_at,encoding='utf-8-sig',index=False)
+
+        
+
+
+
+
+
+
 
         

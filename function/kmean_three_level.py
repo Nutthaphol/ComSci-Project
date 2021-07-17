@@ -79,13 +79,11 @@ def Kmean_three_level(fe,data_):
         for next_ in level_two:
                 index_fe = np.where(centroids_id == next_) #select all index  with same centroids id
                 index_fe = list(index_fe[0]) #tranform tuple to list 
-                tmp_fe = fe.tolist() # select feature 
-                fe_next = []
-                for i in index_fe: #select feature every feature used in cluster level 2 from matching index
-                        fe_next.append(tmp_fe[i])
+
+                fe_next = fe[centroids_id == next_] # get each feature with centroids_id = next_
+                 
                 if len(fe_next) <= 2:     #  feature > 2 for find k value with silhouette_score in function beat_k
                         continue
-                fe_next = np.matrix(fe_next)
 
                 data_f = cluster_kmean(fe_next) # cluster level 2 return datafream label and score distance of each feature
                 centroids_id_next = data_f["label"] 

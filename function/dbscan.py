@@ -4,10 +4,11 @@ from sklearn import cluster
 from sklearn.cluster import DBSCAN as dbsacn
 from function.bestEps import bestEps
 
-def DBSCAN(fe,data_):
-        eps_value = bestEps(fe)
+def DBSCAN(fe,data_,eps_value = None,min_pts=5):
+        if eps_value == None:
+                eps_value = bestEps(fe)
 
-        cluster = dbsacn(eps=eps_value,min_samples=3).fit(fe)
+        cluster = dbsacn(eps=eps_value,min_samples=min_pts).fit(fe)
 
         centroids_id = cluster.labels_
 
@@ -17,8 +18,6 @@ def DBSCAN(fe,data_):
         set_centroids_id = list(set(centroids_id))
 
         for i in set_centroids_id:
-                if i == -1:
-                        continue
                 pick_fe = fe[centroids_id == i]
                 mean_of_cluster = np.mean(pick_fe, axis=0)
                 index_ = np.where(centroids_id == i)

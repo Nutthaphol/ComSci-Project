@@ -3,7 +3,7 @@ from sklearn.decomposition import PCA
 
 
 
-def featurePCA (feature, n_component):
+def bestPCA (feature, n_component):
     pca = PCA(n_components=n_component)
     pca.fit(feature)
     sum_variance_ratio = np.sum(pca.explained_variance_ratio_)
