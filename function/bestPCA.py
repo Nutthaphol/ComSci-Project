@@ -1,8 +1,6 @@
 import numpy as np
 from sklearn.decomposition import PCA
 
-
-
 def bestPCA (feature, n_component):
     pca = PCA(n_components=n_component)
     pca.fit(feature)

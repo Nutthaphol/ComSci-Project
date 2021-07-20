@@ -5,16 +5,22 @@ from function.dbscan import DBSCAN
 from function.sse import SSE
 from function.tf_idf import TF_IDF
 from function.purityCluster import purity
+from function.bestKmeans import best_k
+from function.bestPCA import bestPCA
 
 if __name__ == '__main__':
         df = pd.read_csv("dataset/corona.csv")
         text = df["text"]
 
         fe = TF_IDF(text=text,format="english")
+        n_component = min(fe.shape[0], fe.shape[1])
+        fe_pca = bestPCA(feature=fe, n_component=n_component)
 
-        kmean_normal = Kmean(fe=fe,data_= df.copy())
-        kmean_three_level = Kmean_three_level(fe=fe,data_= df.copy())
-        dbscan = DBSCAN(fe=fe,data_= df.copy())
+        k_value = best_k(feature=fe_pca, max_= int(len(fe) *0.1))
+
+        kmean_normal = Kmean(fe=fe_pca,data_= df.copy(), k_value=k_value)
+        kmean_three_level = Kmean_three_level(fe=fe_pca,data_= df.copy(),k_value=k_value)
+        dbscan = DBSCAN(fe=fe_pca,data_= df.copy())
 
         sse_kmean_normal = SSE(kmean_normal.copy())
         sse_kmean_three_level = SSE(kmean_three_level.copy())

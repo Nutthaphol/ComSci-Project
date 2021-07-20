@@ -13,7 +13,7 @@ def bestEps (feature):
     distances = np.sort(distances, axis=0)
 
     # max_ = np.max(distances)
-    eps_ = 0
+    eps_ = 0.1
     for i in range(len(distances)-1):
         # distances = 75% is the best eps value
         # if (distances[i]*100/max_) >= 75:

@@ -38,9 +38,9 @@ if __name__ == '__main__':
     
 
     # cluster with kmean normal feature
-    k_value = best_k(feature=fe, max_= int(len(fe) *0.3))
+    k_value = best_k(feature=fe, max_= int(len(fe) *0.1))
     kmean_time = time.time()
-    kmean = Kmean(fe=fe, data_=df.copy(), k_value= k_value)
+    kmean = Kmean(fe=fe, data_=df.copy(), k_value= 102)
     kmean_time = time.time() - kmean_time
     data_set.append('case_routing_intent')
     pca_use.append('no')
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     time_cluster.append(kmean_time)   
 
     # cluster with kmean pca feature
-    k_value_pca = best_k(feature=fe_pca, max_= int(len(fe_pca) *0.3))
+    k_value_pca = best_k(feature=fe_pca, max_= int(len(fe_pca) *0.1))
     kmean_pca_time = time.time()
     kmean_pca = Kmean(fe=fe_pca, data_=df.copy(), k_value=k_value_pca)
     kmean_pca_time = time.time() - kmean_pca_time
@@ -107,10 +107,10 @@ if __name__ == '__main__':
     static_value.append(5)
     dynamic_value.append(eps_pca)
     purity_score.append(purity(crosstab_=pd.crosstab(dbscan_pca.intent,dbscan_pca.centroids_id),size_data=len(clean_text)))
-    time_cluster.append(dbscan_5_n_t)   
+    time_cluster.append(dbscan_5_pca_t)   
     
     final_df = pd.DataFrame({'data':data_set, 'pca':pca_use, 'static value':static_value,\
                                                 'dynamic value':dynamic_value, 'purity':purity_score,\
                                                 'time cluster':time_cluster })
 
-    final_df.to_csv("stat/test_pca.csv", encoding='utf-8-sig')
+    final_df.to_csv("test_pca_fix.csv", encoding='utf-8-sig')

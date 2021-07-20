@@ -2,7 +2,7 @@ from pythainlp.corpus import thai_stopwords
 from pythainlp import  word_tokenize
 
 def CleanText(data):
-         tmp = {"มี","บ้าง","คะ","ครับ","ไหม","ขอ","หน่อย","ครับ","ค่ะ","คะ","จ้า","อะไร"," ",}
+         tmp = {"มี","คะ","ครับ","ค่ะ","คะ","จ้า"," ",}
         #  stopwords = thai_stopwords()
          stopwords = frozenset(tmp)
          clean_text = []
