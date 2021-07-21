@@ -2,7 +2,7 @@ import json, csv,codecs
 from pythainlp import sent_tokenize, word_tokenize
 
 
-with open('food_res.txt',"r") as reader:
+with open('comsci_res.txt',"r") as reader:
         texts = reader.readlines()
         set_texts = []
         check = True;
@@ -28,7 +28,7 @@ with open('food_res.txt',"r") as reader:
                         last_texts.append(message)
         
         
-        with codecs.open("food_data.csv","w", "utf-8") as write:
+        with codecs.open("comsci_data.csv","w", "utf-8") as write:
                 text_write = csv.writer(write)
                 for text in last_texts:
                         text_write.writerow([text])
