@@ -1,151 +1,151 @@
 ﻿,text,centroids_id,dist_score,avg_dist
-0,I need to change my billing and shipping info?,0,0.6176704645316479,0.6590938001454603
-19,how can I switch billing preferences,0,0.8305009012154158,0.6590938001454603
-13,my billing info is wrong,0,0.5941019174173886,0.6590938001454603
-15,my billing info is out of date,0,0.5941019174173886,0.6590938001454603
-97,"if it is still not processed and shipped, how can I make a change",1,0.6663981232763196,0.674123417474007
-92,what is the best way to quickly make a change on an existing purchase,1,0.7860771157564244,0.674123417474007
-90,"my order hasn't shipped, can I make an order change?",1,0.6213899924128795,0.674123417474007
-1,make an account change,1,0.6226284384504038,0.674123417474007
-8,how do I update account settings,2,0.4825192983973083,0.4825192983973083
-2,"I need to update my account, can you help?",2,0.4825192983973083,0.4825192983973083
-3,how can I change my account details,3,0.5819275409242101,0.5819275409242102
-39,my account is locked,3,0.5819275409242102,0.5819275409242102
-4,user profile update,4,0.6944036066090229,0.6406684070802395
-5,can you change my profile to a new address,4,0.602616266030715,0.6406684070802395
-6,can you chage my profile to have my latest address,4,0.6249853486009808,0.6406684070802395
-34,please reset me,5,0.5475795188736832,0.5475795188736832
-7,"my billing address is same as shipping, please update",5,0.5475795188736833,0.5475795188736832
-12,where is the security code on my credit card,6,0.6111824687951983,0.5203211063237417
-9,Can I change my credit card,6,0.41864619740246306,0.5203211063237417
-89,I'd like to change the credit card on my last purchase,6,0.5311346527735635,0.5203211063237417
-18,why was I charged that much,7,0.4802911371380086,0.6227635736789032
-10,I see two charges on my account,7,0.7910669283226678,0.6227635736789032
-23,Will I be charged tax on the order?,7,0.7394050921169278,0.6227635736789032
-17,how much did you charge me,7,0.4802911371380086,0.6227635736789032
-11,why did my order get denied,8,0.6489734760914389,0.6338828641655381
-143,get me the nearest store?,8,0.6464824870709338,0.6338828641655381
-145,where can I get more gear?,8,0.6061926293342418,0.6338828641655381
-20,where do I update my account information for payments,9,0.4956262868314197,0.4956262868314197
-14,can you help me update my billing information,9,0.4956262868314197,0.4956262868314197
-16,can you tell me the cost of the item I purchased,10,0.6194185243183864,0.6194185243183864
-105,Can you take backordered items off my order?,10,0.6194185243183864,0.6194185243183864
-21,how do I change payment options,11,0.0,0.0
-43,can I change privacy settings,12,0.581252139447808,0.5812521394478081
-22,How can I set up a corporate account?,12,0.5812521394478081,0.5812521394478081
-24,i forgot my password,13,0.5543685867493984,0.5856091232187929
-32,I forgot my credentials,13,0.6012293914534901,0.5856091232187929
-44,i forgot my username,13,0.6012293914534901,0.5856091232187929
-25,i want to reset my password,14,0.5293148541268687,0.565103647432939
-36,do you have a way to reset my PW remotely?,14,0.9029824648480512,0.565103647432939
-30,can I reset my password,14,0.3646208191098345,0.565103647432939
-49,need to reset my password,14,0.5060201485393676,0.565103647432939
-45,can you help me reset my password,14,0.5225799505405729,0.565103647432939
-33,I can't login,15,0.41581070318920893,0.6286377288660565
-26,i cant remember my login,15,0.7213858437239052,0.6286377288660565
-48,login not working for me,15,0.7269151580192091,0.6286377288660565
-47,login problems,15,0.7487790652475981,0.6286377288660565
-28,can't login,15,0.41581070318920893,0.6286377288660565
-29,unable to login,15,0.7487790652475981,0.6286377288660565
-46,i can't remember my login,15,0.6229835634456664,0.6286377288660565
-27,My password doesn't work,16,0.564267424619256,0.564267424619256
-40,my password is locked?,16,0.564267424619256,0.564267424619256
-31,where do I got to find my password,17,0.0,0.0
-35,what's my PW,18,0.7071067811865475,0.7071067811865475
-64,"my order says in progress, what does that mean?",18,0.7071067811865475,0.7071067811865475
-41,I cant sing in?,19,0.61603218346564,0.6160321834656401
-37,I cant figure out my user name /passoword combo,19,0.6160321834656401,0.6160321834656401
-38,I hit the limits on my password,20,0.0,0.0
-42,how do I log in?,21,0.0,0.0
-103,Can I change the shipping address on this order? I'll be out of town when it arrives,22,0.6471177570650646,0.5764847175826574
-56,my package hasn't arrive,22,0.6045940587061351,0.5764847175826574
-50,when will my order arrive?,22,0.47774233697677265,0.5764847175826574
-51,I'm still waiting for my package,23,0.0,0.0
-62,do you have my tracking # handy?,24,0.6043758132980211,0.5812190891463325
-52,track order,24,0.5205376306041793,0.5812190891463325
-53,i'd like to track my package,24,0.6187438235367971,0.5812190891463325
-54,i'd like to check the status of my order?,25,0.6193666626386783,0.6059643295707469
-72,can I get an update on my order status?,25,0.6020965645946282,0.6059643295707469
-61,what is my shipping status?,25,0.5964297614789341,0.6059643295707469
-58,do you know if my package shipped,26,0.45631403619062016,0.45631403619062016
-55,i want to know if my order has shipped,26,0.45631403619062016,0.45631403619062016
-57,when will it come by?,27,0.5286260063937118,0.6216314579191352
-107,when is the spring catalog come up out?,27,0.6548508040957074,0.6216314579191352
-71,I need my order to come by Thursday is that possible,27,0.6814175632679864,0.6216314579191352
-59,has my order been fulfilled,28,0.635824340262044,0.635824340262044
-79,Was my order delivered?,28,0.635824340262044,0.635824340262044
-60,when can I see the order status for my purchase?,29,0.4437656891500806,0.4437656891500806
-88,where can I see my pending purchases,29,0.4437656891500806,0.4437656891500806
-119,"I am looking for a more formal shoe, do you have any options?",30,0.6071752036195388,0.6071752036195388
-63,"my shoes haven't arrived, where are they?",30,0.6071752036195388,0.6071752036195388
-68,can I check on the latest location of my order?,31,0.6653704252251371,0.6839432654945877
-98,I need to fix a mistake on my latest order,31,0.6903054850813737,0.6839432654945877
-65,is there a expected delivery date for my latest order,31,0.6961538861772524,0.6839432654945877
-76,what is the timeline to receive my order?,32,0.5252309683182321,0.5252309683182321
-66,when should I receive my items by,32,0.525230968318232,0.5252309683182321
-67,do you drop off the shoes at my door or do I need to sign?,33,0.0,0.0
-69,why is taking so long to get me my shoes? Are they close?,34,0.0,0.0
-70,Should I receive my shoes by this Tuesday?,35,0.0,0.0
-73,who is the shipper of my products? I can't find the tracking info,36,0.0,0.0
-74,are those shoes being shipped overnight?,37,0.5536775410885171,0.6772042807466805
-77,what is the shipping method,37,0.8674673232774318,0.6772042807466805
-75,Do you do overnight shipping on all orders,37,0.5216250785756035,0.6772042807466805
-87,can I update my delivery to overnight?,37,0.7660471800451696,0.6772042807466805
-78,Has my order been sent?,38,1.1102230246251565e-16,1.1102230246251565e-16
-80,"oops I made the wrong order quantity, can I update it?",39,0.0,0.0
-81,is it too late to update my shipping address,40,0.4186636083264846,0.4186636083264845
-95,"my purchase hasn't shipped, can I update my address?",40,0.41866360832648447,0.4186636083264845
-82,is my order still pending,41,0.426751016954432,0.42853596980675723
-86,can I change a pending order,41,0.4930445804137571,0.42853596980675723
-94,"my order is still pending, can I change my address",41,0.36581231205208276,0.42853596980675723
-83,"I just bought online but need to change quanity, can you help",42,0.646217533428974,0.646217533428974
-102,I need to cancel my order,42,0.646217533428974,0.646217533428974
-128,Where is the nearest location for me?,43,0.6367432447174138,0.6284814317962037
-134,where are you located in sf?,43,0.6667660114269158,0.6284814317962037
-140,where are you located?,43,0.4695024223621426,0.6284814317962037
-84,"I misspelled the location, can you help me update this?",43,0.7409140486783428,0.6284814317962037
-85,do you know if my order is fulfilled yet? I want to make a change,44,0.0,0.0
-99,help! I need to edit my purchase from 5 minutes ago,45,0.5612442352560492,0.6232912370086315
-91,I need to edit a purchase,45,0.571300706492464,0.6232912370086315
-93,"shoot, I messed my last order up, can you help me edit it?",45,0.7373287692773817,0.6232912370086315
-96,"You haven't shipped my order, can I add to it?",46,0.4665700463192654,0.4665700463192654
-104,I want to add something to my order,46,0.4665700463192654,0.4665700463192654
-100,"if you have a second, can you change something on my recent purchase?",47,0.0,0.0
-101,I want to remove an item from my order,48,0.613750757532282,0.613750757532282
-120,"I'm all set, found my order, now I want to buy a hat",48,0.613750757532282,0.613750757532282
-106,Do you have any new products available?,49,0.4869639295888183,0.4869639295888183
-114,"I like soccer, any new kits available?",49,0.48696392958881823,0.4869639295888183
-108,is the summer options available?,50,0.0,0.0
-132,Wher can I buy your gear?,51,0.630970286568221,0.630970286568221
-109,can I buy last year's jersey anymore,51,0.630970286568221,0.630970286568221
-135,is there spot in Miami?,52,0.7071067811865476,0.7071067811865476
-110,do you have a shirt that goes with my shorts?,52,0.7071067811865476,0.7071067811865476
-122,do you have any matching products,53,0.6129743278953199,0.6129743278953199
-111,do you make your product in different sizes,53,0.6129743278953199,0.6129743278953199
-117,"just got my last order yesterday and I want to buy a pair for my friend, but its sold out, any other options?",54,0.5955136854275169,0.5955136854275169
-112,"can I buy another pair, these are great?",54,0.595513685427517,0.5955136854275169
-115,"that is it, unless you have any recommended products",55,0.5339258336493088,0.555285639170373
-113,do you have any recommended products,55,0.45121896554659735,0.555285639170373
-124,"awesome, any other recommendations",55,0.6807121183152126,0.555285639170373
-123,"that's it, but would like to find out what other gear you have that's similar",56,0.5740314710073153,0.5740314710073153
-116,"thanks for help, do you have any more products in stock I would like",56,0.5740314710073152,0.5740314710073153
-118,"I don't like my shoes, can you recommend any others in that color?",57,0.0,0.0
-121,need a new hat to go with these shoes,58,0.0,0.0
-126,Do you have any more barca gear,59,0.6171265184524578,0.6171265184524578
-125,do you know where I can find my favorite team's gear?,59,0.6171265184524578,0.6171265184524578
-127,Do you have any more real madrid kits?,60,0.0,0.0
-129,Is there a store close by,61,0.508249182519781,0.5464504739139403
-138,Can I try my gear on someplace close,61,0.6913413666055042,0.5464504739139403
-141,am I close to you?,61,0.43976087261653585,0.5464504739139403
-130,how far is the nearest retail outlet,62,5.551115123125783e-17,5.551115123125783e-17
-131,find me a store,63,0.34974223175513736,0.34974223175513736
-142,please find me a store,63,0.34974223175513736,0.34974223175513736
-146,do you have a store here,64,0.5925661607282494,0.6668441822351534
-148,what store is closest to me?,64,0.8100697847380091,0.6668441822351534
-139,is there a store near by,64,0.5071544243401375,0.6668441822351534
-136,does your company have a physical store here?,64,0.8752820263498828,0.6668441822351534
-133,Is there a store near me?,64,0.5071544243401375,0.6668441822351534
-149,do you have a store near my home address,64,0.7088382729145041,0.6668441822351534
-144,I'd like to shop nearby,65,0.5527867759084794,0.5527867759084794
-137,"I'd like to return my purchase to a retail store, is one nearby?",65,0.5527867759084794,0.5527867759084794
-147,do you know where a store is around my location,66,5.551115123125783e-17,5.551115123125783e-17
+0,I need to change my billing and shipping info?,0,0.6383726540254746,0.6758809759290187
+80,"oops I made the wrong order quantity, can I update it?",0,0.9130905299489589,0.6758809759290187
+19,how can I switch billing preferences,0,0.7569972930424369,0.6758809759290187
+15,my billing info is out of date,0,0.5970408578013089,0.6758809759290187
+13,my billing info is wrong,0,0.4459056888507953,0.6758809759290187
+14,can you help me update my billing information,0,0.7038788319051382,0.6758809759290187
+1,make an account change,1,0.2929444278165874,0.29294442781658747
+3,how can I change my account details,1,0.29294442781658747,0.29294442781658747
+2,"I need to update my account, can you help?",2,0.4280189683655692,0.4280189683655692
+84,"I misspelled the location, can you help me update this?",2,0.4280189683655692,0.4280189683655692
+6,can you chage my profile to have my latest address,3,0.46123102655388915,0.46123102655388915
+4,user profile update,3,0.46123102655388915,0.46123102655388915
+5,can you change my profile to a new address,4,0.5178777996732273,0.5178777996732273
+121,need a new hat to go with these shoes,4,0.5178777996732273,0.5178777996732273
+7,"my billing address is same as shipping, please update",5,0.4675954078414192,0.36493750044598056
+81,is it too late to update my shipping address,5,0.27602512208335966,0.36493750044598056
+95,"my purchase hasn't shipped, can I update my address?",5,0.35119197141316283,0.36493750044598056
+8,how do I update account settings,6,0.23940926956135064,0.23940926956135064
+22,How can I set up a corporate account?,6,0.23940926956135064,0.23940926956135064
+9,Can I change my credit card,7,0.2267992162980008,0.2267992162980008
+12,where is the security code on my credit card,7,0.2267992162980008,0.2267992162980008
+10,I see two charges on my account,8,1.2981481815797576e-17,1.2981481815797576e-17
+11,why did my order get denied,9,0.40594240101992785,0.5432692110612432
+72,can I get an update on my order status?,9,0.6086774208210048,0.5432692110612432
+145,where can I get more gear?,9,0.5463460459570474,0.5432692110612432
+143,get me the nearest store?,9,0.6121109764469923,0.5432692110612432
+66,when should I receive my items by,10,0.41692217197328113,0.6138660492619082
+76,what is the timeline to receive my order?,10,0.664418256298367,0.6138660492619082
+70,Should I receive my shoes by this Tuesday?,10,0.7247358634661537,0.6138660492619082
+101,I want to remove an item from my order,10,0.647509773586342,0.6138660492619082
+105,Can you take backordered items off my order?,10,0.620969920244245,0.6138660492619082
+16,can you tell me the cost of the item I purchased,10,0.6086403100030608,0.6138660492619082
+23,Will I be charged tax on the order?,11,0.3910112718364987,0.2606741812243325
+17,how much did you charge me,11,0.19550563591824938,0.2606741812243325
+18,why was I charged that much,11,0.19550563591824935,0.2606741812243325
+20,where do I update my account information for payments,12,1.5222136723669557e-17,1.5222136723669557e-17
+21,how do I change payment options,13,0.4352862061075621,0.4352862061075621
+119,"I am looking for a more formal shoe, do you have any options?",13,0.4352862061075621,0.4352862061075621
+49,need to reset my password,14,0.5716282543593351,0.6624146219565555
+40,my password is locked?,14,0.7672242337212035,0.6624146219565555
+30,can I reset my password,14,0.48637476238065647,0.6624146219565555
+24,i forgot my password,14,0.6769807651259526,0.6624146219565555
+25,i want to reset my password,14,0.5769835338097704,0.6624146219565555
+27,My password doesn't work,14,0.7781928597193746,0.6624146219565555
+31,where do I got to find my password,14,0.7234867604122706,0.6624146219565555
+45,can you help me reset my password,14,0.5726576831875826,0.6624146219565555
+38,I hit the limits on my password,14,0.8082027448928547,0.6624146219565555
+48,login not working for me,15,0.6979481954770769,0.44968343624403173
+46,i can't remember my login,15,0.5244896364564867,0.44968343624403173
+26,i cant remember my login,15,0.6760060501707544,0.44968343624403173
+28,can't login,15,0.2573918980708861,0.44968343624403173
+29,unable to login,15,0.3672781877310663,0.44968343624403173
+33,I can't login,15,0.2573918980708861,0.44968343624403173
+47,login problems,15,0.36727818773106535,0.44968343624403173
+44,i forgot my username,16,1.4338045147199582e-15,1.4378796745889331e-15
+32,I forgot my credentials,16,1.441954834457908e-15,1.4378796745889331e-15
+34,please reset me,17,6.357234947424147e-17,6.357234947424147e-17
+35,what's my PW,18,0.2599744770161919,0.2599744770161919
+36,do you have a way to reset my PW remotely?,18,0.2599744770161919,0.2599744770161919
+37,I cant figure out my user name /passoword combo,19,0.4015034057066179,0.4015034057066179
+41,I cant sing in?,19,0.4015034057066179,0.4015034057066179
+39,my account is locked,20,7.85429459156923e-18,7.85429459156923e-18
+42,how do I log in?,21,1.2509268882771003e-17,1.2509268882771003e-17
+78,Has my order been sent?,22,0.8071851770862754,0.7521484186068352
+65,is there a expected delivery date for my latest order,22,0.7921175249342607,0.7521484186068352
+43,can I change privacy settings,22,0.7560345210122915,0.7521484186068352
+104,I want to add something to my order,22,0.781083177729058,0.7521484186068352
+120,"I'm all set, found my order, now I want to buy a hat",22,0.6243216922722908,0.7521484186068352
+63,"my shoes haven't arrived, where are they?",23,0.4622753619456938,0.4549754160812096
+50,when will my order arrive?,23,0.4157033264948585,0.4549754160812096
+56,my package hasn't arrive,23,0.48694755980307647,0.4549754160812096
+51,I'm still waiting for my package,24,2.3289914410393103e-17,2.3289914410393103e-17
+53,i'd like to track my package,25,0.5327316657028013,0.4179659853264411
+52,track order,25,0.38196837086513924,0.4179659853264411
+62,do you have my tracking # handy?,25,0.3391979194113828,0.4179659853264411
+144,I'd like to shop nearby,26,0.53549861182454,0.53549861182454
+54,i'd like to check the status of my order?,26,0.53549861182454,0.53549861182454
+58,do you know if my package shipped,27,0.40762094885666716,0.40762094885666716
+55,i want to know if my order has shipped,27,0.40762094885666716,0.40762094885666716
+57,when will it come by?,28,0.06904848828966914,0.06904848828966914
+107,when is the spring catalog come up out?,28,0.06904848828966915,0.06904848828966914
+85,do you know if my order is fulfilled yet? I want to make a change,29,0.39683898215133656,0.39683898215133656
+59,has my order been fulfilled,29,0.39683898215133656,0.39683898215133656
+88,where can I see my pending purchases,30,0.39007080408316863,0.39007080408316863
+60,when can I see the order status for my purchase?,30,0.39007080408316863,0.39007080408316863
+61,what is my shipping status?,31,2.745580115923257e-17,2.745580115923257e-17
+64,"my order says in progress, what does that mean?",32,1.0551910960100405e-17,1.0551910960100405e-17
+71,I need my order to come by Thursday is that possible,33,0.5209111341690819,0.49087799010112376
+67,do you drop off the shoes at my door or do I need to sign?,33,0.5463513887828971,0.49087799010112376
+102,I need to cancel my order,33,0.36426854705953593,0.49087799010112376
+98,I need to fix a mistake on my latest order,33,0.5319808903929802,0.49087799010112376
+128,Where is the nearest location for me?,34,0.5349558187552257,0.47893261427689826
+140,where are you located?,34,0.30971929955061983,0.47893261427689826
+147,do you know where a store is around my location,34,0.6149085436676304,0.47893261427689826
+68,can I check on the latest location of my order?,34,0.6066711189838104,0.47893261427689826
+134,where are you located in sf?,34,0.32840829042720476,0.47893261427689826
+69,why is taking so long to get me my shoes? Are they close?,35,3.0898049970246164e-17,3.0898049970246164e-17
+73,who is the shipper of my products? I can't find the tracking info,36,3.227937720230791e-17,3.227937720230791e-17
+74,are those shoes being shipped overnight?,37,0.3055809964563366,0.3055809964563366
+75,Do you do overnight shipping on all orders,37,0.3055809964563366,0.3055809964563366
+96,"You haven't shipped my order, can I add to it?",38,0.38046821035000744,0.38046821035000744
+77,what is the shipping method,38,0.38046821035000744,0.38046821035000744
+79,Was my order delivered?,39,1.9278078066964415e-17,1.9278078066964415e-17
+82,is my order still pending,40,0.26468303454954617,0.26468303454954617
+94,"my order is still pending, can I change my address",40,0.26468303454954617,0.26468303454954617
+83,"I just bought online but need to change quanity, can you help",41,4.9065389333867974e-18,4.9065389333867974e-18
+86,can I change a pending order,42,1.6087163711389116e-17,1.6087163711389116e-17
+87,can I update my delivery to overnight?,43,3.576224061345498e-17,3.576224061345498e-17
+89,I'd like to change the credit card on my last purchase,44,3.435672288390888e-17,3.435672288390888e-17
+97,"if it is still not processed and shipped, how can I make a change",45,0.36470913593459353,0.36470913593459353
+90,"my order hasn't shipped, can I make an order change?",45,0.36470913593459353,0.36470913593459353
+99,help! I need to edit my purchase from 5 minutes ago,46,0.23893412689430998,0.40729597106824117
+91,I need to edit a purchase,46,0.42691436897023455,0.40729597106824117
+93,"shoot, I messed my last order up, can you help me edit it?",46,0.556039417340179,0.40729597106824117
+100,"if you have a second, can you change something on my recent purchase?",47,0.4406666002063559,0.4406666002063559
+92,what is the best way to quickly make a change on an existing purchase,47,0.4406666002063559,0.4406666002063559
+103,Can I change the shipping address on this order? I'll be out of town when it arrives,48,3.709429426877585e-17,3.709429426877585e-17
+114,"I like soccer, any new kits available?",49,0.46913375768226945,0.4987173421889825
+106,Do you have any new products available?,49,0.4494538324873562,0.4987173421889825
+108,is the summer options available?,49,0.5775644363973219,0.4987173421889825
+112,"can I buy another pair, these are great?",50,0.6259711364215342,0.5763604325154491
+109,can I buy last year's jersey anymore,50,0.6630320971702031,0.5763604325154491
+117,"just got my last order yesterday and I want to buy a pair for my friend, but its sold out, any other options?",50,0.4400780639546103,0.5763604325154491
+110,do you have a shirt that goes with my shorts?,51,1.0971354589302191e-17,1.0971354589302191e-17
+122,do you have any matching products,52,0.35277281644314473,0.35277281644314473
+111,do you make your product in different sizes,52,0.35277281644314473,0.35277281644314473
+115,"that is it, unless you have any recommended products",53,0.05085606171840056,0.05085606171840056
+113,do you have any recommended products,53,0.05085606171840056,0.05085606171840056
+116,"thanks for help, do you have any more products in stock I would like",54,1.2049774363595733e-17,1.2049774363595733e-17
+124,"awesome, any other recommendations",55,0.35280376951820486,0.35280376951820486
+118,"I don't like my shoes, can you recommend any others in that color?",55,0.35280376951820486,0.35280376951820486
+132,Wher can I buy your gear?,56,0.5078686483468546,0.5381096885943218
+123,"that's it, but would like to find out what other gear you have that's similar",56,0.6159944127090322,0.5381096885943218
+125,do you know where I can find my favorite team's gear?,56,0.5976175408061251,0.5381096885943218
+138,Can I try my gear on someplace close,56,0.5706430979327354,0.5381096885943218
+126,Do you have any more barca gear,56,0.398424743176862,0.5381096885943218
+127,Do you have any more real madrid kits?,57,1.9854817689713557e-17,1.9854817689713557e-17
+139,is there a store near by,58,0.5693853707078013,0.5842374576363589
+148,what store is closest to me?,58,0.4344925659148135,0.5842374576363589
+146,do you have a store here,58,0.3617064973028457,0.5842374576363589
+142,please find me a store,58,0.7631939709991474,0.5842374576363589
+149,do you have a store near my home address,58,0.6520319096609545,0.5842374576363589
+129,Is there a store close by,58,0.728778990184711,0.5842374576363589
+136,does your company have a physical store here?,58,0.5767251394424237,0.5842374576363589
+133,Is there a store near me?,58,0.5693853707078013,0.5842374576363589
+131,find me a store,58,0.6024373038067316,0.5842374576363589
+137,"I'd like to return my purchase to a retail store, is one nearby?",59,0.5250519224575622,0.5250519224575622
+130,how far is the nearest retail outlet,59,0.5250519224575622,0.5250519224575622
+135,is there spot in Miami?,60,2.1601486928043062e-17,2.1601486928043062e-17
+141,am I close to you?,61,4.2500725161431774e-17,4.2500725161431774e-17
