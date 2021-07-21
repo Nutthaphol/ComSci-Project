@@ -1,151 +1,151 @@
 ﻿,text,intent,centroids_id,dist_score,avg_dist_score
-104,I want to add something to my order,Order Change,0,0.6571817032110009,0.7962386560334888
-135,is there spot in Miami?,Sales Opportunity,0,0.9252228936792634,0.7962386560334888
-96,"You haven't shipped my order, can I add to it?",Order Change,0,0.7574463750725796,0.7962386560334888
-100,"if you have a second, can you change something on my recent purchase?",Order Change,0,0.8451036521711113,0.7962386560334888
-147,do you know where a store is around my location,Sales Opportunity,1,0.0,0.0
-81,is it too late to update my shipping address,Order Change,2,0.6188181918868026,0.7073016034164945
-7,"my billing address is same as shipping, please update",Billing,2,0.6359724185334956,0.7073016034164945
-95,"my purchase hasn't shipped, can I update my address?",Order Change,2,0.5877953314789348,0.7073016034164945
-42,how do I log in?,Password Help,2,0.986620471766745,0.7073016034164945
-121,need a new hat to go with these shoes,Sales Opportunity,3,0.6095473720802572,0.6095473720802572
-67,do you drop off the shoes at my door or do I need to sign?,Shipping Info,3,0.6095473720802572,0.6095473720802572
-143,get me the nearest store?,Sales Opportunity,4,0.5882554879583559,0.7063019198008513
-145,where can I get more gear?,Sales Opportunity,4,0.7372437110746288,0.7063019198008513
-130,how far is the nearest retail outlet,Sales Opportunity,4,0.7934065603695692,0.7063019198008513
-103,Can I change the shipping address on this order? I'll be out of town when it arrives,Order Change,5,0.8695339650424336,0.8585410028394979
-78,Has my order been sent?,Shipping Info,5,0.9293274046054515,0.8585410028394979
-79,Was my order delivered?,Shipping Info,5,0.9293274046054515,0.8585410028394979
-64,"my order says in progress, what does that mean?",Shipping Info,5,0.9637693859701697,0.8585410028394979
-59,has my order been fulfilled,Shipping Info,5,0.8791341408903144,0.8585410028394979
-85,do you know if my order is fulfilled yet? I want to make a change,Order Change,5,0.7835023522895619,0.8585410028394979
-1,make an account change,Billing,5,0.8281864829052726,0.8585410028394979
-97,"if it is still not processed and shipped, how can I make a change",Order Change,5,0.8464136221391274,0.8585410028394979
-92,what is the best way to quickly make a change on an existing purchase,Order Change,5,0.9106734591416283,0.8585410028394979
-90,"my order hasn't shipped, can I make an order change?",Order Change,5,0.6455418108055662,0.8585410028394979
-31,where do I got to find my password,Password Help,6,0.0,0.0
-2,"I need to update my account, can you help?",Billing,7,0.7661132051633094,0.7589967119757697
-3,how can I change my account details,Billing,7,0.8175765872189572,0.7589967119757697
-43,can I change privacy settings,Password Help,7,0.8871275677533967,0.7589967119757697
-8,how do I update account settings,Billing,7,0.5610572358486652,0.7589967119757697
-22,How can I set up a corporate account?,Billing,7,0.7211819291541978,0.7589967119757697
-20,where do I update my account information for payments,Billing,7,0.8009237467160922,0.7589967119757697
-10,I see two charges on my account,Billing,8,0.7910669283226678,0.6227635736789032
-23,Will I be charged tax on the order?,Billing,8,0.7394050921169278,0.6227635736789032
-17,how much did you charge me,Billing,8,0.4802911371380086,0.6227635736789032
-18,why was I charged that much,Billing,8,0.4802911371380086,0.6227635736789032
-124,"awesome, any other recommendations",Sales Opportunity,9,0.8235570096774767,0.7775170297866341
-122,do you have any matching products,Sales Opportunity,9,0.8562642296312245,0.7775170297866341
-115,"that is it, unless you have any recommended products",Sales Opportunity,9,0.658814023054842,0.7775170297866341
-118,"I don't like my shoes, can you recommend any others in that color?",Sales Opportunity,9,0.8762078403992803,0.7775170297866341
-111,do you make your product in different sizes,Sales Opportunity,9,0.8953149297841412,0.7775170297866341
-113,do you have any recommended products,Sales Opportunity,9,0.5549441461728399,0.7775170297866341
-34,please reset me,Password Help,10,0.7868179682754118,0.5303478896971241
-30,can I reset my password,Password Help,10,0.33385939166053086,0.5303478896971241
-45,can you help me reset my password,Password Help,10,0.5139765095261922,0.5303478896971241
-49,need to reset my password,Password Help,10,0.49570603498567295,0.5303478896971241
-25,i want to reset my password,Password Help,10,0.5213795440378127,0.5303478896971241
-27,My password doesn't work,Password Help,11,0.43419485183690354,0.43419485183690354
-48,login not working for me,Password Help,11,0.4341948518369035,0.43419485183690354
-129,Is there a store close by,Sales Opportunity,12,0.5727985849042163,0.6433647864022791
-69,why is taking so long to get me my shoes? Are they close?,Shipping Info,12,0.7665002175011111,0.6433647864022791
-138,Can I try my gear on someplace close,Sales Opportunity,12,0.7509205760073144,0.6433647864022791
-141,am I close to you?,Sales Opportunity,12,0.4832397671964743,0.6433647864022791
-149,do you have a store near my home address,Sales Opportunity,13,0.5487307328738082,0.36582048858253885
-139,is there a store near by,Sales Opportunity,13,0.2743653664369041,0.36582048858253885
-133,Is there a store near me?,Sales Opportunity,13,0.2743653664369041,0.36582048858253885
-89,I'd like to change the credit card on my last purchase,Order Change,14,0.5311346527735635,0.5203211063237417
-12,where is the security code on my credit card,Billing,14,0.6111824687951983,0.5203211063237417
-9,Can I change my credit card,Billing,14,0.41864619740246306,0.5203211063237417
-102,I need to cancel my order,Order Change,15,0.8951609032852901,0.7425944476576697
-57,when will it come by?,Shipping Info,15,0.6651915088052799,0.7425944476576697
-71,I need my order to come by Thursday is that possible,Shipping Info,15,0.6653658361125527,0.7425944476576697
-107,when is the spring catalog come up out?,Sales Opportunity,15,0.7446595424275562,0.7425944476576697
-28,can't login,Password Help,16,0.3491096092742869,0.5081247552354534
-29,unable to login,Password Help,16,0.6671399011966199,0.5081247552354534
-47,login problems,Password Help,16,0.6671399011966199,0.5081247552354534
-33,I can't login,Password Help,16,0.3491096092742869,0.5081247552354534
-66,when should I receive my items by,Shipping Info,17,0.6189623228984459,0.802650391824057
-16,can you tell me the cost of the item I purchased,Billing,17,0.8649722367024731,0.802650391824057
-101,I want to remove an item from my order,Order Change,17,0.8138522617623402,0.802650391824057
-76,what is the timeline to receive my order?,Shipping Info,17,0.8260295584126117,0.802650391824057
-70,Should I receive my shoes by this Tuesday?,Shipping Info,17,0.8699503773565039,0.802650391824057
-105,Can you take backordered items off my order?,Order Change,17,0.8221355938119664,0.802650391824057
-51,I'm still waiting for my package,Shipping Info,18,0.0,0.0
-65,is there a expected delivery date for my latest order,Shipping Info,19,0.6081911683800503,0.6081911683800503
-98,I need to fix a mistake on my latest order,Order Change,19,0.6081911683800503,0.6081911683800503
-58,do you know if my package shipped,Shipping Info,20,0.4563140361906201,0.45631403619062016
-55,i want to know if my order has shipped,Shipping Info,20,0.45631403619062016,0.45631403619062016
-109,can I buy last year's jersey anymore,Sales Opportunity,21,0.0,0.0
-91,I need to edit a purchase,Order Change,22,0.5713007064924641,0.6232912370086315
-99,help! I need to edit my purchase from 5 minutes ago,Order Change,22,0.5612442352560492,0.6232912370086315
-93,"shoot, I messed my last order up, can you help me edit it?",Order Change,22,0.7373287692773816,0.6232912370086315
-114,"I like soccer, any new kits available?",Sales Opportunity,23,0.4869639295888182,0.48696392958881823
-106,Do you have any new products available?,Sales Opportunity,23,0.4869639295888183,0.48696392958881823
-84,"I misspelled the location, can you help me update this?",Order Change,24,0.7730223871907642,0.6768260141337336
-128,Where is the nearest location for me?,Sales Opportunity,24,0.6686323287184265,0.6768260141337336
-140,where are you located?,Sales Opportunity,24,0.4807978509105218,0.6768260141337336
-68,can I check on the latest location of my order?,Shipping Info,24,0.7624392965731388,0.6768260141337336
-134,where are you located in sf?,Sales Opportunity,24,0.6992382072758164,0.6768260141337336
-73,who is the shipper of my products? I can't find the tracking info,Shipping Info,25,0.9555059758004923,0.7436008999488357
-136,does your company have a physical store here?,Sales Opportunity,25,0.8503540831283656,0.7436008999488357
-146,do you have a store here,Sales Opportunity,25,0.629788605274131,0.7436008999488357
-131,find me a store,Sales Opportunity,25,0.5629836689532487,0.7436008999488357
-142,please find me a store,Sales Opportunity,25,0.6676659886046529,0.7436008999488357
-148,what store is closest to me?,Sales Opportunity,25,0.7953070779321239,0.7436008999488357
-137,"I'd like to return my purchase to a retail store, is one nearby?",Sales Opportunity,26,0.5527867759084794,0.5527867759084794
-144,I'd like to shop nearby,Sales Opportunity,26,0.5527867759084794,0.5527867759084794
-0,I need to change my billing and shipping info?,Billing,27,0.6602792271920224,0.7803207782072937
-14,can you help me update my billing information,Billing,27,0.8124943126769809,0.7803207782072937
-19,how can I switch billing preferences,Billing,27,0.8511685294445303,0.7803207782072937
-83,"I just bought online but need to change quanity, can you help",Order Change,27,0.9553459540542709,0.7803207782072937
-13,my billing info is wrong,Billing,27,0.7013183229379789,0.7803207782072937
-15,my billing info is out of date,Billing,27,0.7013183229379789,0.7803207782072937
-50,when will my order arrive?,Shipping Info,28,0.4684059671774228,0.51359517441467
-63,"my shoes haven't arrived, where are they?",Shipping Info,28,0.523041021471003,0.51359517441467
-56,my package hasn't arrive,Shipping Info,28,0.5493385345955842,0.51359517441467
-44,i forgot my username,Password Help,29,0.6012293914534902,0.5856091232187929
-24,i forgot my password,Password Help,29,0.5543685867493983,0.5856091232187929
-32,I forgot my credentials,Password Help,29,0.6012293914534902,0.5856091232187929
-5,can you change my profile to a new address,Billing,30,0.7114887775582495,0.7539348147287133
-37,I cant figure out my user name /passoword combo,Password Help,30,0.8935493704417273,0.7539348147287133
-4,user profile update,Billing,30,0.6848832811516855,0.7539348147287133
-6,can you chage my profile to have my latest address,Billing,30,0.7258178297631906,0.7539348147287133
-110,do you have a shirt that goes with my shorts?,Sales Opportunity,31,0.0,0.0
-26,i cant remember my login,Password Help,32,0.3685164784597594,0.6057658833681833
-46,i can't remember my login,Password Help,32,0.6284250821453824,0.6057658833681833
-41,I cant sing in?,Password Help,32,0.8203560894994079,0.6057658833681833
-11,why did my order get denied,Billing,33,0.8917345116460441,0.7826410595994111
-60,when can I see the order status for my purchase?,Shipping Info,33,0.7375684974811694,0.7826410595994111
-72,can I get an update on my order status?,Shipping Info,33,0.6095089143917869,0.7826410595994111
-80,"oops I made the wrong order quantity, can I update it?",Order Change,33,0.9477084489620811,0.7826410595994111
-54,i'd like to check the status of my order?,Shipping Info,33,0.7442376158878673,0.7826410595994111
-61,what is my shipping status?,Shipping Info,33,0.7650883692275176,0.7826410595994111
-132,Wher can I buy your gear?,Sales Opportunity,34,0.7494456782022832,0.7187445310476684
-117,"just got my last order yesterday and I want to buy a pair for my friend, but its sold out, any other options?",Sales Opportunity,34,0.7204437747616926,0.7187445310476684
-112,"can I buy another pair, these are great?",Sales Opportunity,34,0.6863441401790291,0.7187445310476684
-127,Do you have any more real madrid kits?,Sales Opportunity,35,0.0,0.0
-82,is my order still pending,Order Change,36,0.493980458111238,0.5675950370068402
-86,can I change a pending order,Order Change,36,0.5143161313812344,0.5675950370068402
-94,"my order is still pending, can I change my address",Order Change,36,0.49606805217969946,0.5675950370068402
-88,where can I see my pending purchases,Order Change,36,0.7660155063551888,0.5675950370068402
-119,"I am looking for a more formal shoe, do you have any options?",Sales Opportunity,37,0.7103818831479174,0.6920392451726713
-108,is the summer options available?,Sales Opportunity,37,0.691158707921262,0.6920392451726713
-21,how do I change payment options,Billing,37,0.6745771444488345,0.6920392451726713
-36,do you have a way to reset my PW remotely?,Password Help,38,0.4953802647666589,0.49538026476665886
-35,what's my PW,Password Help,38,0.49538026476665886,0.49538026476665886
-52,track order,Shipping Info,39,0.5205376306041793,0.5812190891463325
-53,i'd like to track my package,Shipping Info,39,0.6187438235367971,0.5812190891463325
-62,do you have my tracking # handy?,Shipping Info,39,0.6043758132980211,0.5812190891463325
-123,"that's it, but would like to find out what other gear you have that's similar",Sales Opportunity,40,0.6624520777603743,0.7757026486958545
-126,Do you have any more barca gear,Sales Opportunity,40,0.8064175277422789,0.7757026486958545
-125,do you know where I can find my favorite team's gear?,Sales Opportunity,40,0.7836766198022324,0.7757026486958545
-116,"thanks for help, do you have any more products in stock I would like",Sales Opportunity,40,0.8502643694785322,0.7757026486958545
-39,my account is locked,Password Help,41,0.6676913698428764,0.6716709919320447
-40,my password is locked?,Password Help,41,0.517735430439506,0.6716709919320447
-38,I hit the limits on my password,Password Help,41,0.829586175513752,0.6716709919320447
-120,"I'm all set, found my order, now I want to buy a hat",Sales Opportunity,42,0.0,0.0
-75,Do you do overnight shipping on all orders,Shipping Info,43,0.5216250785756035,0.6772042807466805
-77,what is the shipping method,Shipping Info,43,0.8674673232774317,0.6772042807466805
-87,can I update my delivery to overnight?,Order Change,43,0.7660471800451696,0.6772042807466805
-74,are those shoes being shipped overnight?,Shipping Info,43,0.5536775410885171,0.6772042807466805
+149,do you have a store near my home address,Sales Opportunity,0,0.6727346736538125,0.6331262509834805
+146,do you have a store here,Sales Opportunity,0,0.38107650182397196,0.6331262509834805
+143,get me the nearest store?,Sales Opportunity,0,0.7750400288308176,0.6331262509834805
+142,please find me a store,Sales Opportunity,0,0.7749043774316592,0.6331262509834805
+139,is there a store near by,Sales Opportunity,0,0.6075335106408698,0.6331262509834805
+137,"I'd like to return my purchase to a retail store, is one nearby?",Sales Opportunity,0,0.8176136532983701,0.6331262509834805
+136,does your company have a physical store here?,Sales Opportunity,0,0.5575737892843335,0.6331262509834805
+133,Is there a store near me?,Sales Opportunity,0,0.6075335106408698,0.6331262509834805
+131,find me a store,Sales Opportunity,0,0.6201315578185095,0.6331262509834805
+148,what store is closest to me?,Sales Opportunity,0,0.4167806276648531,0.6331262509834805
+129,Is there a store close by,Sales Opportunity,0,0.73346652973022,0.6331262509834805
+43,can I change privacy settings,Password Help,1,0.7851612339288166,0.7894104019060167
+82,is my order still pending,Order Change,1,0.8598892586081429,0.7894104019060167
+89,I'd like to change the credit card on my last purchase,Order Change,1,0.7650297823191027,0.7894104019060167
+35,what's my PW,Password Help,1,0.9068753206468172,0.7894104019060167
+92,what is the best way to quickly make a change on an existing purchase,Order Change,1,0.6605974179757046,0.7894104019060167
+36,do you have a way to reset my PW remotely?,Password Help,1,0.8903639294609074,0.7894104019060167
+88,where can I see my pending purchases,Order Change,1,0.8866738066458285,0.7894104019060167
+85,do you know if my order is fulfilled yet? I want to make a change,Order Change,1,0.8472592807885142,0.7894104019060167
+21,how do I change payment options,Billing,1,0.8349665108202456,0.7894104019060167
+94,"my order is still pending, can I change my address",Order Change,1,0.7669864255216158,0.7894104019060167
+1,make an account change,Billing,1,0.7639433418516597,0.7894104019060167
+3,how can I change my account details,Billing,1,0.6993283324165911,0.7894104019060167
+9,Can I change my credit card,Billing,1,0.7639236354322423,0.7894104019060167
+12,where is the security code on my credit card,Billing,1,0.8515744960329313,0.7894104019060167
+97,"if it is still not processed and shipped, how can I make a change",Order Change,1,0.7038286307661559,0.7894104019060167
+100,"if you have a second, can you change something on my recent purchase?",Order Change,1,0.7563181733773574,0.7894104019060167
+86,can I change a pending order,Order Change,1,0.6772572558096507,0.7894104019060167
+30,can I reset my password,Password Help,2,0.46259712157358585,0.6912819164664229
+38,I hit the limits on my password,Password Help,2,0.8259971533452718,0.6912819164664229
+34,please reset me,Password Help,2,0.9127266013089034,0.6912819164664229
+49,need to reset my password,Password Help,2,0.5535699162317973,0.6912819164664229
+40,my password is locked?,Password Help,2,0.791081717299687,0.6912819164664229
+27,My password doesn't work,Password Help,2,0.8023241441845285,0.6912819164664229
+45,can you help me reset my password,Password Help,2,0.5554610519164463,0.6912819164664229
+25,i want to reset my password,Password Help,2,0.5578754958693167,0.6912819164664229
+24,i forgot my password,Password Help,2,0.7043736006003806,0.6912819164664229
+31,where do I got to find my password,Password Help,2,0.7468123623343113,0.6912819164664229
+46,i can't remember my login,Password Help,3,0.5244896364564867,0.44968343624403173
+48,login not working for me,Password Help,3,0.6979481954770769,0.44968343624403173
+47,login problems,Password Help,3,0.36727818773106535,0.44968343624403173
+28,can't login,Password Help,3,0.2573918980708861,0.44968343624403173
+29,unable to login,Password Help,3,0.3672781877310663,0.44968343624403173
+26,i cant remember my login,Password Help,3,0.6760060501707544,0.44968343624403173
+33,I can't login,Password Help,3,0.2573918980708861,0.44968343624403173
+62,do you have my tracking # handy?,Shipping Info,4,0.3673843069753603,0.5054938263343425
+52,track order,Shipping Info,4,0.4305421646439564,0.5054938263343425
+53,i'd like to track my package,Shipping Info,4,0.5964258810217268,0.5054938263343425
+73,who is the shipper of my products? I can't find the tracking info,Shipping Info,4,0.6276229526963265,0.5054938263343425
+81,is it too late to update my shipping address,Order Change,5,0.6308715718906502,0.7218416708882551
+90,"my order hasn't shipped, can I make an order change?",Order Change,5,0.7226205995155031,0.7218416708882551
+95,"my purchase hasn't shipped, can I update my address?",Order Change,5,0.7146931095550364,0.7218416708882551
+96,"You haven't shipped my order, can I add to it?",Order Change,5,0.586432095954776,0.7218416708882551
+103,Can I change the shipping address on this order? I'll be out of town when it arrives,Order Change,5,0.6928041063203653,0.7218416708882551
+77,what is the shipping method,Shipping Info,5,0.5860244749046508,0.7218416708882551
+75,Do you do overnight shipping on all orders,Shipping Info,5,0.6813667434410055,0.7218416708882551
+104,I want to add something to my order,Order Change,5,0.9303790192651037,0.7218416708882551
+61,what is my shipping status?,Shipping Info,5,0.7519732200577294,0.7218416708882551
+74,are those shoes being shipped overnight?,Shipping Info,5,0.7929871475686715,0.7218416708882551
+7,"my billing address is same as shipping, please update",Billing,5,0.7877038188791651,0.7218416708882551
+58,do you know if my package shipped,Shipping Info,5,0.8071762668434729,0.7218416708882551
+55,i want to know if my order has shipped,Shipping Info,5,0.6989095473511867,0.7218416708882551
+0,I need to change my billing and shipping info?,Billing,6,0.8020742050447103,0.6656731654183874
+102,I need to cancel my order,Order Change,6,0.5010674966770701,0.6656731654183874
+2,"I need to update my account, can you help?",Billing,6,0.7301512426820177,0.6656731654183874
+99,help! I need to edit my purchase from 5 minutes ago,Order Change,6,0.6478767905962807,0.6656731654183874
+98,I need to fix a mistake on my latest order,Order Change,6,0.6586519762619881,0.6656731654183874
+91,I need to edit a purchase,Order Change,6,0.6667740464395145,0.6656731654183874
+67,do you drop off the shoes at my door or do I need to sign?,Shipping Info,6,0.5737454882873275,0.6656731654183874
+121,need a new hat to go with these shoes,Sales Opportunity,6,0.7413713139651233,0.6656731654183874
+83,"I just bought online but need to change quanity, can you help",Order Change,6,0.6840157161749869,0.6656731654183874
+71,I need my order to come by Thursday is that possible,Shipping Info,6,0.6510033780548546,0.6656731654183874
+101,I want to remove an item from my order,Order Change,7,0.647509773586342,0.6138660492619082
+16,can you tell me the cost of the item I purchased,Billing,7,0.6086403100030608,0.6138660492619082
+76,what is the timeline to receive my order?,Shipping Info,7,0.664418256298367,0.6138660492619082
+105,Can you take backordered items off my order?,Order Change,7,0.620969920244245,0.6138660492619082
+70,Should I receive my shoes by this Tuesday?,Shipping Info,7,0.7247358634661537,0.6138660492619082
+66,when should I receive my items by,Shipping Info,7,0.41692217197328113,0.6138660492619082
+84,"I misspelled the location, can you help me update this?",Order Change,8,0.6175545479887524,0.5134141530042887
+134,where are you located in sf?,Sales Opportunity,8,0.32546553062505973,0.5134141530042887
+147,do you know where a store is around my location,Sales Opportunity,8,0.6268082859305879,0.5134141530042887
+128,Where is the nearest location for me?,Sales Opportunity,8,0.5563334479868541,0.5134141530042887
+140,where are you located?,Sales Opportunity,8,0.3211115186831506,0.5134141530042887
+68,can I check on the latest location of my order?,Shipping Info,8,0.6332115868113268,0.5134141530042887
+111,do you make your product in different sizes,Sales Opportunity,9,0.7796625407408232,0.8780914888362094
+110,do you have a shirt that goes with my shorts?,Sales Opportunity,9,0.9981326976898014,0.8780914888362094
+109,can I buy last year's jersey anymore,Sales Opportunity,9,0.9107080510535085,0.8780914888362094
+135,is there spot in Miami?,Sales Opportunity,9,0.9981326976898011,0.8780914888362094
+141,am I close to you?,Sales Opportunity,9,0.9573169662446654,0.8780914888362094
+4,user profile update,Billing,9,0.8753062123227899,0.8780914888362094
+107,when is the spring catalog come up out?,Sales Opportunity,9,0.7910570248139129,0.8780914888362094
+6,can you chage my profile to have my latest address,Billing,9,0.8809480716474056,0.8780914888362094
+112,"can I buy another pair, these are great?",Sales Opportunity,9,0.9130705181026599,0.8780914888362094
+116,"thanks for help, do you have any more products in stock I would like",Sales Opportunity,9,0.8480681907672217,0.8780914888362094
+115,"that is it, unless you have any recommended products",Sales Opportunity,9,0.7936009663379104,0.8780914888362094
+117,"just got my last order yesterday and I want to buy a pair for my friend, but its sold out, any other options?",Sales Opportunity,9,0.7884708658896667,0.8780914888362094
+118,"I don't like my shoes, can you recommend any others in that color?",Sales Opportunity,9,0.779578789121882,0.8780914888362094
+119,"I am looking for a more formal shoe, do you have any options?",Sales Opportunity,9,0.8058646304134628,0.8780914888362094
+120,"I'm all set, found my order, now I want to buy a hat",Sales Opportunity,9,0.8338546259981385,0.8780914888362094
+8,how do I update account settings,Billing,9,0.8854522551004007,0.8780914888362094
+124,"awesome, any other recommendations",Sales Opportunity,9,0.8156025193188562,0.8780914888362094
+13,my billing info is wrong,Billing,9,0.8842201254270543,0.8780914888362094
+130,how far is the nearest retail outlet,Sales Opportunity,9,0.9050496220047333,0.8780914888362094
+10,I see two charges on my account,Billing,9,0.8393104432080989,0.8780914888362094
+113,do you have any recommended products,Sales Opportunity,9,0.8780043091342874,0.8780914888362094
+122,do you have any matching products,Sales Opportunity,9,0.7813714635316784,0.8780914888362094
+59,has my order been fulfilled,Shipping Info,9,0.9297794912841473,0.8780914888362094
+15,my billing info is out of date,Billing,9,0.8972264086648662,0.8780914888362094
+60,when can I see the order status for my purchase?,Shipping Info,9,0.9122910374954262,0.8780914888362094
+57,when will it come by?,Shipping Info,9,0.8784932897464792,0.8780914888362094
+56,my package hasn't arrive,Shipping Info,9,0.9340806047168941,0.8780914888362094
+63,"my shoes haven't arrived, where are they?",Shipping Info,9,0.9281441254978944,0.8780914888362094
+64,"my order says in progress, what does that mean?",Shipping Info,9,0.9777370420204048,0.8780914888362094
+65,is there a expected delivery date for my latest order,Shipping Info,9,0.864531992366851,0.8780914888362094
+54,i'd like to check the status of my order?,Shipping Info,9,0.8882020973393562,0.8780914888362094
+51,I'm still waiting for my package,Shipping Info,9,0.9070227205728416,0.8780914888362094
+50,when will my order arrive?,Shipping Info,9,0.9070659862119286,0.8780914888362094
+78,Has my order been sent?,Shipping Info,9,0.9209274721797964,0.8780914888362094
+79,Was my order delivered?,Shipping Info,9,0.9209274721797972,0.8780914888362094
+44,i forgot my username,Password Help,9,0.8194872756786781,0.8780914888362094
+42,how do I log in?,Password Help,9,0.998132697689801,0.8780914888362094
+80,"oops I made the wrong order quantity, can I update it?",Order Change,9,0.9094070525711813,0.8780914888362094
+39,my account is locked,Password Help,9,0.9565859419713669,0.8780914888362094
+17,how much did you charge me,Billing,9,0.939427526650521,0.8780914888362094
+18,why was I charged that much,Billing,9,0.939427526650521,0.8780914888362094
+19,how can I switch billing preferences,Billing,9,0.9037051202389907,0.8780914888362094
+20,where do I update my account information for payments,Billing,9,0.905455849975186,0.8780914888362094
+93,"shoot, I messed my last order up, can you help me edit it?",Order Change,9,0.8355338636017545,0.8780914888362094
+41,I cant sing in?,Password Help,9,0.8752340047103605,0.8780914888362094
+22,How can I set up a corporate account?,Billing,9,0.8254151089026,0.8780914888362094
+23,Will I be charged tax on the order?,Billing,9,0.6362607749192156,0.8780914888362094
+14,can you help me update my billing information,Billing,9,0.850369001538592,0.8780914888362094
+32,I forgot my credentials,Password Help,9,0.8194872756786781,0.8780914888362094
+37,I cant figure out my user name /passoword combo,Password Help,9,0.8555781625852721,0.8780914888362094
+87,can I update my delivery to overnight?,Order Change,9,0.9039454204485142,0.8780914888362094
+132,Wher can I buy your gear?,Sales Opportunity,10,0.6289879088419338,0.6820091055392113
+123,"that's it, but would like to find out what other gear you have that's similar",Sales Opportunity,10,0.7357269228797028,0.6820091055392113
+145,where can I get more gear?,Sales Opportunity,10,0.5196216305907724,0.6820091055392113
+125,do you know where I can find my favorite team's gear?,Sales Opportunity,10,0.7093118737557329,0.6820091055392113
+11,why did my order get denied,Billing,10,0.7250588381952816,0.6820091055392113
+126,Do you have any more barca gear,Sales Opportunity,10,0.5653805379776677,0.6820091055392113
+138,Can I try my gear on someplace close,Sales Opportunity,10,0.6312819497503852,0.6820091055392113
+69,why is taking so long to get me my shoes? Are they close?,Shipping Info,10,0.7801084330212763,0.6820091055392113
+72,can I get an update on my order status?,Shipping Info,10,0.8426038548401491,0.6820091055392113
+5,can you change my profile to a new address,Billing,11,0.8023737525861581,0.7390432046803269
+144,I'd like to shop nearby,Sales Opportunity,11,0.848777564348038,0.7390432046803269
+106,Do you have any new products available?,Sales Opportunity,11,0.652135415988352,0.7390432046803269
+108,is the summer options available?,Sales Opportunity,11,0.7442770241636691,0.7390432046803269
+127,Do you have any more real madrid kits?,Sales Opportunity,11,0.9030138906356476,0.7390432046803269
+114,"I like soccer, any new kits available?",Sales Opportunity,11,0.48368158036009623,0.7390432046803269
