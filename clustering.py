@@ -24,7 +24,7 @@ if __name__ == '__main__':
     n_component = min(fe.shape[0], fe.shape[1])
     fe_pca = bestPCA(feature=fe, n_component=n_component)
 
-    k_value = best_k(feature=fe_pca, max_= int(len(fe) *0.3))
+    k_value = best_k(feature=fe_pca, max_= int(len(fe) *0.1))
     
     kmean_normal = Kmean(fe=fe,data_= df.copy(),k_value=k_value)
     kmean_three_level = Kmean_three_level(fe=fe,data_= df.copy(),k_value=k_value)
@@ -57,6 +57,14 @@ if __name__ == '__main__':
     dbscan.to_csv("comsci_result/DBSCAN.csv",encoding='utf-8-sig',index=False)
     sse_dbscan.to_csv("comsci_result/SSE_DBSCAN.csv",encoding='utf-8-sig',index=False)
 
-    sse = sse_dbscan.sse.tolist()
-    sum_sse = sum(sse)
-    print(sum_sse)
+    sum_sse_kmean_normal = sse_kmean_normal["sse"].tolist()
+    sum_sse_kmean_three_level = sse_kmean_three_level["sse"].tolist()
+    sum_sse_dbscan = sse_dbscan["sse"].tolist()
+
+    number_cluster = [len(sse_kmean_normal.centroids_id.tolist()), len(sse_kmean_three_level.centroids_id.tolist()), len(sse_dbscan.centroids_id.tolist())]
+    type = ["Kmean_normal","Kmean_three_level","dbscan"]
+    sum_sse = [sum(sum_sse_kmean_normal), sum(sum_sse_kmean_three_level), sum(sum_sse_dbscan)]
+
+    conclusion = pd.DataFrame({"type":type, 'number':number_cluster, "sum_sse":sum_sse})
+
+    conclusion.to_csv("comsci_final.csv",encoding='utf-8-sig',index=False)

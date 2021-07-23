@@ -7,11 +7,12 @@ with open(r'test.json') as test_:
 with open(r'test_usersays_en.json') as test_:
         userSays=json.loads(test_.read())
 
-with open('air_line.csv')  as file_:
+with open('test_bot.csv')  as file_:
         reader = csv.reader(file_, delimiter=",")
         line_count = 0
         index = line_count
         intent = []
+        text_input = []
         responses = []
         responses_str = ""
         for row in reader:
@@ -36,7 +37,7 @@ with open('air_line.csv')  as file_:
                 name_ = intent[i]+".json"
                 name_user_ = intent[i]+"_usersays_en.json"
 
-                with open(name_,'w') as f:
-                        f.write(json.dumps(question_))
-                with open(name_user_,'w') as f:
-                        f.write(json.dumps(userSays_))
+                with open(name_,'w',encoding='utf-8') as f:
+                        f.write(json.dumps(question_,ensure_ascii=False))
+                with open(name_user_,'a+',encoding='utf-8') as f:
+                        f.write(json.dumps(userSays_,ensure_ascii=False))

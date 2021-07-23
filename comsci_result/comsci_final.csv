@@ -1,4 +1,4 @@
-﻿,type,total_cluster,sum_sse
-0,Kmean_normal,27,21.01890105
-1,Kmean_three_level,42,13.01397374
-2,dbscan,6,63.71014822
+﻿type,number,sum_sse
+Kmean_normal,11,64.60822238700568
+Kmean_three_level,53,16.32516429461249
+dbscan,4,99.99701257764953
