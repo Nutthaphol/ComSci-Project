@@ -1,47 +1,40 @@
-ข้อมูล                               &วิธีการ          &ใช้ PCA &paramiter      &purity  &เวลาจัดกลุ่ม \\ \hline
-case\_routing\_intent	&KMean        &no	   &NaN	         &k=14      &0.666666667	    &0.117988348           \\ \hline
-case\_routing\_intent	&KMean        &yes	  &NaN	         &k=14      & 0.633333333	    &0.109012127   \\ \hline
-case\_routing\_intent	&DBSCAN	    &no 	&minPts=3	          &eps=0.6	            &0.313333333	&0.061834574   \\ \hline
-case\_routing\_intent	&DBSCAN	    &yes	&minPts=3	         &eps=0.1	            &0.293333333	&0.06083703   \\ \hline
-case\_routing\_intent	&DBSCAN	    &no	        &minPts=5                &eps=0.6	            &0.293333333	&0.060853958   \\ \hline
-case\_routing\_intent	&DBSCAN	    &yes	&minPts=5	         &eps=0.1	            &0.293333333	&0.059026241   \\ \hline
-						
-corona           &Kmean	  &no	           &NaN	        &k=99             & 0.574548908 	        &1.863228798   \\ \hline
-corona           &Kmean	  &yes            &NaN	       &k=102            &0.61348528	         &0.877526045   \\ \hline
-corona           &DBSCAN  &no	        &minPts=3	        &eps=0.3             &0.0997151	             &0.321112156   \\ \hline
-corona           &DBSCAN  &yes	        &minPts=3	        &eps=0.1             &0.096866097	         &0.301193237   \\ \hline
-corona           &DBSCAN  &no	        &minPts=5	        &eps=0.3             &0.055080722	         &0.294009924   \\ \hline
-corona           &DBSCAN  &yes	        &minPts=5	        &eps=0.1             &0.055080722	         &0.257932186   \\ \hline
-						
-atis\_intents   &Kmean	  &no	&NaN	&k=489	&0.879268783	&28.8497932    \\ \hline
-atis\_intents   &Kmean	  &yes	&NaN	&k=485	&0.876255524	&10.0007658  \\ \hline
-atis\_intents   &DBSCAN	&no	&minPts=3	&eps=0.1	&0.770389715	&1.769239426  \\ \hline
-atis\_intents   &DBSCAN	&yes	&minPts=3	&eps=0.1	&0.780835677	&1.654081821  \\ \hline
-atis\_intents   &DBSCAN	&no	&minPts=5	&eps=0.1	&0.752109281	&1.580997944  \\ \hline
-atis\_intents   &DBSCAN	&yes	&minPts=5	&eps=0.1	&0.761751708	&1.404355764  \\ \hline
-
-
-
-
 
 ข้อมูล                               &วิธีการ          &ใช้ PCA &paramiter      &purity  &เวลาจัดกลุ่ม \\ \hline
-case\_routing\_intent    	&KMean	&no	&NaN	&k=14	&0.6667	&0.1180\\ \hline
-case\_routing\_intent    	&KMean	&yes	&NaN	&k=14	&0.6333	&0.1090\\ \hline
-case\_routing\_intent    	&DBSCAN	&no	&minPts=3	&eps=0.6	&0.3133	&0.0618\\ \hline
-case\_routing\_intent    	&DBSCAN	&yes	&minPts=3	&eps=0.1	&0.2933	&0.0608\\ \hline
-case\_routing\_intent    	&DBSCAN	&no	&minPts=5	&eps=0.6	&0.2933	&0.0609\\ \hline
-case\_routing\_intent    	&DBSCAN	&yes	&minPts=5	&eps=0.1	&0.2933	&0.0590\\ \hline \hline
-						
-corona	&Kmean	&no	&NaN	&k=99	&0.5745	 &1.8632\\ \hline
-corona	&Kmean	&yes	&NaN	&k=102	&0.6135	&0.8775\\ \hline
-corona	&DBSCAN	&no	&minPts=3	&eps=0.3	   &0.0997	&0.3211\\ \hline
-corona	&DBSCAN	&yes	&minPts=3	&eps=0.1	   &0.0969	&0.3012\\ \hline
-corona	&DBSCAN	&no	&minPts=5	&eps=0.3	   &0.0551	&0.2940\\ \hline
-corona	&DBSCAN	&yes	&minPts=5	&eps=0.1	   &0.0551	&0.2579\\ \hline \hline
-						
-atis\_intents	&Kmean	&no	&NaN	&k=489	&0.8789	&28.8498\\ \hline
-atis\_intents	&Kmean	&yes	&NaN	&k=485	&0.8763	&10.0008\\ \hline
-atis\_intents	&DBSCAN	&no	&minPts=3	  &eps=0.1	&0.7704	&1.7692\\ \hline
-atis\_intents	&DBSCAN	&yes	&minPts=3	  &eps=0.1	&0.7808	&1.6541\\ \hline
-atis\_intents	&DBSCAN	&no	&minPts=5	  &eps=0.1	&0.7521	&1.5810\\ \hline
-atis\_intents	&DBSCAN	&yes	&minPts=5	  &eps=0.1	&0.7618	&1.4044\\ \hline 
+case\_routing\_intent      &K-mean                   &\textbf{85.5811}  &\textbf{0.58} \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=3)        &116.5259           &0.2933 \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=5)        &116.5259           &0.2933 \\ \hline \hline
+
+corona                     &K-mean                   &\textbf{356.5779} &\textbf{0.5859} \\ \hline
+corona                     &DBSCAN(minPts=3)        &715.9563           &0.0959 \\ \hline
+corona                     &DBSCAN(minPts=5)        &763.7182           &0.0541 \\ \hline \hline  
+
+atis\_intents              &K-mean                   &\textbf{1146.6829}&\textbf{0.8730} \\ \hline
+atis\_intents              &DBSCAN(minPts=3)        &3207.7457          &0.7802 \\ \hline
+atis\_intents              &DBSCAN(minPts=5)        &3509.3300          &0.7616 \\ \hline \hline
+
+ข้อมูลที่สร้างขึ้นเอง          &K-mean	                                 &63.93386826           &NaN    \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 3)		&81.74660665            &NaN    \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 5)		&99.99701258            &NaN    \\ \hline
+
+
+
+case\_routing\_intent      &K-mean                   &\textbf{85.5811}  &\textbf{0.58} \\ \hline
+case\_routing\_intent      &K-mean                   &\textbf{32.3764}  &\textbf{0.86} \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=3)        &116.5259           &0.2933 \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=5)        &116.5259           &0.2933 \\ \hline \hline
+
+corona                     &K-mean                   &\textbf{356.5779} &\textbf{0.5859} \\ \hline
+corona                     &K-mean                   &\textbf{140.9437} &\textbf{0.8072} \\ \hline
+corona                     &DBSCAN(minPts=3)        &715.9563           &0.0959 \\ \hline
+corona                     &DBSCAN(minPts=5)        &763.7182           &0.0541 \\ \hline \hline  
+
+atis\_intents              &K-mean                   &\textbf{1146.6829}&\textbf{0.8730} \\ \hline
+atis\_intents              &K-mean                   &\textbf{493.2257}&\textbf{0.9249} \\ \hline
+atis\_intents              &DBSCAN(minPts=3)        &3207.7457          &0.7802 \\ \hline
+atis\_intents              &DBSCAN(minPts=5)        &3509.3300          &0.7616 \\ \hline \hline
+
+ข้อมูลที่สร้างขึ้นเอง          &K-mean	                                 &63.93386826           &NaN    \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &deep K-mean	                    &15.59685559            &NaN        \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 3)		&81.74660665            &NaN    \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 5)		&99.99701258            &NaN    \\ \hline
+        
