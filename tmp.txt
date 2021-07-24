@@ -25,23 +25,23 @@ atis\_intents   &DBSCAN	&yes	&minPts=5	&eps=0.1	&0.761751708	&1.404355764  \\ \h
 
 
 ข้อมูล                               &วิธีการ          &ใช้ PCA &paramiter      &purity  &เวลาจัดกลุ่ม \\ \hline
-case\_routing\_intent    	&KMean	&no	&NaN	&k=14	&0.67	&0.1180\\ \hline
-case\_routing\_intent    	&KMean	&yes	&NaN	&k=14	&0.63	&0.1090\\ \hline
-case\_routing\_intent    	&DBSCAN	&no	&minPts=3	&eps=0.6	&0.31	&0.0618\\ \hline
-case\_routing\_intent    	&DBSCAN	&yes	&minPts=3	&eps=0.1	&0.29	&0.0608\\ \hline
-case\_routing\_intent    	&DBSCAN	&no	&minPts=5	&eps=0.6	&0.29	&0.0609\\ \hline
-case\_routing\_intent    	&DBSCAN	&yes	&minPts=5	&eps=0.1	&0.29	&0.0590\\ \hline
+case\_routing\_intent    	&KMean	&no	&NaN	&k=14	&0.6667	&0.1180\\ \hline
+case\_routing\_intent    	&KMean	&yes	&NaN	&k=14	&0.6333	&0.1090\\ \hline
+case\_routing\_intent    	&DBSCAN	&no	&minPts=3	&eps=0.6	&0.3133	&0.0618\\ \hline
+case\_routing\_intent    	&DBSCAN	&yes	&minPts=3	&eps=0.1	&0.2933	&0.0608\\ \hline
+case\_routing\_intent    	&DBSCAN	&no	&minPts=5	&eps=0.6	&0.2933	&0.0609\\ \hline
+case\_routing\_intent    	&DBSCAN	&yes	&minPts=5	&eps=0.1	&0.2933	&0.0590\\ \hline \hline
 						
-corona	&Kmean	&no	&NaN	&k=99	&0.57	 &1.8632\\ \hline
-corona	&Kmean	&yes	&NaN	&k=102	&0.61	&0.8775\\ \hline
-corona	&DBSCAN	&no	&minPts=3	&eps=0.3	   &0.10	&0.3211\\ \hline
-corona	&DBSCAN	&yes	&minPts=3	&eps=0.1	   &0.10	&0.3012\\ \hline
-corona	&DBSCAN	&no	&minPts=5	&eps=0.3	   &0.06	&0.2940\\ \hline
-corona	&DBSCAN	&yes	&minPts=5	&eps=0.1	   &0.06	&0.2579\\ \hline
+corona	&Kmean	&no	&NaN	&k=99	&0.5745	 &1.8632\\ \hline
+corona	&Kmean	&yes	&NaN	&k=102	&0.6135	&0.8775\\ \hline
+corona	&DBSCAN	&no	&minPts=3	&eps=0.3	   &0.0997	&0.3211\\ \hline
+corona	&DBSCAN	&yes	&minPts=3	&eps=0.1	   &0.0969	&0.3012\\ \hline
+corona	&DBSCAN	&no	&minPts=5	&eps=0.3	   &0.0551	&0.2940\\ \hline
+corona	&DBSCAN	&yes	&minPts=5	&eps=0.1	   &0.0551	&0.2579\\ \hline \hline
 						
-atis\_intents	&Kmean	&no	&NaN	&k=489	&0.88	&28.8498\\ \hline
-atis\_intents	&Kmean	&yes	&NaN	&k=485	&0.88	&10.0008\\ \hline
-atis\_intents	&DBSCAN	&no	&minPts=3	  &eps=0.1	&0.77	&1.7692\\ \hline
-atis\_intents	&DBSCAN	&yes	&minPts=3	  &eps=0.1	&0.78	&1.6541\\ \hline
-atis\_intents	&DBSCAN	&no	&minPts=5	  &eps=0.1	&0.75	&1.5810\\ \hline
-atis\_intents	&DBSCAN	&yes	&minPts=5	  &eps=0.1	&0.76	&1.4044\\ \hline
+atis\_intents	&Kmean	&no	&NaN	&k=489	&0.8789	&28.8498\\ \hline
+atis\_intents	&Kmean	&yes	&NaN	&k=485	&0.8763	&10.0008\\ \hline
+atis\_intents	&DBSCAN	&no	&minPts=3	  &eps=0.1	&0.7704	&1.7692\\ \hline
+atis\_intents	&DBSCAN	&yes	&minPts=3	  &eps=0.1	&0.7808	&1.6541\\ \hline
+atis\_intents	&DBSCAN	&no	&minPts=5	  &eps=0.1	&0.7521	&1.5810\\ \hline
+atis\_intents	&DBSCAN	&yes	&minPts=5	  &eps=0.1	&0.7618	&1.4044\\ \hline 
