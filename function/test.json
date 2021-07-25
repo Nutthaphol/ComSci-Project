@@ -1,5 +1,5 @@
 {
-  "name": "ข้อมูลหลักสูตร",
+  "name": "test",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -11,17 +11,7 @@
         {
           "type": 0,
           "lang": "th",
-          "speech": [
-            "ทดสอบ",
-            "สอบทด",
-            "หลักสูตร",
-            "สอบทด",
-            "ทดสอบ",
-            "ไม่รู้",
-            "ทดสอบ",
-            "สอบทด",
-            "เช็ค"
-          ]
+          "speech": "Fake_RESPONSE"
         }
       ],
       "defaultResponsePlatforms": {},

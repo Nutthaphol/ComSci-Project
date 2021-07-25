@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 
 if __name__ == "__main__": 
-        df = pd.read_csv("comsci_result/kmean_three_level.csv") # get data from keam 3 level
+        deep_Kmean = "kmean_three_level.csv"
+        df = pd.read_csv("comsci_result/"+deep_Kmean) # get data from deep Kmean
 
         label_group = df.centroids_id.unique() # get label number
         df["intent"] = np.NaN
@@ -28,7 +29,7 @@ if __name__ == "__main__":
         label_name = df.intent.unique().tolist()
 
         data_ = pd.DataFrame({'target':df.target, 'intent':df.intent, 'text':df.text })
-        save_at = "data_training/"+str(i)+".csv"
+        save_at = "data_training/intent_group.csv"
         data_.to_csv(save_at,encoding='utf-8-sig',index=False)
 
 
