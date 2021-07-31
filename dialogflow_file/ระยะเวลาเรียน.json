@@ -1,0 +1,29 @@
+{
+  "name": "ระยะเวลาเรียน",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "โดยทั่วไป นักศึกษาสามารถจบได้ภายใน 4 ปี หรือ 3 ปีครี่งได้ครับ แต่หากยังไม่ผ่านเกณฑ์สามารถเรียนต่อจนครบ 8 ปีได้ครับ",
+            "โดยปกติจะจบที่ 4 ปี หรือ 3 ปีครึ่งครับ แต่สามารถยืดระยะเวลาในการเรียนต่อไปจนครบ 8 ปีได้ครับ"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

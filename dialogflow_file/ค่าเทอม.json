@@ -1,0 +1,29 @@
+{
+  "name": "ค่าเทอม",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "ค่าเทอมคณะวิทยาศาสตร์ทั้งหมด 18000 บาทครับ แต่ในช่วงโควิดค่าเทอมจะลดลง 20% และสามารถดูเพิ่มเติมได้ที่ https://reg.psu.ac.th/reg/bachelor_fee.aspx",
+            "ค่าเทอมตกเทอมละ 18000 บาทครับ แต่ในช่วงโควิดค่าเทอมจะลดลง 20% สามารถดูเพิ่มเติมได้ที่ https://reg.psu.ac.th/reg/bachelor_fee.aspx"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

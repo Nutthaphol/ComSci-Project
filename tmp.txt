@@ -37,4 +37,45 @@ atis\_intents              &DBSCAN(minPts=5)        &3509.3300          &0.7616 
 ข้อมูลที่สร้างขึ้นเอง          &deep K-mean	                    &15.59685559            &NaN        \\ \hline
 ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 3)		&81.74660665            &NaN    \\ \hline
 ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 5)		&99.99701258            &NaN    \\ \hline
+
+
+
+ข้อมูล                       &วิธีการ                   &sse                \\ \hline \hline
+case\_routing\_intent      &K-mean                   &\textbf{85.5811}  \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=3)        &116.5259            \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=5)        &116.5259            \\ \hline \hline
+
+corona                     &K-mean                   &\textbf{356.5779}  \\ \hline
+corona                     &DBSCAN(minPts=3)        &715.9563           \\ \hline
+corona                     &DBSCAN(minPts=5)        &763.7182           \\ \hline \hline  
+
+atis\_intents              &K-mean                   &\textbf{1146.6829}  \\ \hline
+atis\_intents              &DBSCAN(minPts=3)        &3207.7457          \\ \hline
+atis\_intents              &DBSCAN(minPts=5)        &3509.3300           \\ \hline \hline
+
+ข้อมูลที่สร้างขึ้นเอง          &K-mean	                     &\textbf{63.93386826}              \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 3)		&81.74660665               \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 5)		&99.99701258               \\ \hline
         
+
+
+ข้อมูล                       &วิธีการ                   &sse                \\ \hline \hline
+case\_routing\_intent      &K-mean                   &85.5811           \\ \hline
+case\_routing\_intent      &deep K-mean                   &\textbf{32.3764}  \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=3)        &116.5259            \\ \hline
+case\_routing\_intent      &DBSCAN(minPts=5)        &116.5259           \\ \hline \hline
+
+corona                     &K-mean                   &356.5779          \\ \hline
+corona                     &deep K-mean                   &\textbf{140.9437}  \\ \hline
+corona                     &DBSCAN(minPts=3)        &715.9563            \\ \hline
+corona                     &DBSCAN(minPts=5)        &763.7182            \\ \hline \hline  
+
+atis\_intents              &K-mean                   &1146.6829        \\ \hline
+atis\_intents              &deep K-mean                   &\textbf{493.2257} bf{0.9249} \\ \hline
+atis\_intents              &DBSCAN(minPts=3)        &3207.7457           \\ \hline
+atis\_intents              &DBSCAN(minPts=5)        &3509.3300           \\ \hline \hline
+
+ข้อมูลที่สร้างขึ้นเอง          &K-mean	                &63.9339             \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &deep K-mean	           &\textbf{15.5969}                  \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 3)		&81.7467              \\ \hline
+ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 5)		&99.9970              \\ \hline

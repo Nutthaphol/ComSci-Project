@@ -15,3 +15,7 @@ def bestPCA (feature, n_component):
     pca = PCA(n_components=number_component).fit(feature)
 
     return pca.transform(feature)
+
+
+
+

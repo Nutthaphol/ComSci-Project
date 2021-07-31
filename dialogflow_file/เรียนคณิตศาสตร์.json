@@ -1,0 +1,29 @@
+{
+  "name": "เรียนคณิตศาสตร์",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "สาขาของเรามีเรียนคณิตศาสตร์ทั้งหมด 7 ตัวครับ",
+            "สาขาเราเรียนคณิตศาสตร์ทั้งหมด 7 ตัวครับ"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

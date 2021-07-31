@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0",
+    "data": [{ "text": "เรียนจบไปทำงานอะไร", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "1",
+    "data": [{ "text": "จบไปทำอะไร", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "2",
+    "data": [{ "text": "จบไปทำอะไร ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "3",
+    "data": [{ "text": "จบไปทำอะไรคะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "4",
+    "data": [{ "text": "จบไปทำงานอะไรครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "5",
+    "data": [{ "text": "จบไปทำงานอะไรได้บ้าง", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  }
+]

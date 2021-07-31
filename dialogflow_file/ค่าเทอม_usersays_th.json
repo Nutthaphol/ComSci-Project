@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0",
+    "data": [{ "text": "ค่าเทอมกี่บาท", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "1",
+    "data": [{ "text": "ค่าเทอมกี่บาท", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "2",
+    "data": [{ "text": "ค่าเทอมกี่บาท", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "3",
+    "data": [
+      { "text": "ค่าเทอมลดกี่เปอเซ็นคะช่วงโควิด", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "4",
+    "data": [{ "text": "ค่าเทอมเท่าไหร่ครับ ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "5",
+    "data": [{ "text": "ค่าเทอมเท่าไหร่", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "6",
+    "data": [{ "text": "ค่าเทอมเท่าไหร่", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "7",
+    "data": [{ "text": "ค่าเทอมเท่าไหร่", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "8",
+    "data": [
+      {
+        "text": "สวัสดีค่ะ ขอสอบถามเรื่องค่าเทอมหน่อยค่ะ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "9",
+    "data": [{ "text": "ค่าเทอมเทอมละกี่บาทคะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "10",
+    "data": [{ "text": "ค่าเทอม เทอมละเท่าไหร่ครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "11",
+    "data": [{ "text": "ค่าหอราคาเท่าไหร่ครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  }
+]

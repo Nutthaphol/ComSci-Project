@@ -1,0 +1,28 @@
+{
+  "name": "ข้อมูลหลักสูตร",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "สามารถดูหลักสูตรระดับปริญาตรีได้ทางลิงค์นี้เลยครับ https://edumanual.psu.ac.th/document/2563/bsc/hdy_sci/sci-cur-com-63.pdf"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

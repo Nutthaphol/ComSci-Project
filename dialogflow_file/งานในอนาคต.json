@@ -1,0 +1,28 @@
+{
+  "name": "งานในอนาคต",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "สายงานของสาขานี้ค่อนข้างกว้างครับ ที่รู้จักกันทั่วไป เช่น Developer, Programmer, software testing เป็นต้นครับ หรือสามารถไปดูตัวอย่างอื่นๆ ได้ตามลิ้งค์นี้เพิ่มเติมเลยครับ https://www.rasmussen.edu/degrees/technology/blog/computer-careers-for-tech-geeks/"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

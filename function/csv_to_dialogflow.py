@@ -14,14 +14,16 @@ def csvToDialogflow(file_name):
         render_line = 0
         intent = None
         message = []
-        respond = []
+        respons = []
 
         for row in reader:
                 if render_line != 0:
                         if intent == None:
                                 intent = row[0]
-                        message.append(row[1])
-                        respond.append(row[2])
+                        if row[1] != '':
+                                message.append(row[1])
+                        if row[2] != '':
+                                respons.append(row[2])
                 render_line += 1
         
         question_ = deepcopy(question)
@@ -30,7 +32,7 @@ def csvToDialogflow(file_name):
         userSays_ = []
 
         question_['name'] = intent
-        question_['responses'][0]['messages'][0]['speech'] = respond
+        question_['responses'][0]['messages'][0]['speech'] = respons
 
         # save file
         name_ = intent+".json"
@@ -50,7 +52,7 @@ def csvToDialogflow(file_name):
                 # userSays_[0]['id'] = id
                 # id += 1
 
-        with open('dialogflow_file/'+name_user_,'a+') as f:
+        with open('dialogflow_file/'+name_user_,'w') as f:
                 f.write(json.dumps(userSays_, ensure_ascii=False))
         
                 

@@ -1,0 +1,28 @@
+{
+  "name": "วันเปิดเทอม",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "วันเปิดเทอมของปีการศึกษาที่ 1/2564 คือวันที่ 21 มิถุนายน 2564 ครับ สามารถดูวันอื่นๆ เพิ่มเติมได้ที่ https://reg.psu.ac.th/reg/calendar/PATITIN2564.pdf หรือ https://reg.psu.ac.th/reg/ ครับ"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

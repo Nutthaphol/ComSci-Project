@@ -1,0 +1,30 @@
+{
+  "name": "การเรียน",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "ถ้าชอบเขียนโค้ดก็ไม่ยากครับ",
+            "ไม่ยากครับ ถ้าตั้งใจก็ทำได้",
+            "แค่ใจรัก ก็เรียนได้"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

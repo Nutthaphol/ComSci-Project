@@ -1,0 +1,67 @@
+[
+  {
+    "id": "0",
+    "data": [{ "text": "เรียนกี่ปีจบ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "1",
+    "data": [{ "text": "เรียนกี่ปีจบคะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "2",
+    "data": [{ "text": "กี่ปีจบ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "3",
+    "data": [
+      { "text": "เปิดเรียนปีการศึกษาละกี่เทอมคะ", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "4",
+    "data": [{ "text": "เรียนกี่ปีครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "5",
+    "data": [{ "text": "เรียนกี่ปีครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "6",
+    "data": [{ "text": "ที่นี่เรียนปีละกี่เทอม", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "7",
+    "data": [{ "text": "เรียนปีละกี่เทอม", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "8",
+    "data": [{ "text": "เรียนกี่เทอมต่อปี", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  }
+]

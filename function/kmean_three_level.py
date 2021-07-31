@@ -34,7 +34,7 @@ def avg_dist(score):
 
 def Kmean_three_level(fe,data_, k_value=None):
         if k_value == None:
-                k_value = best_k(feature=fe, max_= int(len(fe) *0.2))
+                k_value = best_k(feature=fe, max_= int(len(fe) *0.4))
 
         cluster = KMeans(n_clusters=k_value).fit(fe)
 

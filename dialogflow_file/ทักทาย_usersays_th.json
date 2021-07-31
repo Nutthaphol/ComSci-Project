@@ -1,0 +1,107 @@
+[
+  {
+    "id": "0",
+    "data": [{ "text": "สวัสดีค่ะ ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "1",
+    "data": [{ "text": "สวัสดีค่ะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "2",
+    "data": [{ "text": "สวัสดีครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "3",
+    "data": [{ "text": "สวัสดีครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "4",
+    "data": [{ "text": "สวัสดี", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "5",
+    "data": [{ "text": "สวัสดี", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "6",
+    "data": [{ "text": "สวัสดีครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "7",
+    "data": [{ "text": "สวัสดีค่ะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "8",
+    "data": [{ "text": "สวัสดีจ้า", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "9",
+    "data": [{ "text": "สวัสดี", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "10",
+    "data": [{ "text": "Hi", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "11",
+    "data": [{ "text": "Hi", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "12",
+    "data": [{ "text": "หวัดดีครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "13",
+    "data": [{ "text": "หวัดดี ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "14",
+    "data": [{ "text": "hi", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  }
+]

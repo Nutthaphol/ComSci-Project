@@ -1,0 +1,95 @@
+[
+  {
+    "id": "0",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหน ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "1",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหน ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "2",
+    "data": [{ "text": "สมัครเรียนวันไหน ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "3",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหน", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "4",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหนครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "5",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหน ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "6",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหน ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "7",
+    "data": [{ "text": "เปิดลงทะเบียนเรียนตอนไหน", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "8",
+    "data": [{ "text": "ลงทะเบียนเรียนตอนไหนครับ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "9",
+    "data": [{ "text": "ลงทะเบียนเรียนวันไหนคะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "10",
+    "data": [{ "text": "เปิดให้ลงทะเบียนเรียนวันไหนคะ", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "11",
+    "data": [
+      { "text": "ให้ลงทะเบียนเรียนวันไหนหรอครับ", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  },
+  {
+    "id": "12",
+    "data": [{ "text": "ให้ลงทะเบียนวันไหน", "userDefined": false }],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th"
+  }
+]

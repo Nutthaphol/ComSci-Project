@@ -1,5 +1,0 @@
-﻿type,number,sum_sse
-Kmean_normal,12,63.57749874958637
-Kmean_three_level,46,21.494717612673032
-dbscan(minPts = 3),10,81.74660664501292
-dbscan(minPts = 5),10,99.99701257764953
