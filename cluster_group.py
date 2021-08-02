@@ -11,3 +11,4 @@ if __name__ == '__main__':
                 intent_name = [i] * len(query)
                 data_ = pd.DataFrame({'intent':intent_name, 'query':query})
                 data_.to_csv('intent_data/'+i+'.csv',encoding='utf-8-sig',index=False)
+                
