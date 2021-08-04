@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from function.cleanTextTH import  CleanText
 from function.tf_idf import TF_IDF
+from sklearn.metrics import f1_score
 
 def identity_fun(text):
     return text
@@ -31,7 +32,6 @@ if __name__ == '__main__':
         pickle.dump(feature_, open(save_feature, 'wb'))
 
         X_train_fe = feature_.transform(X_train)
-        
 
         mlp = MLPClassifier(max_iter=1000)
 
@@ -39,8 +39,8 @@ if __name__ == '__main__':
 
         X_test_fe = feature_.transform(X_test)
 
-       tmp = mlp.predict(X_test_fe)
+        y_predict = mlp.predict(X_test_fe)
 
-        for i in range(len(tmp)):
-                print(" {} / {}".format(list(y_test)[i], list(tmp)[i]))
+        f1_score_ = f1_score(y_true=y_test, y_pred=y_predict, average='micro')
 
+        print("f1-score", f1_score_)
