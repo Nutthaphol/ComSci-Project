@@ -41,6 +41,9 @@ if __name__ == '__main__':
 
         y_predict = mlp.predict(X_test_fe)
 
+        save_mlp = 'mlp.model'
+        pickle.dump(mlp, open(save_mlp, 'wb'))
+
         f1_score_ = f1_score(y_true=y_test, y_pred=y_predict, average='micro')
 
         print("f1-score", f1_score_)
