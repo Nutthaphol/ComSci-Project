@@ -9,7 +9,7 @@ from function.bestKmeans import best_k
 from function.bestPCA import bestPCA
 
 if __name__ == '__main__':
-        df = pd.read_csv("dataset/atis_intents.csv")
+        df = pd.read_csv("dataset/case_routing_intent.csv")
         text = df["text"]
 
         fe = TF_IDF(text=text,format="english")
