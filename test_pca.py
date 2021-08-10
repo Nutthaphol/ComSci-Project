@@ -76,25 +76,25 @@ if __name__ == '__main__':
     print('shape = ', fe.shape)
     print('----------------------------')
 
-    #dbscan 3
+    #dbscan 3 pca
     print('dbscan minPts = 3 PCA')
     db3_pca_t = time.time()
     dbscan_3_pca = DBSCAN(fe=fe_pca, data_=df.copy(), eps_value=eps_pca, min_pts=3)
     print('dbscan minPts 3 PCA time = ', time.time() - db3_pca_t)
-    sse = sum(SSE(dbscan_3.copy()).sse)
+    sse = sum(SSE(dbscan_3_pca.copy()).sse)
     print('eps value = ', eps_pca)
     print('sse = ', sse)
     print('shape = ', fe_pca.shape)
     print('----------------------------')
 
-    #dbscan 3
+    #dbscan 5 pca
     print('dbscan minPts = 5 PCA')
     db5_pca_t = time.time()
     dbscan_5_pca = DBSCAN(fe=fe_pca, data_=df.copy(), eps_value=eps_pca, min_pts=5)
     print('dbscan minPts 5 PCA time = ', time.time() - db5_pca_t)
     sse = sum(SSE(dbscan_5_pca.copy()).sse)
     print('eps value = ', eps_pca)
-    print('sse = ', sse)
+    print('sse = ', sse) 
     print('shape = ', fe_pca.shape)
     print('----------------------------')
 
