@@ -9,6 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from function.cleanTextTH import  CleanText
 from function.tf_idf import TF_IDF
 from sklearn.metrics import f1_score
+from sklearn.model_selection import StratifiedKFold
 
 def identity_fun(text):
     return text
@@ -20,7 +21,16 @@ if __name__ == '__main__':
         X = df.text
         y = df.target
 
-        X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
+        kf = StratifiedKFold(n_splits=10)
+
+        for train, test in  kf.split(X, y):
+            print(sum(y[test] == 5))
+            # train_.append(train)
+            # test_.append(test)
+        
+        
+
+        # X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
 
         feature_ = TfidfVectorizer(analyzer = 'word', #this is default
                                     tokenizer=identity_fun, #does no extra tokenizing
@@ -28,8 +38,8 @@ if __name__ == '__main__':
                                     token_pattern=None)
 
         feature_.fit(X_train)
-        save_feature = 'text_feature.pkl'
-        pickle.dump(feature_, open(save_feature, 'wb'))
+        # save_feature = 'text_feature.pkl'
+        # pickle.dump(feature_, open(save_feature, 'wb'))
 
         X_train_fe = feature_.transform(X_train)
 
@@ -41,8 +51,8 @@ if __name__ == '__main__':
 
         y_predict = mlp.predict(X_test_fe)
 
-        save_mlp = 'mlp.model'
-        pickle.dump(mlp, open(save_mlp, 'wb'))
+        # save_mlp = 'mlp.model'
+        # pickle.dump(mlp, open(save_mlp, 'wb'))
 
         f1_score_ = f1_score(y_true=y_test, y_pred=y_predict, average='micro')
 
