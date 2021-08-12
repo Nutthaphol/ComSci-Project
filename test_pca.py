@@ -15,7 +15,7 @@ import time
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('dataset/corona.csv')
+    df = pd.read_csv('dataset/atis_intents.csv')
 
     text = df.text
 
@@ -27,10 +27,10 @@ if __name__ == '__main__':
     # fe_pca = bestPCA(feature=fe, n_component=n_component)
     # print('pca time = ', time.time() - pca_t)
 
-    k_value = best_k(feature=fe, max_=int(len(text)*0.1))
+    k_value = 489
     # k_value_pca = best_k(feature=fe_pca, max_=int(len(fe)*0.1))
 
-    eps = bestEps(feature=fe)
+    eps = 0.1
     # eps_pca = bestEps(feature=fe_pca)
 
     # kmean
