@@ -1,5 +1,7 @@
+from operator import index
 from nltk import text
 import numpy as np
+from numpy.core.fromnumeric import mean
 import pandas as pd
 import pickle
 
@@ -17,43 +19,45 @@ def identity_fun(text):
 
 
 if __name__ == '__main__':
-        df = pd.read_csv('data_training/intent_group.csv')
-        X = df.text
-        y = df.target
+    df = pd.read_csv('data_training/intent_group.csv')
+    data = df.text
+    target = df.target
 
-        kf = StratifiedKFold(n_splits=10)
+    f1_score_avg = []
 
-        for train, test in  kf.split(X, y):
-            print(sum(y[test] == 5))
-            # train_.append(train)
-            # test_.append(test)
+    kf = StratifiedKFold(n_splits=10)
+
+    for train, test in  kf.split(data, target):
+        X_train = []
+        X_test = []
+
+        y_train = []
+        y_test = []
+
+        for i in train:
+            X_train.append(data[i])
+            y_train.append(target[i])
+        for i in test:
+            X_test.append(data[i])
+            y_test.append(target[i])
+
+        feature_ = TfidfVectorizer(analyzer='word', tokenizer=identity_fun, preprocessor=identity_fun, token_pattern=None)
         
-        
-
-        # X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
-
-        feature_ = TfidfVectorizer(analyzer = 'word', #this is default
-                                    tokenizer=identity_fun, #does no extra tokenizing
-                                    preprocessor=identity_fun, #no extra preprocessor
-                                    token_pattern=None)
-
         feature_.fit(X_train)
-        # save_feature = 'text_feature.pkl'
-        # pickle.dump(feature_, open(save_feature, 'wb'))
 
         X_train_fe = feature_.transform(X_train)
 
-        mlp = MLPClassifier(max_iter=1000)
+        model_mlp = MLPClassifier(hidden_layer_sizes=200, learning_rate_init=0.001, activation='relu', max_iter=1000)
 
-        mlp.fit(X_train_fe, y_train)
+        model_mlp.fit(X=X_train_fe, y=y_train)
 
         X_test_fe = feature_.transform(X_test)
 
-        y_predict = mlp.predict(X_test_fe)
-
-        # save_mlp = 'mlp.model'
-        # pickle.dump(mlp, open(save_mlp, 'wb'))
+        y_predict = model_mlp.predict(X_test_fe)
 
         f1_score_ = f1_score(y_true=y_test, y_pred=y_predict, average='micro')
 
         print("f1-score", f1_score_)
+        f1_score_avg.append(f1_score_)
+
+    print('\nf1 score avg = ', np.mean(f1_score_avg))

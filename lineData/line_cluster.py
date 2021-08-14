@@ -1,5 +1,7 @@
 import json, csv,codecs
+import pandas
 from pythainlp import sent_tokenize, word_tokenize
+import pandas as pd
 
 with open('comsci_res.txt',"r") as reader:
         texts = reader.readlines()
@@ -30,6 +32,18 @@ with open('comsci_res.txt',"r") as reader:
                 text_write = csv.writer(write)
                 for text in last_texts:
                         text_write.writerow([text])
+
+
+
+df = pd.read_csv('comsci_data.csv')
+text = df.text
+new_text = []
+for sentence in text:
+        words = word_tokenize(sentence, engine='newmm')
+        words = [i for i in words if i not in '\n']
+        new_text.append(''.join(i for i in words))
+new_df = pd.DataFrame({'text':new_text})
+new_df.to_csv('comsci_data.csv', encoding='utf-8')        
 
 
 
