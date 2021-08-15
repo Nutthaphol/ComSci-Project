@@ -10,7 +10,7 @@ def CleanText(data):
         new_text = []
         for sen in data:
                 # print("sen = ", sen)
-                words = word_tokenize(sen, engine='newmm')
+                words = word_tokenize(sen, engine='attacut')
                 stop_words = [i for i in words if i not in stopwords]
                 stop_words = [i for i in stop_words if i not in "\n"]
                 stop_words = [i for i in stop_words if i not in " "]
