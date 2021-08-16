@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
     kf = StratifiedKFold(n_splits=10)
 
-    desicion_tree = tree.DecisionTreeClassifier()
+    
 
     for train, test in  kf.split(data, target):
         X_train = []
@@ -49,9 +49,7 @@ if __name__ == '__main__':
 
         X_train_fe = feature_.transform(X_train)
 
-        # model_mlp = MLPClassifier(hidden_layer_sizes=200, learning_rate_init=0.001, activation='relu', max_iter=1000)
-
-        # model_mlp.fit(X=X_train_fe, y=y_train)
+        desicion_tree = tree.DecisionTreeClassifier(max_depth=X_train_fe.shape[1])
 
         desicion_tree.fit(X=X_train_fe, y=y_train)
 
