@@ -49,10 +49,6 @@ if __name__ == '__main__':
 
         X_train_fe = feature_.transform(X_train)
 
-        # model_mlp = MLPClassifier(hidden_layer_sizes=200, learning_rate_init=0.001, activation='relu', max_iter=1000)
-
-        # model_mlp.fit(X=X_train_fe, y=y_train)
-
         desicion_tree.fit(X=X_train_fe, y=y_train)
 
         X_test_fe = feature_.transform(X_test)
@@ -62,6 +58,7 @@ if __name__ == '__main__':
         f1_score_ = f1_score(y_true=y_test, y_pred=y_predict, average='micro')
 
         print("f1-score", f1_score_)
+        print('detph', desicion_tree.get_depth())
         f1_score_avg.append(f1_score_)
 
     print('\nf1 score avg = ', np.mean(f1_score_avg))
