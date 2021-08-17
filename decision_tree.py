@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
     kf = StratifiedKFold(n_splits=10)
 
-    desicion_tree = tree.DecisionTreeClassifier()
+    
 
     for train, test in  kf.split(data, target):
         X_train = []
@@ -49,6 +49,11 @@ if __name__ == '__main__':
 
         X_train_fe = feature_.transform(X_train)
 
+<<<<<<< HEAD
+=======
+        desicion_tree = tree.DecisionTreeClassifier(max_depth=X_train_fe.shape[1])
+
+>>>>>>> origin
         desicion_tree.fit(X=X_train_fe, y=y_train)
 
         X_test_fe = feature_.transform(X_test)
