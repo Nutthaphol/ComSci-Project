@@ -1,6 +1,7 @@
 import re, csv, json
 from copy import deepcopy
 from pprint import pprint
+import uuid
 
 def csvToDialogflow(file_name):
         test_ = open('function/test.json',)
@@ -44,9 +45,10 @@ def csvToDialogflow(file_name):
         id = 0
         for i in range(len(message)):
                 tmp = deepcopy(text_format)
-                tmp['id'] = str(id)
+                # tmp['id'] = str(id)
+                tmp['id'] = str(uuid.uuid1())
                 tmp['data'][0]['text'] = message[i]
-                id += 1
+                # id += 1
                 userSays_.append(tmp)
                 # userSays_[0]['data'][0]['text'] = message[i]
                 # userSays_[0]['id'] = id
