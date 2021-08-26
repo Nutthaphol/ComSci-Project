@@ -1,5 +1,4 @@
 from operator import index
-from nltk import text
 import numpy as np
 from numpy.core.fromnumeric import mean
 import pandas as pd
@@ -7,13 +6,14 @@ import pickle
 
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
+from function.clust_word import Clust_word
 from function.cleanTextTH import  CleanText
 from function.tf_idf import TF_IDF
 from sklearn.metrics import f1_score
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import accuracy_score
-from function.clust_word import Clust_word
+from sklearn.preprocessing import LabelEncoder
 
 def identity_fun(text):
     return text
@@ -44,15 +44,19 @@ def test_model(data, target):
             X_test.append(data[i])
             y_test.append(target[i])
 
-        X_train = Clust_word(X_train)
-        X_test = Clust_word(X_test)
-
-        feature_ = TfidfVectorizer(analyzer='word', tokenizer=identity_fun, preprocessor=identity_fun, token_pattern=None)
+        # X_train = Clust_word(X_train)
+        # X_test = Clust_word(X_test)
         
+        # for thai data
+        # feature_ = TfidfVectorizer(analyzer='word', tokenizer=identity_fun, preprocessor=identity_fun, token_pattern=None)
+
+        # for eng data
+        feature_ = TfidfVectorizer()
+
         feature_.fit(X_train)
 
-        X_train_fe = feature_.transform(X_train)
-        X_test_fe = feature_.transform(X_test)
+        X_train_fe = feature_.transform(X_train).todense()
+        X_test_fe = feature_.transform(X_test).todense()
 
         # print('shape = ', feature_.get_feature_names())
 
@@ -106,10 +110,24 @@ def create_model(data, target):
     feature_ = TF_IDF()
 
 if __name__ == '__main__':
-    df = pd.read_csv('data_training/intent_group.csv')
+    # df = pd.read_csv('data_training/intent_group.csv')
+    # data = df.text
+    # target = df.target
+
+
+    df = pd.read_csv('dataset/atis_intents.csv')
     data = df.text
-    target = df.target
-    
+    intent_ = df.intent.tolist()
+
+    target = list(LabelEncoder().fit_transform(intent_))
+        
+    feature_ = TfidfVectorizer()
+    test_fe = feature_.fit_transform(data).todense()
+
+    # for i in range(len(intent_)):
+    #     print(label_[i], ' : ', intent_[i])
+
+
     test_model(data=data, target=target)
 
     # create_model(data=data, target=target)
