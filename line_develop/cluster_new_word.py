@@ -4,7 +4,7 @@ import os
 new_message = []
 
 for i in os.listdir('line_develop'):
-        if('.py' not in i) :
+        if('.py' not in i and '.csv' not in i) :
                 for j in os.listdir('line_develop/'+i) :
                         reader = pd.read_csv('line_develop/'+i+'/'+j,skiprows=3)
                         texts = reader[['Sender name','Message']]
@@ -12,9 +12,7 @@ for i in os.listdir('line_develop'):
                         for k in index :
                                 new_message.append(reader['Message'][k])
 
-        data = pd.DataFrame({'message' : new_message})
-        save_ = "line_develop/new_message.csv"
-        data.to_csv(save_,encoding='utf-8-sig',index=False)
-        # data_ = pd.DataFrame({'target':df.target, 'intent':df.intent, 'text':df.text })
-        # save_at = "data_training/intent_group.csv"
-        # data_.to_csv(save_at,encoding='utf-8-sig',index=False)
+data = pd.DataFrame({'message' : new_message})
+save_ = "line_develop/new_message.csv"
+data.to_csv(save_,encoding='utf-8-sig',index=False)
+     
