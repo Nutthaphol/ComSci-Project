@@ -3,7 +3,7 @@ import pandas
 from pythainlp import sent_tokenize, word_tokenize
 import pandas as pd
 
-with open('comsci_res.txt',"r") as reader:
+with open('lineData/comsci_res.txt',"r") as reader:
         texts = reader.readlines()
         set_texts = []
         check = True;

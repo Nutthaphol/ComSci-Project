@@ -79,3 +79,47 @@ atis\_intents              &DBSCAN(minPts=5)        &3509.3300           \\ \hli
 ข้อมูลที่สร้างขึ้นเอง          &deep K-mean	           &\textbf{15.5969}                  \\ \hline
 ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 3)		&81.7467              \\ \hline
 ข้อมูลที่สร้างขึ้นเอง          &dbscan(minPts = 5)		&99.9970              \\ \hline
+
+
+
+&number                                 &จำนวน hidden layer                      &กำหนดค่าแต่ละ hidden layer         \\ \hline
+1                                               &1                                                      &(จำนวน feature)                                 \\ \hline
+2                                               &2                                                      &(จำนวน feature, จำนวน feature)           \\ \hline
+3                                               &3                                                      &(จำนวน feature, จำนวน feature/2)         \\ \hline
+
+
+&number                                 &จำนวน hidden layer        \\ \hline
+1                                               &จำนวน feature                                      \\ \hline
+2                                               &2 จำนวน feature/2                                   \\ \hline
+3                                               &3 จำนวน feature/4                                  \\ \hline
+
+
+
+Data                                      &Method                               &Format                                               &F1-Score                 &Accuracy               \\ \hline \hline
+case\_routing\_intent         &Neural Network                  &1                                    &0.7647                   &0.7647               \\ \hline
+case\_routing\_intent         &Neural Network                  &2                                                         &\textbf{0.7694 }      &\textbf{0.7694}           \\ \hline
+case\_routing\_intent         &Neural Network                  &3                                                         &0.7656                        &0.7656               \\ \hline
+case\_routing\_intent         &Decision tree                      &1                                    &0.5600                        &0.5600               \\ \hline
+case\_routing\_intent         &Decision tree                      &2                                                         &0.5600                         &0.5600               \\ \hline
+case\_routing\_intent         &Decision tree                      &3                                 &0.6000                         &0.6000               \\ \hline \hline
+
+corona                                  &Neural Network                 &1                                     &0.9630                         &0.9630               \\ \hline
+corona                                  &Neural Network                 &2                                                          &\textbf{0.9646}            &\textbf{0.9646}             \\ \hline
+corona                                  &Neural Network                 &3                                                          &0.9624                       &0.9624               \\ \hline
+corona                                  &Decision tree                     &1                                     &0.5481                      &0.5481               \\ \hline
+corona                                  &Decision tree                     &2                                                         &0.5605                       &0.5605               \\ \hline
+corona                                  &Decision tree                     &3                                  &0.5529                       &0.5529               \\ \hline \hline
+
+atis\_intents                         &Neural Network                 &1                                     &0.8200                   &0.8200               \\ \hline
+atis\_intents                         &Neural Network                 &2                                                           &0.8200                       &0.8200               \\ \hline
+atis\_intents                         &Neural Network                 &3                                                          &0.8067                         &0.8067               \\ \hline
+atis\_intents                         &Decision tree                     &1                                     &\textbf{0.9405}           &\textbf{0.9405}          \\ \hline
+atis\_intents                         &Decision tree                     &2                                                           &0.9381                         &0.9381               \\ \hline
+atis\_intents                         &Decision tree                     &3                                  &0.9385                         &0.9385               \\ \hline \hline
+
+ข้อมูลที่สร้างขึ้นเอง                 &Neural Network                 &1                                     &\textbf{0.9534}         &\textbf{0.9534}              \\ \hline
+ข้อมูลที่สร้างขึ้นเอง                 &Neural Network                 &2                                                          &0.9517                      &0.9517               \\ \hline
+ข้อมูลที่สร้างขึ้นเอง                 &Neural Network                 &3                                                          &0.9517                       &0.9517               \\ \hline
+ข้อมูลที่สร้างขึ้นเอง                 &Decision tree                     &1                                     &0.6722                       &0.6722               \\ \hline
+ข้อมูลที่สร้างขึ้นเอง                 &Decision tree                     &2                                                          &0.6389                        &0.6389               \\ \hline
+ข้อมูลที่สร้างขึ้นเอง                 &Decision tree                     &3                                  &0.6278                        &0.6278               \\ \hline

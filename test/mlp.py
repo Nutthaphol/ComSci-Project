@@ -6,7 +6,7 @@ import pickle
 
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
-from function.clust_word import Clust_word
+from function.cut_word import Cut_word
 from function.cleanTextTH import  CleanText
 from function.tf_idf import TF_IDF
 from sklearn.metrics import f1_score
@@ -44,14 +44,14 @@ def test_model(data, target):
             X_test.append(data[i])
             y_test.append(target[i])
 
-        # X_train = Clust_word(X_train)
-        # X_test = Clust_word(X_test)
+        X_train = CleanText(X_train)
+        X_test = CleanText(X_test)
         
         # for thai data
-        # feature_ = TfidfVectorizer(analyzer='word', tokenizer=identity_fun, preprocessor=identity_fun, token_pattern=None)
+        feature_ = TfidfVectorizer(analyzer='word', tokenizer=identity_fun, preprocessor=identity_fun, token_pattern=None)
 
         # for eng data
-        feature_ = TfidfVectorizer()
+        # feature_ = TfidfVectorizer()
 
         feature_.fit(X_train)
 
@@ -110,19 +110,19 @@ def create_model(data, target):
     feature_ = TF_IDF()
 
 if __name__ == '__main__':
-    # df = pd.read_csv('data_training/intent_group.csv')
-    # data = df.text
-    # target = df.target
-
-
-    df = pd.read_csv('dataset/atis_intents.csv')
+    df = pd.read_csv('data_training/intent_group.csv')
     data = df.text
-    intent_ = df.intent.tolist()
+    target = df.target
 
-    target = list(LabelEncoder().fit_transform(intent_))
+
+    # df = pd.read_csv('dataset/atis_intents.csv')
+    # data = df.text
+    # intent_ = df.intent.tolist()
+
+    # target = list(LabelEncoder().fit_transform(intent_))
         
-    feature_ = TfidfVectorizer()
-    test_fe = feature_.fit_transform(data).todense()
+    # feature_ = TfidfVectorizer()
+    # test_fe = feature_.fit_transform(data).todense()
 
     # for i in range(len(intent_)):
     #     print(label_[i], ' : ', intent_[i])
