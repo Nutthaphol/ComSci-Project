@@ -15,7 +15,7 @@ import time
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('dataset/atis_intents.csv')
+    df = pd.read_csv('line_data/comsci_data.csv')
 
     text = df.text
 
@@ -24,41 +24,44 @@ if __name__ == '__main__':
     n_component = min(fe.shape[0], fe.shape[1])
 
     pca_t = time.time()
-    # fe_pca = bestPCA(feature=fe, n_component=n_component)
-    # print('pca time = ', time.time() - pca_t)
+    fe_pca = bestPCA(feature=fe, n_component=n_component)
+    print('pca time = ', time.time() - pca_t)
+    print('fe  = ', fe.shape)
+    print('fe_pca  = ', fe_pca.shape)
 
-    k_value = 489
+    # k_value = 489
     # k_value_pca = best_k(feature=fe_pca, max_=int(len(fe)*0.1))
 
-    eps = 0.1
-    # eps_pca = bestEps(feature=fe_pca)
+    # eps = 0.1
+    # eps = bestEps(feature=fe_pca)
+    # print(eps)
 
-    # kmean
-    print('kmean non pca')
-    kmeans_t = time.time()
-    kmeans = Kmean(fe=fe, data_=df.copy(), k_value=k_value)
-    print('kmeans time = ', time.time() - kmeans_t)
-    mse = MSE(SSE(kmeans.copy()))
-    print('mse = ', mse)
-    print('----------------------------')
+    # # kmean
+    # print('kmean non pca')
+    # kmeans_t = time.time()
+    # kmeans = Kmean(fe=fe, data_=df.copy(), k_value=k_value)
+    # print('kmeans time = ', time.time() - kmeans_t)
+    # mse = MSE(SSE(kmeans.copy()))
+    # print('mse = ', mse)
+    # print('----------------------------')
 
     # dbscan 3
-    print('dbscan minPts = 3')
-    db3_t = time.time()
-    dbscan_3 = DBSCAN(fe=fe, data_=df.copy(), eps_value=eps, min_pts=3)
-    print('DBSCAN minPts 3 time = ', time.time() - db3_t)
-    mse = MSE(SSE(dbscan_3.copy()))
-    print('mse = ', mse)
-    print('----------------------------')
+    # print('dbscan minPts = 3')
+    # db3_t = time.time()
+    # dbscan_3 = DBSCAN(fe=fe, data_=df.copy(), eps_value=eps, min_pts=3)
+    # print('DBSCAN minPts 3 time = ', time.time() - db3_t)
+    # mse = MSE(SSE(dbscan_3.copy()))
+    # print('mse = ', mse)
+    # print('----------------------------')
 
-    # #dbscan 5
-    print('dbscan minPts = 5')
-    db5_t = time.time()
-    dbscan_5 = DBSCAN(fe=fe, data_=df.copy(), eps_value=eps, min_pts=5)
-    print('dbscan minPts 5 time = ', time.time() - db5_t)
-    mse = MSE(SSE(dbscan_5.copy()))
-    print('mse = ', mse)
-    print('----------------------------')
+    # # #dbscan 5
+    # print('dbscan minPts = 5')
+    # db5_t = time.time()
+    # dbscan_5 = DBSCAN(fe=fe, data_=df.copy(), eps_value=eps, min_pts=5)
+    # print('dbscan minPts 5 time = ', time.time() - db5_t)
+    # mse = MSE(SSE(dbscan_5.copy()))
+    # print('mse = ', mse)
+    # print('----------------------------')
     
     # #kmean 
     # print('kmean non pca')
